@@ -1,0 +1,33 @@
+<svg viewBox="0 0 660 200" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch34_disagg-ah-6b7785" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7785"/></marker><marker id="ch34_disagg-ah-c77d12" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c77d12"/></marker></defs>
+<rect x="10.0" y="70.0" width="90.0" height="50.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="55.0" y="91.2" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>新请求</tspan></text>
+<text x="55.0" y="105.5" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>（长提示）</tspan></text>
+<path d="M102.0,95.0 L130.0,95.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch34_disagg-ah-6b7785)"/>
+<rect x="132.0" y="40.0" width="170.0" height="110.0" rx="6" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.4"/>
+<text x="217.0" y="60.0" font-size="12" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>Prefill 集群</tspan></text>
+<text x="217.0" y="78.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>受限于算力；保证 TTFT</tspan></text>
+<rect x="150.0" y="90.0" width="40.0" height="20.0" rx="3" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="196.0" y="90.0" width="40.0" height="20.0" rx="3" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="242.0" y="90.0" width="40.0" height="20.0" rx="3" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="150.0" y="116.0" width="40.0" height="20.0" rx="3" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="196.0" y="116.0" width="40.0" height="20.0" rx="3" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="242.0" y="116.0" width="40.0" height="20.0" rx="3" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<path d="M304.0,95.0 L376.0,95.0" fill="none" stroke="#c77d12" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch34_disagg-ah-c77d12)"/>
+<text x="340.0" y="86.0" font-size="10.5" text-anchor="middle" fill="#c77d12" font-weight="700"><tspan>KV cache</tspan></text>
+<text x="340.0" y="112.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>RDMA</tspan></text>
+<rect x="378.0" y="40.0" width="170.0" height="110.0" rx="6" fill="#fff8ec" stroke="#c77d12" stroke-width="1.4"/>
+<text x="463.0" y="60.0" font-size="12" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>Decode 集群</tspan></text>
+<text x="463.0" y="78.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>受限于带宽；保证 TPOT</tspan></text>
+<rect x="396.0" y="90.0" width="40.0" height="20.0" rx="3" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="442.0" y="90.0" width="40.0" height="20.0" rx="3" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="488.0" y="90.0" width="40.0" height="20.0" rx="3" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="396.0" y="116.0" width="40.0" height="20.0" rx="3" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="442.0" y="116.0" width="40.0" height="20.0" rx="3" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="488.0" y="116.0" width="40.0" height="20.0" rx="3" fill="#c77d12" stroke="none" stroke-width="0"/>
+<path d="M550.0,95.0 L578.0,95.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch34_disagg-ah-6b7785)"/>
+<rect x="580.0" y="70.0" width="70.0" height="50.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="615.0" y="91.2" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>逐个</tspan></text>
+<text x="615.0" y="105.5" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>输出</tspan></text>
+<text x="330.0" y="184.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>prefill 与 decode 分离部署：两组 GPU 各自选择并行方式和规模，互不干扰（示意）</tspan></text>
+</svg>

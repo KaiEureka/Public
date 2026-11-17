@@ -1,0 +1,20 @@
+<svg viewBox="0 0 660 222" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M25,110 A200,88 0 1,0 425,110 A200,88 0 1,0 25,110 Z" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M62,110 A86,50 0 1,0 234,110 A86,50 0 1,0 62,110 Z" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="148.0" y="106.0" font-size="12" text-anchor="middle" fill="#2e7d4f" font-weight="700"><tspan>安全训练</tspan></text>
+<text x="148.0" y="124.0" font-size="11" text-anchor="middle" fill="#2e7d4f"><tspan>覆盖的范围</tspan></text>
+<text x="330.0" y="72.0" font-size="12" text-anchor="middle" fill="#1c5d99" font-weight="700"><tspan>能力泛化到的范围</tspan></text>
+<text x="330.0" y="96.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>看得懂 base64</tspan></text>
+<text x="330.0" y="110.8" font-size="11" text-anchor="middle" fill="#52606d"><tspan>会上百种语言</tspan></text>
+<text x="330.0" y="125.7" font-size="11" text-anchor="middle" fill="#52606d"><tspan>很长的上下文</tspan></text>
+<text x="330.0" y="156.0" font-size="11" text-anchor="middle" fill="#b5443a" font-weight="700"><tspan>越狱发生在这一圈</tspan></text>
+<text x="450.0" y="60.0" font-size="12" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>两个原因（Wei 等，2023）：</tspan></text>
+<text x="450.0" y="86.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>① 泛化不匹配：能力覆盖</tspan></text>
+<text x="450.0" y="100.8" font-size="11" text-anchor="start" fill="#52606d"><tspan>的地方，安全训练没覆盖到</tspan></text>
+<text x="450.0" y="115.7" font-size="11" text-anchor="start" fill="#52606d"><tspan>（左图）</tspan></text>
+<text x="450.0" y="146.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>② 目标互相竞争：攻击者构造</tspan></text>
+<text x="450.0" y="160.8" font-size="11" text-anchor="start" fill="#52606d"><tspan>情境，让“照着做”压过</tspan></text>
+<text x="450.0" y="175.7" font-size="11" text-anchor="start" fill="#52606d"><tspan>“要安全”</tspan></text>
+<text x="330.0" y="216.0" font-size="11" text-anchor="middle" fill="#6b7785"><tspan>越狱为什么会成功（示意）</tspan></text>
+</svg>

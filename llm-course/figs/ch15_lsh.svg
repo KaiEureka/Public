@@ -1,0 +1,65 @@
+<svg viewBox="0 0 660 246" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M60.0,180.0 L420.0,180.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="184.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>0%</tspan></text>
+<path d="M60.0,142.5 L420.0,142.5" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="146.5" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>25%</tspan></text>
+<path d="M60.0,105.0 L420.0,105.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="109.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>50%</tspan></text>
+<path d="M60.0,67.5 L420.0,67.5" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="71.5" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>75%</tspan></text>
+<path d="M60.0,30.0 L420.0,30.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="34.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>100%</tspan></text>
+<path d="M60.0,180.0 L60.0,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="60.0" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>0</tspan></text>
+<path d="M132.0,180.0 L132.0,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="132.0" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>0.2</tspan></text>
+<path d="M204.0,180.0 L204.0,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="204.0" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>0.4</tspan></text>
+<path d="M276.0,180.0 L276.0,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="276.0" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>0.6</tspan></text>
+<path d="M348.0,180.0 L348.0,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="348.0" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>0.8</tspan></text>
+<path d="M420.0,180.0 L420.0,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="420.0" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>1</tspan></text>
+<path d="M60.0,180.0 L420.0,180.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M60.0,30.0 L60.0,180.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="240.0" y="215.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>两篇文档的 Jaccard 相似度</tspan></text>
+<text x="54.0" y="20.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>被列为候选对的概率</tspan></text>
+<path d="M60.0,180.0 L61.8,180.0 L63.6,180.0 L65.4,180.0 L67.2,180.0 L69.0,180.0 L70.8,180.0 L72.6,180.0 L74.4,180.0 L76.2,180.0 L78.0,180.0 L79.8,180.0 L81.6,180.0 L83.4,180.0 L85.2,180.0 L87.0,180.0 L88.8,180.0 L90.6,180.0 L92.4,180.0 L94.2,180.0 L96.0,180.0 L97.8,180.0 L99.6,180.0 L101.4,180.0 L103.2,180.0 L105.0,180.0 L106.8,180.0 L108.6,180.0 L110.4,180.0 L112.2,180.0 L114.0,180.0 L115.8,180.0 L117.6,180.0 L119.4,180.0 L121.2,180.0 L123.0,180.0 L124.8,180.0 L126.6,180.0 L128.4,180.0 L130.2,180.0 L132.0,180.0 L133.8,180.0 L135.6,180.0 L137.4,180.0 L139.2,180.0 L141.0,180.0 L142.8,180.0 L144.6,180.0 L146.4,180.0 L148.2,180.0 L150.0,180.0 L151.8,180.0 L153.6,180.0 L155.4,179.9 L157.2,179.9 L159.0,179.9 L160.8,179.9 L162.6,179.9 L164.4,179.9 L166.2,179.9 L168.0,179.9 L169.8,179.8 L171.6,179.8 L173.4,179.8 L175.2,179.8 L177.0,179.7 L178.8,179.7 L180.6,179.7 L182.4,179.6 L184.2,179.6 L186.0,179.5 L187.8,179.5 L189.6,179.4 L191.4,179.3 L193.2,179.3 L195.0,179.2 L196.8,179.1 L198.6,179.0 L200.4,178.9 L202.2,178.8 L204.0,178.6 L205.8,178.5 L207.6,178.3 L209.4,178.2 L211.2,178.0 L213.0,177.8 L214.8,177.6 L216.6,177.3 L218.4,177.1 L220.2,176.8 L222.0,176.5 L223.8,176.2 L225.6,175.8 L227.4,175.5 L229.2,175.1 L231.0,174.6 L232.8,174.2 L234.6,173.7 L236.4,173.2 L238.2,172.6 L240.0,172.0 L241.8,171.4 L243.6,170.7 L245.4,169.9 L247.2,169.2 L249.0,168.3 L250.8,167.4 L252.6,166.5 L254.4,165.5 L256.2,164.5 L258.0,163.3 L259.8,162.2 L261.6,160.9 L263.4,159.6 L265.2,158.2 L267.0,156.8 L268.8,155.2 L270.6,153.6 L272.4,151.9 L274.2,150.2 L276.0,148.3 L277.8,146.4 L279.6,144.4 L281.4,142.3 L283.2,140.1 L285.0,137.9 L286.8,135.5 L288.6,133.1 L290.4,130.6 L292.2,128.0 L294.0,125.3 L295.8,122.6 L297.6,119.8 L299.4,116.9 L301.2,114.0 L303.0,111.0 L304.8,107.9 L306.6,104.8 L308.4,101.7 L310.2,98.5 L312.0,95.3 L313.8,92.1 L315.6,88.9 L317.4,85.7 L319.2,82.5 L321.0,79.4 L322.8,76.2 L324.6,73.1 L326.4,70.1 L328.2,67.1 L330.0,64.3 L331.8,61.5 L333.6,58.8 L335.4,56.2 L337.2,53.7 L339.0,51.3 L340.8,49.1 L342.6,47.0 L344.4,45.0 L346.2,43.2 L348.0,41.5 L349.8,39.9 L351.6,38.5 L353.4,37.2 L355.2,36.1 L357.0,35.1 L358.8,34.2 L360.6,33.4 L362.4,32.8 L364.2,32.2 L366.0,31.7 L367.8,31.4 L369.6,31.0 L371.4,30.8 L373.2,30.6 L375.0,30.4 L376.8,30.3 L378.6,30.2 L380.4,30.1 L382.2,30.1 L384.0,30.1 L385.8,30.0 L387.6,30.0 L389.4,30.0 L391.2,30.0 L393.0,30.0 L394.8,30.0 L396.6,30.0 L398.4,30.0 L400.2,30.0 L402.0,30.0 L403.8,30.0 L405.6,30.0 L407.4,30.0 L409.2,30.0 L411.0,30.0 L412.8,30.0 L414.6,30.0 L416.4,30.0 L418.2,30.0 L420.0,30.0" fill="none" stroke="#1c5d99" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M318.8,30.0 L318.8,180.0" fill="none" stroke="#6b7785" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<text x="315.2" y="42.0" font-size="11" text-anchor="end" fill="#52606d"><tspan>转折点约 0.72</tspan></text>
+<circle cx="342.6" cy="45.0" r="4.2" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="282.1" cy="147.0" r="4.2" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="209.0" cy="180.0" r="4.2" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="125.2" cy="180.0" r="4.2" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="89.9" cy="180.0" r="4.2" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="64.3" cy="180.0" r="4.2" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<text x="350.6" y="59.0" font-size="10.5" text-anchor="start" fill="#c77d12"><tspan>实测：替换 2% 的词</tspan></text>
+<text x="290.1" y="151.0" font-size="10.5" text-anchor="start" fill="#c77d12"><tspan>替换 5%</tspan></text>
+<text x="450.0" y="40.0" font-size="11.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>签名：112 个最小哈希值</tspan></text>
+<rect x="450.0" y="50.0" width="120.0" height="7.0" rx="1" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="58.0" width="120.0" height="7.0" rx="1" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="66.0" width="120.0" height="7.0" rx="1" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="74.0" width="120.0" height="7.0" rx="1" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="82.0" width="120.0" height="7.0" rx="1" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="90.0" width="120.0" height="7.0" rx="1" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="98.0" width="120.0" height="7.0" rx="1" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="106.0" width="120.0" height="7.0" rx="1" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="114.0" width="120.0" height="7.0" rx="1" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="122.0" width="120.0" height="7.0" rx="1" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="130.0" width="120.0" height="7.0" rx="1" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="138.0" width="120.0" height="7.0" rx="1" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="146.0" width="120.0" height="7.0" rx="1" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="154.0" width="120.0" height="7.0" rx="1" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="576.0" y="82.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>切成 14 段，</tspan></text>
+<text x="576.0" y="96.8" font-size="11" text-anchor="start" fill="#52606d"><tspan>每段 8 个</tspan></text>
+<rect x="448.0" y="89.0" width="124.0" height="9.0" rx="1" fill="none" stroke="#b5443a" stroke-width="1.4"/>
+<text x="450.0" y="176.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>两篇文档只要有任意一段</tspan></text>
+<text x="450.0" y="190.8" font-size="11" text-anchor="start" fill="#52606d"><tspan>完全相同，就列为候选对，</tspan></text>
+<text x="450.0" y="205.7" font-size="11" text-anchor="start" fill="#52606d"><tspan>再做精确比较</tspan></text>
+<path d="M60.0,236.0 L78.0,236.0" fill="none" stroke="#1c5d99" stroke-width="2.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="83.0" y="240.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>理论曲线 </tspan><tspan font-family="LatinSerif">1 − (1 − </tspan><tspan font-family="LatinSerif" font-style="italic">J</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">8</tspan><tspan font-family="LatinSerif">)</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">14</tspan></text>
+<circle cx="224.5" cy="236.0" r="4" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<text x="238.5" y="240.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>15.5 节实验的检出率（实测）</tspan></text>
+</svg>

@@ -1,0 +1,112 @@
+<svg viewBox="0 0 636 204" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="12" style="width:92%">
+<text x="102" y="20" text-anchor="middle" fill="#6b7785">0</text>
+<text x="140" y="20" text-anchor="middle" fill="#6b7785">1</text>
+<text x="178" y="20" text-anchor="middle" fill="#6b7785">2</text>
+<text x="216" y="20" text-anchor="middle" fill="#6b7785">3</text>
+<text x="254" y="20" text-anchor="middle" fill="#6b7785">4</text>
+<text x="292" y="20" text-anchor="middle" fill="#6b7785">5</text>
+<text x="330" y="20" text-anchor="middle" fill="#6b7785">6</text>
+<text x="368" y="20" text-anchor="middle" fill="#6b7785">7</text>
+<text x="406" y="20" text-anchor="middle" fill="#6b7785">8</text>
+<text x="444" y="20" text-anchor="middle" fill="#6b7785">9</text>
+<text x="482" y="20" text-anchor="middle" fill="#6b7785">10</text>
+<text x="520" y="20" text-anchor="middle" fill="#6b7785">11</text>
+<text x="558" y="20" text-anchor="middle" fill="#6b7785">12</text>
+<text x="596" y="20" text-anchor="middle" fill="#6b7785">13</text>
+<text x="76" y="20" text-anchor="end" fill="#6b7785">时间</text>
+<text x="76" y="48" text-anchor="end" fill="#1d2329">阶段 0</text>
+<rect x="84" y="30" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="101.5" y="48" text-anchor="middle" fill="#fff">F1</text>
+<rect x="122" y="30" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="139.5" y="48" text-anchor="middle" fill="#fff">F2</text>
+<rect x="160" y="30" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="177.5" y="48" text-anchor="middle" fill="#fff">F3</text>
+<rect x="198" y="30" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="215.5" y="48" text-anchor="middle" fill="#fff">F4</text>
+<rect x="236" y="30" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="274" y="30" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="312" y="30" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="350" y="30" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="388" y="30" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="426" y="30" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="464" y="30" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="481.5" y="48" text-anchor="middle" fill="#fff">B4</text>
+<rect x="502" y="30" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="519.5" y="48" text-anchor="middle" fill="#fff">B3</text>
+<rect x="540" y="30" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="557.5" y="48" text-anchor="middle" fill="#fff">B2</text>
+<rect x="578" y="30" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="595.5" y="48" text-anchor="middle" fill="#fff">B1</text>
+<text x="76" y="84" text-anchor="end" fill="#1d2329">阶段 1</text>
+<rect x="84" y="66" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="122" y="66" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="139.5" y="84" text-anchor="middle" fill="#fff">F1</text>
+<rect x="160" y="66" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="177.5" y="84" text-anchor="middle" fill="#fff">F2</text>
+<rect x="198" y="66" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="215.5" y="84" text-anchor="middle" fill="#fff">F3</text>
+<rect x="236" y="66" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="253.5" y="84" text-anchor="middle" fill="#fff">F4</text>
+<rect x="274" y="66" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="312" y="66" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="350" y="66" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="388" y="66" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="426" y="66" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="443.5" y="84" text-anchor="middle" fill="#fff">B4</text>
+<rect x="464" y="66" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="481.5" y="84" text-anchor="middle" fill="#fff">B3</text>
+<rect x="502" y="66" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="519.5" y="84" text-anchor="middle" fill="#fff">B2</text>
+<rect x="540" y="66" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="557.5" y="84" text-anchor="middle" fill="#fff">B1</text>
+<rect x="578" y="66" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<text x="76" y="120" text-anchor="end" fill="#1d2329">阶段 2</text>
+<rect x="84" y="102" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="122" y="102" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="160" y="102" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="177.5" y="120" text-anchor="middle" fill="#fff">F1</text>
+<rect x="198" y="102" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="215.5" y="120" text-anchor="middle" fill="#fff">F2</text>
+<rect x="236" y="102" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="253.5" y="120" text-anchor="middle" fill="#fff">F3</text>
+<rect x="274" y="102" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="291.5" y="120" text-anchor="middle" fill="#fff">F4</text>
+<rect x="312" y="102" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="350" y="102" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="388" y="102" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="405.5" y="120" text-anchor="middle" fill="#fff">B4</text>
+<rect x="426" y="102" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="443.5" y="120" text-anchor="middle" fill="#fff">B3</text>
+<rect x="464" y="102" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="481.5" y="120" text-anchor="middle" fill="#fff">B2</text>
+<rect x="502" y="102" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="519.5" y="120" text-anchor="middle" fill="#fff">B1</text>
+<rect x="540" y="102" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="578" y="102" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<text x="76" y="156" text-anchor="end" fill="#1d2329">阶段 3</text>
+<rect x="84" y="138" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="122" y="138" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="160" y="138" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="198" y="138" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="215.5" y="156" text-anchor="middle" fill="#fff">F1</text>
+<rect x="236" y="138" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="253.5" y="156" text-anchor="middle" fill="#fff">F2</text>
+<rect x="274" y="138" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="291.5" y="156" text-anchor="middle" fill="#fff">F3</text>
+<rect x="312" y="138" width="35" height="28" rx="3" fill="#1c5d99"/>
+<text x="329.5" y="156" text-anchor="middle" fill="#fff">F4</text>
+<rect x="350" y="138" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="367.5" y="156" text-anchor="middle" fill="#fff">B4</text>
+<rect x="388" y="138" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="405.5" y="156" text-anchor="middle" fill="#fff">B3</text>
+<rect x="426" y="138" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="443.5" y="156" text-anchor="middle" fill="#fff">B2</text>
+<rect x="464" y="138" width="35" height="28" rx="3" fill="#2e7d4f"/>
+<text x="481.5" y="156" text-anchor="middle" fill="#fff">B1</text>
+<rect x="502" y="138" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="540" y="138" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="578" y="138" width="35" height="28" rx="3" fill="#f1f4f7" stroke="#d5dde5"/>
+<rect x="84" y="186" width="14" height="12" rx="2" fill="#1c5d99"/><text x="104" y="196" fill="#3e4c59">前向 F（第 k 个 micro-batch）</text>
+<rect x="294" y="186" width="14" height="12" rx="2" fill="#2e7d4f"/><text x="314" y="196" fill="#3e4c59">反向 B</text>
+<rect x="394" y="186" width="14" height="12" rx="2" fill="#f1f4f7" stroke="#d5dde5"/><text x="414" y="196" fill="#3e4c59">空等（气泡）</text>
+</svg>

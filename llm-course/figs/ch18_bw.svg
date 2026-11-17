@@ -1,0 +1,27 @@
+<svg viewBox="0 0 660 196" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M210.0,14.0 L210.0,150.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="210.0" y="166.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>10</tspan></text>
+<path d="M343.4,14.0 L343.4,150.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="343.4" y="166.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>100</tspan></text>
+<path d="M476.8,14.0 L476.8,150.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="476.8" y="166.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>1,000</tspan></text>
+<text x="390.0" y="184.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>单方向带宽（GB/s，对数坐标）</tspan></text>
+<text x="202.0" y="35.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>GPU ↔ 自己的显存（HBM）</tspan></text>
+<rect x="210.0" y="20.0" width="336.8" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="552.8" y="35.0" font-size="11.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>3,350</tspan></text>
+<text x="650.0" y="35.0" font-size="11" text-anchor="end" fill="#52606d"><tspan>约 67 倍</tspan></text>
+<text x="202.0" y="69.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>GPU ↔ 本机其他 GPU（NVLink）</tspan></text>
+<rect x="210.0" y="54.0" width="220.5" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="436.5" y="69.0" font-size="11.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>450</tspan></text>
+<text x="650.0" y="69.0" font-size="11" text-anchor="end" fill="#52606d"><tspan>约 9 倍</tspan></text>
+<text x="202.0" y="103.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>GPU ↔ CPU、网卡（PCIe Gen5）</tspan></text>
+<rect x="210.0" y="88.0" width="107.5" height="22.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="323.5" y="103.0" font-size="11.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>64</tspan></text>
+<text x="650.0" y="103.0" font-size="11" text-anchor="end" fill="#52606d"><tspan>约 1.3 倍</tspan></text>
+<text x="202.0" y="137.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>GPU ↔ 其他机器（网卡）</tspan></text>
+<rect x="210.0" y="122.0" width="93.2" height="22.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="309.2" y="137.0" font-size="11.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>50</tspan></text>
+<text x="650.0" y="137.0" font-size="11" text-anchor="end" fill="#52606d"><tspan>1 倍</tspan></text>
+<text x="650.0" y="10.0" font-size="10.5" text-anchor="end" fill="#6b7785"><tspan>相对跨机网络</tspan></text>
+</svg>

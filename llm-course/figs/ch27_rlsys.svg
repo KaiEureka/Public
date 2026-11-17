@@ -1,0 +1,47 @@
+<svg viewBox="0 0 660 230" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch27_rlsys-ah-6b7785" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7785"/></marker><marker id="ch27_rlsys-ah-2e7d4f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d4f"/></marker></defs>
+<rect x="10.0" y="70.0" width="90.0" height="44.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="55.0" y="95.5" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>一批题目</tspan></text>
+<path d="M102.0,92.0 L128.0,92.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch27_rlsys-ah-6b7785)"/>
+<rect x="130.0" y="60.0" width="170.0" height="64.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="215.0" y="81.0" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>推理引擎（vLLM、SGLang）</tspan></text>
+<text x="215.0" y="95.3" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>生成回答（rollout）</tspan></text>
+<text x="215.0" y="109.6" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>占了大部分时间</tspan></text>
+<path d="M302.0,92.0 L328.0,92.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch27_rlsys-ah-6b7785)"/>
+<rect x="330.0" y="66.0" width="120.0" height="52.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="390.0" y="88.2" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>验证器 / 奖励</tspan></text>
+<text x="390.0" y="102.5" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>打分</tspan></text>
+<path d="M452.0,92.0 L478.0,92.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch27_rlsys-ah-6b7785)"/>
+<rect x="480.0" y="60.0" width="170.0" height="64.0" rx="5" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="565.0" y="88.2" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>训练框架</tspan></text>
+<text x="565.0" y="102.5" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>计算优势，更新参数</tspan></text>
+<path d="M565.0,126.0 L565.0,150.0 L215.0,150.0 L215.0,126.0" fill="none" stroke="#2e7d4f" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch27_rlsys-ah-2e7d4f)" stroke-dasharray="5 3"/>
+<text x="390.0" y="164.0" font-size="11" text-anchor="middle" fill="#2e7d4f"><tspan>把新权重同步给推理引擎</tspan></text>
+<rect x="140.0" y="210.3" width="5.0" height="3.7" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="146.5" y="209.0" width="5.0" height="5.0" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="153.0" y="208.8" width="5.0" height="5.2" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="159.5" y="208.4" width="5.0" height="5.6" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="166.0" y="207.8" width="5.0" height="6.2" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="172.5" y="207.6" width="5.0" height="6.4" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="179.0" y="207.5" width="5.0" height="6.5" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="185.5" y="206.7" width="5.0" height="7.3" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="192.0" y="204.9" width="5.0" height="9.1" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="198.5" y="204.1" width="5.0" height="9.9" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="205.0" y="203.7" width="5.0" height="10.3" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="211.5" y="203.3" width="5.0" height="10.7" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="218.0" y="203.2" width="5.0" height="10.8" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="224.5" y="203.1" width="5.0" height="10.9" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="231.0" y="202.9" width="5.0" height="11.1" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="237.5" y="202.1" width="5.0" height="11.9" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="244.0" y="196.8" width="5.0" height="17.2" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="250.5" y="196.6" width="5.0" height="17.4" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="257.0" y="195.6" width="5.0" height="18.4" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="263.5" y="194.0" width="5.0" height="20.0" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="270.0" y="192.9" width="5.0" height="21.1" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="276.5" y="191.7" width="5.0" height="22.3" rx="1" fill="#e6bf86" stroke="none" stroke-width="0"/>
+<rect x="283.0" y="190.3" width="5.0" height="23.7" rx="1" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="289.5" y="188.2" width="5.0" height="25.8" rx="1" fill="#b5443a" stroke="none" stroke-width="0"/>
+<text x="300.0" y="200.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>同一批回答的长度差别很大，最长的几个拖住整批</tspan></text>
+<text x="300.0" y="216.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>对策：部分生成、异步强化学习</tspan></text>
+<text x="10.0" y="24.0" font-size="12" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>强化学习的训练系统</tspan></text>
+</svg>

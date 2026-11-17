@@ -1,0 +1,162 @@
+collected 204,800 activation vectors of dim 128 (3s)
+SAE: 1024 features | variance explained 73.5% | avg active features per token (L0) 13.8 | dead features 0 | (92s)
+
+feature  148 (active on 3.16% of tokens):
+    5.94  …'ake bold power look pale-'
+    5.91  …'INIUS:⏎Know, I pray you,-'
+    5.73  …'? you are manifest house-'
+    5.58  …'US:⏎You worthy tribunes,-'
+    5.57  …'ans have got your fellow-'
+    5.55  …' Therefore, beseech you,-'
+
+feature  507 (active on 4.31% of tokens):
+    5.81  …'That trudge betwixt the k'
+    5.74  …'e author of himself⏎And k'
+    5.71  …' what he would have⏎But k'
+    5.61  …'or barking⏎As therefore k'
+    5.60  …'d in our counsels⏎And k'
+    5.57  …'ave unsaluted: sink, my k'
+
+feature  229 (active on 4.71% of tokens):
+    5.41  …'ot deserve corn gratis. B'
+    5.37  …'ed to give your voices? B'
+    5.34  …"id's with our distress. B"
+    5.33  …'f all the under fiends. B'
+    5.26  …'n ever frown in Greece. B'
+    5.23  …'ven to a full disgrace. B'
+
+feature  340 (active on 4.01% of tokens):
+    5.24  …'it to bid her welcome.⏎⏎V'
+    5.17  …'private. Your request?⏎⏎V'
+    5.10  …'And knew no other kin.⏎⏎V'
+    5.04  …' violent⏎breaking out.⏎⏎V'
+    5.00  …'ith me this afternoon.⏎⏎V'
+    5.00  …'ht thee to this world.⏎⏎V'
+
+feature  604 (active on 3.02% of tokens):
+    5.15  …'e to have redemption⏎By C'
+    4.97  …'find the people.⏎⏎Third C'
+    4.95  …"orthy work perform'd⏎By C"
+    4.93  …'their bedfellow.⏎Worthy C'
+    4.82  …'eaded multitude.⏎⏎Third C'
+    4.80  …'ly⏎As any ear can hear. C'
+
+feature  352 (active on 2.99% of tokens):
+    5.14  …'charitable deeds?⏎⏎GLOUCE'
+    5.09  …'behind this business.⏎⏎ME'
+    5.07  …'aptain knows you not.⏎⏎ME'
+    5.06  …'ruck dead by thee?⏎⏎CLARE'
+    5.06  …'accident cut off!⏎⏎GLOUCE'
+    5.06  …'where thou liest!⏎⏎GLOUCE'
+
+feature   99 (active on 4.22% of tokens):
+    4.93  …'ace so heavily today?⏎⏎CL'
+    4.54  …'CORIOLANUS:⏎How? what?⏎⏎L'
+    4.49  …'with this sore agony?⏎⏎CL'
+    4.46  …'ng fully dined before.⏎⏎L'
+    4.44  …'S:⏎At Antium lives he?⏎⏎L'
+    4.38  …'u have made fair work!⏎⏎B'
+
+feature  380 (active on 3.63% of tokens):
+    4.76  …'so thrive I and mine!⏎⏎KI'
+    4.52  …'eld what passes here.⏎⏎SI'
+    4.51  …'here I must not stay.⏎⏎KI'
+    4.49  …'hange these garments?⏎⏎SI'
+    4.48  …' yond⏎corner-stone?⏎⏎SICI'
+    4.48  …' Speak, speak, speak.⏎⏎SI'
+
+feature  216 (active on 4.46% of tokens):
+    4.71  …"'s tenderness to be,⏎Requ"
+    4.61  …"d plague o' the gods⏎Requ"
+    4.56  …'ith thousands of these qu'
+    4.56  …'ow that respects his⏎repu'
+    4.52  …' the present peace⏎And qu'
+    4.50  …'ltless blood of pretty Ru'
+
+feature  508 (active on 3.28% of tokens):
+    4.68  …'tis no matter.⏎⏎CORIOLANU'
+    4.67  …'st spoken words?⏎⏎SICINIU'
+    4.65  …'ask it kindly.⏎⏎CORIOLANU'
+    4.64  …'n: no further.⏎⏎CORIOLANU'
+    4.59  …'ve great thanks.⏎⏎SICINIU'
+    4.56  …'to lay all flat.⏎⏎SICINIU'
+
+feature   68 (active on 3.92% of tokens):
+    4.67  …'EEN ELIZABETH:⏎Brother of'
+    4.54  …'IUS:⏎All the contagion of'
+    4.54  …'ight.⏎⏎CORIOLANUS:⏎Not of'
+    4.50  …'s Marcius was⏎A worthy of'
+    4.49  …'he.⏎⏎COMINIUS:⏎You have f'
+    4.49  …'RGARET:⏎But repetition of'
+
+feature  510 (active on 4.80% of tokens):
+    4.38  …"ou elvish-mark'd, abortiv"
+    4.27  …' and, to this preservativ'
+    4.25  …'you as most⏎Abated captiv'
+    4.22  …'ich most gibingly, ungrav'
+    4.20  …'am not shaped for sportiv'
+    4.20  …'ad; and often did I striv'
+
+feature  472 (active on 3.42% of tokens):
+    4.35  …'kindred and night-walking'
+    4.34  …'nly⏎He flouted us downrig'
+    4.33  …'⏎had inkling this fortnig'
+    4.28  …'t is too cold in thinking'
+    4.24  …'finished with⏎his bidding'
+    4.21  …'elcome with this intellig'
+
+feature   88 (active on 1.93% of tokens):
+    4.32  …'ake bold power look pale-'
+    4.19  …'INIUS:⏎Know, I pray you,-'
+    4.17  …'? you are manifest house-'
+    4.02  …'ans have got your fellow-'
+    3.99  …'hee⏎Worse than a promise-'
+    3.99  …'US:⏎Nay! prithee, woman,-'
+
+feature  181 (active on 4.56% of tokens):
+    4.14  …'orest piece⏎Wil'
+    4.08  …' beastly⏎plebeians: I wil'
+    4.06  …'ng,⏎May give you thankful'
+    4.01  …' serves my purpose, I wil'
+    4.00  …'heir people⏎Wil'
+    4.00  …'n what he requested⏎Shoul'
+
+feature  549 (active on 4.67% of tokens):
+    4.09  …'ence came⏎That Ancus Marc'
+    4.07  …' hath done⏎To thee partic'
+    4.06  …'me, what talk you⏎Of Marc'
+    4.02  …'--⏎I mean for your partic'
+    4.02  …'thou shalt no sooner⏎Marc'
+    4.00  …"m 'gainst⏎My hate to Marc"
+
+feature  418 (active on 4.74% of tokens):
+    3.98  …' his unhap'
+    3.98  …'t and am unshap'
+    3.86  …'. Speak thou, boy:⏎Perhap'
+    3.86  …'pon the morning, are unap'
+    3.86  …'uch as was never⏎So incap'
+    3.83  …'rheum, which are⏎As cheap'
+
+feature  183 (active on 4.37% of tokens):
+    3.93  …'e to have redemption⏎By C'
+    3.93  …'their bedfellow.⏎Worthy C'
+    3.87  …'comes not Rome, nor has C'
+    3.86  …'itizen:⏎First, you know C'
+    3.86  …'all⏎Of his demerits rob C'
+    3.84  …'r number,⏎Repair to the C'
+
+feature  763 (active on 4.51% of tokens):
+    3.77  …"dren is enroll'd⏎In Jove'"
+    3.71  …"re his,⏎And have prevail'"
+    3.68  …"n of foul fiends⏎Environ'"
+    3.66  …"your solace: and⏎Believe'"
+    3.66  …" in blood; and he squeak'"
+    3.66  …"ndue you with the people'"
+
+feature  692 (active on 3.76% of tokens):
+    3.75  …'sied revenge for it.⏎⏎BUC'
+    3.72  …'e you no further.⏎⏎Both C'
+    3.53  …'wn to the beginning.⏎⏎SIC'
+    3.49  …'find the people.⏎⏎Third C'
+    3.48  …' of their infirmity.⏎⏎SIC'
+    3.48  …'Out of thy garments.⏎⏎SIC'

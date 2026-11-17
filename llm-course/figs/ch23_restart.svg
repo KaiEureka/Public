@@ -1,0 +1,30 @@
+<svg viewBox="0 0 660 152" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch23_restart-ah-6b7785" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7785"/></marker></defs>
+<rect x="10.0" y="40.0" width="70.0" height="46.0" rx="5" fill="#b5443a" stroke="#b5443a" stroke-width="1.2"/>
+<text x="45.0" y="59.3" font-size="10.5" text-anchor="middle" fill="#ffffff"><tspan>检测到</tspan></text>
+<text x="45.0" y="73.0" font-size="10.5" text-anchor="middle" fill="#ffffff"><tspan>故障</tspan></text>
+<path d="M81.0,63.0 L91.0,63.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch23_restart-ah-6b7785)"/>
+<rect x="92.0" y="40.0" width="92.0" height="46.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="138.0" y="59.3" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>定位并移除</tspan></text>
+<text x="138.0" y="73.0" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>坏节点</tspan></text>
+<path d="M185.0,63.0 L195.0,63.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch23_restart-ah-6b7785)"/>
+<rect x="196.0" y="40.0" width="108.0" height="46.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="250.0" y="59.3" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>补上备用节点，</tspan></text>
+<text x="250.0" y="73.0" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>重新调度</tspan></text>
+<path d="M305.0,63.0 L315.0,63.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch23_restart-ah-6b7785)"/>
+<rect x="316.0" y="40.0" width="116.0" height="46.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="374.0" y="59.3" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>拉镜像、起进程、</tspan></text>
+<text x="374.0" y="73.0" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>初始化 NCCL</tspan></text>
+<path d="M433.0,63.0 L443.0,63.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch23_restart-ah-6b7785)"/>
+<rect x="444.0" y="40.0" width="124.0" height="46.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="506.0" y="59.3" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>加载检查点，恢复</tspan></text>
+<text x="506.0" y="73.0" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>数据读取位置</tspan></text>
+<path d="M569.0,63.0 L579.0,63.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch23_restart-ah-6b7785)"/>
+<rect x="580.0" y="40.0" width="60.0" height="46.0" rx="5" fill="#2e7d4f" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="610.0" y="59.3" font-size="10.5" text-anchor="middle" fill="#ffffff"><tspan>继续</tspan></text>
+<text x="610.0" y="73.0" font-size="10.5" text-anchor="middle" fill="#ffffff"><tspan>训练</tspan></text>
+<path d="M10.0,92.0 L10.0,98.0 L568.0,98.0 L568.0,92.0" fill="none" stroke="#6b7785" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="289.0" y="116.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>这一整段就是重启时间 </tspan><tspan font-family="LatinSerif" font-style="italic">R</tspan><tspan>：镜像预先分发、并行读取检查点、加快通信初始化</tspan></text>
+<text x="10.0" y="24.0" font-size="11.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>作业的自动重启流程（23.7 节）</tspan></text>
+<text x="330.0" y="144.0" font-size="11" text-anchor="middle" fill="#6b7785"><tspan>上万张卡的规模下，仅仅建立 NCCL 通信就可能要几分钟</tspan></text>
+</svg>

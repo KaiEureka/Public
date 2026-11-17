@@ -1,0 +1,30 @@
+<svg viewBox="0 0 660 220" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch16_edu-ah-6b7785" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7785"/></marker></defs>
+<rect x="10.0" y="30.0" width="120.0" height="52.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="70.0" y="52.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>约 45 万篇</tspan></text>
+<text x="70.0" y="66.9" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>FineWeb 网页</tspan></text>
+<path d="M132.0,56.0 L156.0,56.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch16_edu-ah-6b7785)"/>
+<rect x="158.0" y="24.0" width="150.0" height="64.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="233.0" y="45.0" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>Llama-3-70B-Instruct</tspan></text>
+<text x="233.0" y="59.3" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>按“教育价值”打 0–5 分</tspan></text>
+<text x="233.0" y="73.6" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>（累加制）</tspan></text>
+<path d="M310.0,56.0 L334.0,56.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch16_edu-ah-6b7785)"/>
+<rect x="336.0" y="24.0" width="150.0" height="64.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="411.0" y="45.0" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>训练小分类器：</tspan></text>
+<text x="411.0" y="59.3" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>文本嵌入 + 线性回归，</tspan></text>
+<text x="411.0" y="73.6" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>学会预测这个分数</tspan></text>
+<path d="M488.0,56.0 L512.0,56.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch16_edu-ah-6b7785)"/>
+<rect x="514.0" y="30.0" width="136.0" height="52.0" rx="5" fill="#1c5d99" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="582.0" y="52.0" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>给全部 15T token</tspan></text>
+<text x="582.0" y="66.9" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>打分</tspan></text>
+<path d="M582.0,84.0 L582.0,108.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch16_edu-ah-6b7785)"/>
+<rect x="470.0" y="110.0" width="180.0" height="34.0" rx="5" fill="#2e7d4f" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="560.0" y="130.3" font-size="11" text-anchor="middle" fill="#ffffff"><tspan>分数 ≥ 3：1.3T（FineWeb-Edu）</tspan></text>
+<rect x="470.0" y="152.0" width="180.0" height="30.0" rx="5" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="560.0" y="170.3" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>分数 ≥ 2：5.4T</tspan></text>
+<text x="10.0" y="126.0" font-size="11.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>为什么不直接用 70B 模型给全部数据打分？</tspan></text>
+<text x="10.0" y="146.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>读一遍 15T token 约需 </tspan><tspan font-family="LatinSerif">2</tspan><tspan font-family="LatinSerif">×</tspan><tspan font-family="LatinSerif">70</tspan><tspan font-family="LatinSerif">×</tspan><tspan font-family="LatinSerif">10</tspan><tspan font-family="LatinSerif" font-size="7.9" baseline-shift="0.42em">9</tspan><tspan font-family="LatinSerif">×</tspan><tspan font-family="LatinSerif">15</tspan><tspan font-family="LatinSerif">×</tspan><tspan font-family="LatinSerif">10</tspan><tspan font-family="LatinSerif" font-size="7.9" baseline-shift="0.42em">12</tspan></text>
+<text x="10.0" y="160.8" font-size="11" text-anchor="start" fill="#52606d"><tspan>≈ </tspan><tspan font-family="LatinSerif">2</tspan><tspan font-family="LatinSerif">×</tspan><tspan font-family="LatinSerif">10</tspan><tspan font-family="LatinSerif" font-size="7.9" baseline-shift="0.42em">24</tspan><tspan> FLOP，与训练一个大模型同一量级；</tspan></text>
+<text x="10.0" y="175.7" font-size="11" text-anchor="start" fill="#52606d"><tspan>小分类器的成本要低几个数量级</tspan></text>
+<text x="330.0" y="214.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>代价：数据被推向“教科书风格”，知识和推理类基准大涨，常识和日常语言类基准提升不明显</tspan></text>
+</svg>

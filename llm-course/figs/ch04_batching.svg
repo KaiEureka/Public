@@ -1,0 +1,41 @@
+<svg viewBox="0 0 660 258" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M60.0,196.0 L500.0,196.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="200.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>100</tspan></text>
+<path d="M60.0,147.1 L500.0,147.1" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="151.1" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>1K</tspan></text>
+<path d="M60.0,98.2 L500.0,98.2" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="102.2" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>10K</tspan></text>
+<path d="M60.0,49.3 L500.0,49.3" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="53.4" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>100K</tspan></text>
+<path d="M60.0,196.0 L60.0,200.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="60.0" y="213.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>1</tspan></text>
+<path d="M133.3,196.0 L133.3,200.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="133.3" y="213.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>4</tspan></text>
+<path d="M206.7,196.0 L206.7,200.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="206.7" y="213.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>16</tspan></text>
+<path d="M280.0,196.0 L280.0,200.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="280.0" y="213.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>64</tspan></text>
+<path d="M353.3,196.0 L353.3,200.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="353.3" y="213.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>256</tspan></text>
+<path d="M426.7,196.0 L426.7,200.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="426.7" y="213.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>1024</tspan></text>
+<path d="M500.0,196.0 L500.0,200.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="500.0" y="213.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>4096</tspan></text>
+<path d="M60.0,196.0 L500.0,196.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M60.0,26.0 L60.0,196.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="280.0" y="231.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>batch 大小 </tspan><tspan font-family="LatinSerif" font-style="italic">B</tspan><tspan>（同时生成的序列数）</tspan></text>
+<text x="54.0" y="16.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>总吞吐量（token/s）</tspan></text>
+<path d="M60.0,182.2 L69.2,178.5 L78.3,174.9 L87.5,171.2 L96.7,167.5 L105.8,163.8 L115.0,160.1 L124.2,156.5 L133.3,152.8 L142.5,149.1 L151.7,145.4 L160.8,141.7 L170.0,138.1 L179.2,134.4 L188.3,130.7 L197.5,127.0 L206.7,123.3 L215.8,119.7 L225.0,116.0 L234.2,112.3 L243.3,108.6 L252.5,104.9 L261.7,101.3 L270.8,97.6 L280.0,93.9 L289.2,90.2 L298.3,86.5 L307.5,82.9 L316.7,79.2 L325.8,75.5 L335.0,71.8 L344.2,68.2 L353.3,64.5 L362.5,61.4 L371.7,61.4 L380.8,61.4 L390.0,61.4 L399.2,61.4 L408.3,61.4 L417.5,61.4 L426.7,61.4 L435.8,61.4 L445.0,61.4 L454.2,61.4 L463.3,61.4 L472.5,61.4 L481.7,61.4 L490.8,61.4 L500.0,61.4" fill="none" stroke="#1c5d99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M360.8,26.0 L360.8,196.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<text x="366.8" y="186.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>约 295：变成计算受限</tspan></text>
+<text x="69.6" y="154.7" font-size="11" text-anchor="start" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">B</tspan><tspan> = 1：约 190 token/s</tspan></text>
+<text x="274.0" y="83.9" font-size="11" text-anchor="end" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">B</tspan><tspan> = 64：约 1.2 万</tspan></text>
+<text x="520.0" y="80.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>受限于读权重时，</tspan></text>
+<text x="520.0" y="95.5" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>多加一条序列几乎</tspan></text>
+<text x="520.0" y="111.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>不增加耗时，吞吐量</tspan></text>
+<text x="520.0" y="126.6" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>随 </tspan><tspan font-family="LatinSerif" font-style="italic">B</tspan><tspan> 线性增长；</tspan></text>
+<text x="520.0" y="142.1" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>变成计算受限后</tspan></text>
+<text x="520.0" y="157.6" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>就不再增长</tspan></text>
+<text x="330.0" y="252.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>估算：70B 模型（BF16）分到 8 张 H100 上，忽略 KV cache（第 33 章会把它加进来）</tspan></text>
+</svg>

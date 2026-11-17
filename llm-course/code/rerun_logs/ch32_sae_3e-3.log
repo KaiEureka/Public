@@ -1,0 +1,162 @@
+collected 204,800 activation vectors of dim 128 (3s)
+SAE: 1024 features | variance explained 97.5% | avg active features per token (L0) 127.9 | dead features 0 | (97s)
+
+feature   96 (active on 4.24% of tokens):
+    0.99  …' for this world.⏎⏎QUEEN M'
+    0.89  …' she is lunatic.⏎⏎QUEEN M'
+    0.89  …'not for charity.⏎⏎QUEEN M'
+    0.88  …'hou in my sight?⏎⏎QUEEN M'
+    0.87  …' scorns the sun.⏎⏎QUEEN M'
+    0.86  …'n pain of death?⏎⏎QUEEN M'
+
+feature  488 (active on 4.38% of tokens):
+    0.88  …"ing England's queen.⏎⏎QUE"
+    0.84  …'ued thy bloody deed.⏎⏎QUE'
+    0.83  …'u move our patience.⏎⏎QUE'
+    0.83  …'be taught your duty.⏎⏎QUE'
+    0.82  …' and scorns the sun.⏎⏎QUE'
+    0.82  …'g the queen thereof.⏎⏎QUE'
+
+feature  391 (active on 4.27% of tokens):
+    0.86  …"sel: what's thy name?⏎⏎CO"
+    0.82  …"--but 'tis no matter.⏎⏎CO"
+    0.82  …'zen:⏎Your own desert!⏎⏎CO'
+    0.81  …'ath of garlic-eaters!⏎⏎CO'
+    0.80  …'Well, say. Peace, ho!⏎⏎CO'
+    0.79  …"ath brought you to't.⏎⏎CO"
+
+feature  587 (active on 4.93% of tokens):
+    0.84  …' they so seem to fear. G'
+    0.72  …"g at⏎Coriolanus' exile. N"
+    0.71  …'ER:⏎G'
+    0.68  …'AM:⏎G'
+    0.68  …'ench⏎Than ever frown in G'
+    0.68  …'NCE:⏎Because my name is G'
+
+feature 1023 (active on 4.66% of tokens):
+    0.82  …'time, have patience.⏎⏎CLA'
+    0.76  …'wardly and womanish.⏎⏎CLA'
+    0.76  …'blessings for curses.⏎⏎LA'
+    0.76  …'⏎⏎CORIOLA'
+    0.74  …"what's thy name?⏎⏎CORIOLA"
+    0.73  …'ar, for thy boldness.⏎⏎LA'
+
+feature  333 (active on 4.96% of tokens):
+    0.79  …'for this world.⏎⏎QUEEN MA'
+    0.75  …' cheerfully.⏎⏎QUEEN ELIZA'
+    0.74  …'for charity.⏎⏎QUEEN MARGA'
+    0.73  …'ot for charity.⏎⏎QUEEN MA'
+    0.73  …' is lunatic.⏎⏎QUEEN MARGA'
+    0.73  …'she is lunatic.⏎⏎QUEEN MA'
+
+feature  778 (active on 4.21% of tokens):
+    0.77  …'ll acquaint his majesty⏎W'
+    0.76  …"'s no doubt his majesty⏎W"
+    0.75  …"then the honour'd mould⏎W"
+    0.75  …' malice and displeasure⏎W'
+    0.75  …'ll the size that verity⏎W'
+    0.74  …'ead on this preparation⏎W'
+
+feature  911 (active on 2.75% of tokens):
+    0.76  …'US:⏎Where? at the senate-'
+    0.76  …'the Capitol, yond⏎corner-'
+    0.76  …'work,⏎You and your apron-'
+    0.76  …'US:⏎Nay! prithee, woman,-'
+    0.75  …'Rome;⏎But, for your son,-'
+    0.74  …'!⏎They said they were an-'
+
+feature  871 (active on 4.44% of tokens):
+    0.75  …'foul throat thou liest: Q'
+    0.66  …' visiting his majesty.⏎⏎Q'
+    0.64  …' with lewd complaints.⏎⏎Q'
+    0.60  …'do, do it unfeignedly.⏎⏎Q'
+    0.59  …'Rome in private. Your req'
+    0.59  …'am had a worser match.⏎⏎Q'
+
+feature  377 (active on 4.85% of tokens):
+    0.75  …':⏎How! I inform them!⏎⏎CO'
+    0.73  …'IUS:⏎He did, my lord.⏎⏎CO'
+    0.72  …' to the market-place.⏎⏎CO'
+    0.72  …'!⏎⏎AUFIDIUS:⏎No more.⏎⏎CO'
+    0.70  …'calls⏎for him. Cotus!⏎⏎CO'
+    0.70  …'en are best inclined.⏎⏎CO'
+
+feature  840 (active on 4.90% of tokens):
+    0.70  …'visiting his majesty.⏎⏎QU'
+    0.62  …'gued thy bloody deed.⏎⏎QU'
+    0.62  …', if not for charity.⏎⏎QU'
+    0.61  …'hed on pain of death?⏎⏎QU'
+    0.61  …' be taught your duty.⏎⏎QU'
+    0.61  …'rse against yourself.⏎⏎QU'
+
+feature  843 (active on 4.08% of tokens):
+    0.68  …"idnight sleep,⏎By Jove, '"
+    0.62  …"ins⏎Her richest lockram '"
+    0.62  …"hey are dissolved: hang '"
+    0.62  …"Rome⏎Had circumvention? '"
+    0.60  …"en privilege and custom '"
+    0.59  …"hen shall we hear their '"
+
+feature  751 (active on 4.27% of tokens):
+    0.68  …' article⏎Tying him to aug'
+    0.59  …'tterfly: and when he caug'
+    0.56  …'equire our voices, we oug'
+    0.54  …'Which never dreamt on aug'
+    0.53  …"es well steel'd with weig"
+    0.51  …', sir.⏎⏎MENENIUS:⏎The aug'
+
+feature   16 (active on 1.89% of tokens):
+    0.67  …'se garments?⏎⏎SICINIUS:⏎Y'
+    0.66  …'ame, sir.⏎⏎Volsce:⏎Y'
+    0.65  …' to them.⏎⏎A Patrician:⏎Y'
+    0.64  …'rk!⏎⏎First Conspirator:⏎Y'
+    0.64  …'s near; I cannot speak. Y'
+    0.64  …'lling flies.⏎⏎MENENIUS:⏎Y'
+
+feature  542 (active on 2.49% of tokens):
+    0.65  …'t his⏎true purchasing.⏎⏎V'
+    0.63  …'pon his school-master.⏎⏎V'
+    0.63  …'private. Your request?⏎⏎V'
+    0.62  …' does your little son?⏎⏎V'
+    0.61  …'the wounds become him.⏎⏎V'
+    0.60  …'ease our better mirth.⏎⏎V'
+
+feature  203 (active on 2.22% of tokens):
+    0.64  …'way, dull clouds, to my q'
+    0.63  …'Rome in private. Your req'
+    0.62  …'LOUCESTER:⏎Ere you were q'
+    0.60  …'ty,⏎Teach me to be your q'
+    0.59  …"ve I in being England's q"
+    0.58  …' mere spite,⏎To be full q'
+
+feature  988 (active on 4.58% of tokens):
+    0.64  …'our general?⏎⏎AUFIDIUS:⏎E'
+    0.58  …"lint, like Edward's;⏎Or E"
+    0.53  …'d in such capital kind,⏎D'
+    0.51  …'en falsehood, and award⏎E'
+    0.50  …' to know me.⏎⏎MENENIUS:⏎D'
+    0.49  …'efore, at your vantage,⏎E'
+
+feature  929 (active on 4.75% of tokens):
+    0.63  …'⏎Lords:⏎We have.⏎⏎First L'
+    0.58  …'he lie unto him.⏎⏎First L'
+    0.55  …', hear me speak.⏎⏎First L'
+    0.54  …'eaviest censure.⏎⏎First L'
+    0.50  …'alour will weep.⏎⏎Third L'
+    0.48  …'low to his urn.⏎⏎Second L'
+
+feature  501 (active on 2.61% of tokens):
+    0.63  …'l you undo yourselves?⏎⏎F'
+    0.61  …'d breed ballad-makers.⏎⏎F'
+    0.59  …'erous and did tremble.⏎⏎F'
+    0.58  …'se! make a sop of him.⏎⏎F'
+    0.58  …'y transport his honours⏎F'
+    0.57  …"of Gloucester's purse.⏎⏎F"
+
+feature  262 (active on 4.12% of tokens):
+    0.60  …'rrows could not thence ex'
+    0.55  …"confusion⏎May enter 'twix"
+    0.53  …'sirs, be sudden in the ex'
+    0.52  …'e bed, whose meal, and ex'
+    0.52  …'g, shouldst thou stand ex'
+    0.52  …'my father? Hadst thou fox'

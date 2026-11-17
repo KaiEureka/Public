@@ -1,0 +1,55 @@
+<svg viewBox="0 0 660 272" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M204.0,30.0 L204.0,210.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="204.0" y="226.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>10</tspan></text>
+<path d="M273.6,30.0 L273.6,210.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="273.6" y="226.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>30</tspan></text>
+<path d="M350.0,30.0 L350.0,210.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="350.0" y="226.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>100</tspan></text>
+<path d="M419.7,30.0 L419.7,210.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="419.7" y="226.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>300</tspan></text>
+<path d="M496.0,30.0 L496.0,210.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="496.0" y="226.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>1,000</tspan></text>
+<text x="335.8" y="244.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>参数量（十亿，对数坐标）</tspan></text>
+<text x="152.0" y="49.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>Llama 3 70B（稠密）</tspan></text>
+<rect x="160.0" y="36.0" width="167.4" height="9.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="160.0" y="46.0" width="167.4" height="9.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="332.4" y="44.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>70</tspan></text>
+<text x="332.4" y="54.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>70</tspan></text>
+<text x="600.0" y="49.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>1×</tspan></text>
+<text x="152.0" y="79.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>Mixtral 8×7B</tspan></text>
+<rect x="160.0" y="66.0" width="142.1" height="9.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="160.0" y="76.0" width="60.6" height="9.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="307.1" y="74.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>47</tspan></text>
+<text x="225.6" y="84.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>13</tspan></text>
+<text x="600.0" y="79.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>3.6×</tspan></text>
+<text x="152.0" y="109.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>DeepSeek-V2</tspan></text>
+<rect x="160.0" y="96.0" width="244.5" height="9.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="160.0" y="106.0" width="91.0" height="9.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="409.5" y="104.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>236</tspan></text>
+<text x="256.0" y="114.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>21</tspan></text>
+<text x="600.0" y="109.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>11×</tspan></text>
+<text x="152.0" y="139.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>Qwen3-235B-A22B</tspan></text>
+<rect x="160.0" y="126.0" width="244.2" height="9.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="160.0" y="136.0" width="94.0" height="9.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="409.2" y="134.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>235</tspan></text>
+<text x="259.0" y="144.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>22</tspan></text>
+<text x="600.0" y="139.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>11×</tspan></text>
+<text x="152.0" y="169.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>DeepSeek-V3</tspan></text>
+<rect x="160.0" y="156.0" width="310.7" height="9.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="160.0" y="166.0" width="126.9" height="9.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="475.7" y="164.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>671</tspan></text>
+<text x="291.9" y="174.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>37</tspan></text>
+<text x="600.0" y="169.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>18×</tspan></text>
+<text x="152.0" y="199.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>Kimi K2</tspan></text>
+<rect x="160.0" y="186.0" width="336.0" height="9.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="160.0" y="196.0" width="117.7" height="9.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="501.0" y="194.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>约 1,000</tspan></text>
+<text x="282.7" y="204.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>32</tspan></text>
+<text x="600.0" y="199.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>31×</tspan></text>
+<text x="600.0" y="22.0" font-size="11" text-anchor="middle" fill="#6b7785"><tspan>总 ÷ 激活</tspan></text>
+<rect x="162.0" y="256.0" width="14.0" height="11.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="183.0" y="266.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>总参数：决定容量（要全部放进显存）</tspan></text>
+<rect x="398.5" y="256.0" width="14.0" height="11.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="419.5" y="266.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>激活参数：决定每个 token 的计算量</tspan></text>
+</svg>

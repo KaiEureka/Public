@@ -1,0 +1,24 @@
+<svg viewBox="0 0 660 168" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<rect x="14.0" y="56.0" width="90.0" height="28.0" rx="0" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="104.0" y="56.0" width="9.0" height="28.0" rx="0" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="113.0" y="56.0" width="90.0" height="28.0" rx="0" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="203.0" y="56.0" width="9.0" height="28.0" rx="0" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="212.0" y="56.0" width="90.0" height="28.0" rx="0" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="302.0" y="56.0" width="9.0" height="28.0" rx="0" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="311.0" y="56.0" width="90.0" height="28.0" rx="0" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="401.0" y="56.0" width="9.0" height="28.0" rx="0" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<text x="59.0" y="74.0" font-size="10.5" text-anchor="middle" fill="#ffffff"><tspan>训练（间隔 </tspan><tspan font-family="LatinSerif">τ</tspan><tspan>）</tspan></text>
+<text x="108.5" y="46.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>保存检查点（停 </tspan><tspan font-family="LatinSerif" font-style="italic">c</tspan><tspan>）</tspan></text>
+<path d="M108.5,50.0 L108.5,56.0" fill="none" stroke="#9aa7b4" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="410.0" y="56.0" width="58.5" height="28.0" rx="0" fill="#fff4f2" stroke="#b5443a" stroke-width="1"/>
+<text x="468.5" y="46.0" font-size="11" text-anchor="middle" fill="#b5443a" font-weight="700"><tspan>✗ 故障</tspan></text>
+<text x="439.2" y="102.0" font-size="10.5" text-anchor="middle" fill="#b5443a"><tspan>这段白算了</tspan></text>
+<rect x="468.5" y="56.0" width="67.5" height="28.0" rx="0" fill="#eef1f4" stroke="none" stroke-width="0"/>
+<text x="502.2" y="74.0" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>重启 </tspan><tspan font-family="LatinSerif" font-style="italic">R</tspan></text>
+<rect x="536.0" y="56.0" width="58.5" height="28.0" rx="0" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="565.2" y="74.0" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>重算</tspan></text>
+<text x="565.2" y="102.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>从最近的检查点重新算</tspan></text>
+<rect x="594.5" y="56.0" width="45.0" height="28.0" rx="0" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="330.0" y="146.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>每次故障浪费两段时间：上一个检查点之后算的东西（平均 </tspan><tspan font-family="LatinSerif">τ</tspan><tspan font-family="LatinSerif">/2</tspan><tspan>），加上重启的时间 </tspan><tspan font-family="LatinSerif" font-style="italic">R</tspan><tspan>（示意）</tspan></text>
+</svg>

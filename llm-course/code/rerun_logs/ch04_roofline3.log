@@ -1,0 +1,15 @@
+[1] bandwidth: y = x * 1.0001 on 256M float32 (1 GB in, 1 GB out; L3 cache is 260 MB)
+    194 ms per pass -> 11.1 GB/s
+
+[4] k unfused elementwise ops (each op reads + writes the whole 1 GB array)
+    k=1 ops:    203 ms
+    k=2 ops:    325 ms
+    k=4 ops:    536 ms
+    k=8 ops:   1077 ms
+
+[3] (B x 16384) @ (16384 x 16384) float32, weight = 1 GB
+    B=   1  intensity=   0.5 FLOP/B    24.5 GFLOP/s     21.9 ms total   21.91 ms per token
+    B=   8  intensity=   4.0 FLOP/B    27.5 GFLOP/s    156.0 ms total   19.50 ms per token
+    B=  32  intensity=  15.9 FLOP/B   106.3 GFLOP/s    161.6 ms total    5.05 ms per token
+    B= 128  intensity=  63.0 FLOP/B   248.0 GFLOP/s    277.1 ms total    2.16 ms per token
+    B= 512  intensity= 240.9 FLOP/B   327.5 GFLOP/s    839.4 ms total    1.64 ms per token

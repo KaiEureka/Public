@@ -1,0 +1,21 @@
+[1] how noisy is a benchmark score?  (model A true accuracy 50%, model B 55%)
+    questions | std of A's score | P(A scores >= B on the same benchmark)
+       30     |       9.1 pts     |   38.5%
+      200     |       3.5 pts     |   14.3%
+      500     |       2.2 pts     |    4.2%
+     2000     |       1.1 pts     |    0.0%
+
+[2] AIME-style: 30 questions, average over k independent samples per question
+    k=  1 samples/question: std of score =  9.2 pts
+    k=  4 samples/question: std of score =  5.8 pts
+    k= 16 samples/question: std of score =  4.6 pts
+    k= 64 samples/question: std of score =  4.2 pts
+
+[3] pass@k: unbiased estimator vs naive plug-in  (n=10 samples, c correct)
+    c=1, k=1: unbiased 0.100   naive 1-(1-c/n)^k 0.100
+    c=1, k=5: unbiased 0.500   naive 1-(1-c/n)^k 0.410
+    c=2, k=1: unbiased 0.200   naive 1-(1-c/n)^k 0.200
+    c=2, k=5: unbiased 0.778   naive 1-(1-c/n)^k 0.672
+    c=5, k=1: unbiased 0.500   naive 1-(1-c/n)^k 0.500
+    c=5, k=5: unbiased 0.996   naive 1-(1-c/n)^k 0.969
+    simulation, true p=0.2, k=5: true pass@5 = 0.672; mean unbiased = 0.673; mean naive = 0.594

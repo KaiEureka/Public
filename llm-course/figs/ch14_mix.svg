@@ -1,0 +1,14 @@
+<svg viewBox="0 0 660 132" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<text x="10.0" y="20.0" font-size="12.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>Llama 3 预训练数据的配比（按 token 计）</tspan></text>
+<rect x="10.0" y="32.0" width="318.0" height="34.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="170.0" y="54.0" font-size="12" text-anchor="middle" fill="#ffffff"><tspan>通用知识 50%</tspan></text>
+<rect x="330.0" y="32.0" width="158.0" height="34.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="410.0" y="54.0" font-size="12" text-anchor="middle" fill="#ffffff"><tspan>数学和推理 25%</tspan></text>
+<rect x="490.0" y="32.0" width="106.8" height="34.0" rx="2" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<text x="544.4" y="54.0" font-size="12" text-anchor="middle" fill="#ffffff"><tspan>代码 17%</tspan></text>
+<rect x="598.8" y="32.0" width="49.2" height="34.0" rx="2" fill="#6b3fa0" stroke="none" stroke-width="0"/>
+<text x="648.0" y="84.0" font-size="11.5" text-anchor="end" fill="#6b3fa0"><tspan>多语言 8%</tspan></text>
+<text x="10.0" y="106.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>总量 15T token。英文平均约 4 个字节 1 个 token，15T token 相当于约 60 TB 干净文本；</tspan></text>
+<text x="10.0" y="124.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>过滤前的原始网页要多出好几十倍</tspan></text>
+</svg>

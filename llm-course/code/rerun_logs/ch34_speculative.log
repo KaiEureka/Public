@@ -1,0 +1,10 @@
+[1] toy check over 200000 draws
+    target p     : [0.06, 0.221, 0.0, 0.001, 0.014, 0.124, 0.057, 0.352, 0.046, 0.123]
+    output freq  : [0.059, 0.221, 0.0, 0.001, 0.015, 0.124, 0.058, 0.353, 0.046, 0.122]
+    acceptance rate 0.663  (theory: sum min(p,q) = 0.661)
+
+[2] plain sampling: 3000 chars with 3000 target calls (1.00 chars per call)
+    speculative, gamma=2: 1585 target calls (1.89 chars per call), acceptance 0.57, char-frequency L1 distance to plain 0.100
+    speculative, gamma=4: 1338 target calls (2.24 chars per call), acceptance 0.58, char-frequency L1 distance to plain 0.106
+    speculative, gamma=8: 1249 target calls (2.40 chars per call), acceptance 0.59, char-frequency L1 distance to plain 0.164
+    (two independent plain runs differ by L1 0.106)

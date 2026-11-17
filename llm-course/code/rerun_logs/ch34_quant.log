@@ -1,0 +1,6 @@
+FP32 baseline                       val loss 1.8894
+INT8 weights, per output channel     val loss 1.8895
+INT4 weights, per output channel     val loss 1.9077
+INT4 weights, groups of 32 inputs    val loss 1.8984
+INT3 weights, per output channel     val loss 1.9726
+INT3 weights, groups of 32 inputs    val loss 1.9330

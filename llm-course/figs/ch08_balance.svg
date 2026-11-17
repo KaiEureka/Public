@@ -1,0 +1,71 @@
+<svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M50.0,194.0 L320.0,194.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="198.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>0</tspan></text>
+<path d="M50.0,156.5 L320.0,156.5" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="160.5" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>500</tspan></text>
+<path d="M50.0,119.0 L320.0,119.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="123.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>1,000</tspan></text>
+<path d="M50.0,81.5 L320.0,81.5" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="85.5" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>1,500</tspan></text>
+<path d="M50.0,44.0 L320.0,44.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="48.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>2,000</tspan></text>
+<path d="M50.0,194.0 L320.0,194.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M50.0,44.0 L50.0,194.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="34.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>每个专家每批处理的 token 数</tspan></text>
+<text x="185.0" y="14.0" font-size="12" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>不做均衡</tspan></text>
+<rect x="52.4" y="180.8" width="12.0" height="13.2" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="69.3" y="157.3" width="12.0" height="36.7" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="86.2" y="143.2" width="12.0" height="50.8" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="103.1" y="156.3" width="12.0" height="37.7" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="119.9" y="143.8" width="12.0" height="50.2" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="136.8" y="145.4" width="12.0" height="48.6" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="153.7" y="136.2" width="12.0" height="57.8" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="170.6" y="85.0" width="12.0" height="109.0" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="187.4" y="98.6" width="12.0" height="95.4" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="204.3" y="104.8" width="12.0" height="89.2" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="221.2" y="92.3" width="12.0" height="101.7" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="238.1" y="115.1" width="12.0" height="78.9" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="254.9" y="93.4" width="12.0" height="100.6" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="271.8" y="69.7" width="12.0" height="124.3" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="288.7" y="60.0" width="12.0" height="134.0" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="305.6" y="93.3" width="12.0" height="100.7" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<path d="M50.0,117.2 L320.0,117.2" fill="none" stroke="#1d2329" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<text x="54.0" y="113.2" font-size="11" text-anchor="start" fill="#52606d"><tspan>理想值 1,024</tspan></text>
+<path d="M50.0,98.0 L320.0,98.0" fill="none" stroke="#b5443a" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="2 3"/>
+<text x="54.0" y="93.0" font-size="10.5" text-anchor="start" fill="#b5443a"><tspan>容量上限（系数 1.25）</tspan></text>
+<text x="185.0" y="210.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>16 个专家</tspan></text>
+<path d="M370.0,194.0 L640.0,194.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="364.0" y="198.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>0</tspan></text>
+<path d="M370.0,156.5 L640.0,156.5" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="364.0" y="160.5" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>500</tspan></text>
+<path d="M370.0,119.0 L640.0,119.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="364.0" y="123.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>1,000</tspan></text>
+<path d="M370.0,81.5 L640.0,81.5" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="364.0" y="85.5" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>1,500</tspan></text>
+<path d="M370.0,44.0 L640.0,44.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="364.0" y="48.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>2,000</tspan></text>
+<path d="M370.0,194.0 L640.0,194.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M370.0,44.0 L370.0,194.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="505.0" y="14.0" font-size="12" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>偏置调节 1,000 步后</tspan></text>
+<rect x="372.4" y="120.7" width="12.0" height="73.3" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="389.3" y="115.5" width="12.0" height="78.5" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="406.2" y="117.7" width="12.0" height="76.3" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="423.1" y="117.2" width="12.0" height="76.8" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="439.9" y="118.3" width="12.0" height="75.7" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="456.8" y="111.7" width="12.0" height="82.3" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="473.7" y="117.1" width="12.0" height="76.9" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="490.6" y="115.5" width="12.0" height="78.5" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="507.4" y="114.4" width="12.0" height="79.6" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="524.3" y="125.4" width="12.0" height="68.6" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="541.2" y="112.2" width="12.0" height="81.8" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="558.1" y="116.6" width="12.0" height="77.4" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="574.9" y="123.5" width="12.0" height="70.5" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="591.8" y="108.1" width="12.0" height="85.9" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="608.7" y="121.3" width="12.0" height="72.7" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="625.6" y="119.8" width="12.0" height="74.2" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<path d="M370.0,117.2 L640.0,117.2" fill="none" stroke="#1d2329" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<text x="636.0" y="85.2" font-size="11" text-anchor="end" fill="#52606d"><tspan>虚线：理想值 1,024</tspan></text>
+<text x="505.0" y="210.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>16 个专家</tspan></text>
+<text x="330.0" y="244.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>模拟实验（实测）：16 个专家选 2 个，每批 8,192 个 token。红色的专家超出容量，多出的 token 在旧方案里会被丢弃</tspan></text>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 660 196" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch32_induction-ah-c77d12" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c77d12"/></marker><marker id="ch32_induction-ah-2e7d4f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d4f"/></marker></defs>
+<rect x="30.0" y="110.0" width="50.0" height="28.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="55.0" y="127.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>…</tspan></text>
+<rect x="90.0" y="110.0" width="50.0" height="28.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="115.0" y="127.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>Mr</tspan></text>
+<rect x="150.0" y="110.0" width="50.0" height="28.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="175.0" y="127.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>Dur</tspan></text>
+<rect x="210.0" y="110.0" width="50.0" height="28.0" rx="5" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="235.0" y="127.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>sley</tspan></text>
+<rect x="270.0" y="110.0" width="50.0" height="28.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="295.0" y="127.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>said</tspan></text>
+<rect x="330.0" y="110.0" width="50.0" height="28.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="355.0" y="127.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>…</tspan></text>
+<rect x="390.0" y="110.0" width="50.0" height="28.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="415.0" y="127.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>…</tspan></text>
+<rect x="450.0" y="110.0" width="50.0" height="28.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="475.0" y="127.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>Mr</tspan></text>
+<rect x="510.0" y="110.0" width="50.0" height="28.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="535.0" y="127.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>Dur</tspan></text>
+<rect x="570.0" y="110.0" width="50.0" height="28.0" rx="5" fill="#1c5d99" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="595.0" y="127.6" font-size="12" text-anchor="middle" fill="#ffffff"><tspan>?</tspan></text>
+<path d="M535,108 C535,40 175,40 175,108" fill="none" stroke="#c77d12" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch32_induction-ah-c77d12)" stroke-dasharray="5 3"/>
+<text x="355.0" y="48.0" font-size="11" text-anchor="middle" fill="#c77d12"><tspan>① 在前文中找到和当前 token 相同的位置（Dur）</tspan></text>
+<path d="M235,140 C235,176 595,176 595,140" fill="none" stroke="#2e7d4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch32_induction-ah-2e7d4f)"/>
+<text x="415.0" y="190.0" font-size="11" text-anchor="middle" fill="#2e7d4f"><tspan>② 把它的下一个 token（sley）复制过来作为预测</tspan></text>
+<text x="10.0" y="20.0" font-size="12" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>归纳头：[A][B] … [A] → 预测 [B]（示意）</tspan></text>
+</svg>

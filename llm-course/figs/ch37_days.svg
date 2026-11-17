@@ -1,0 +1,36 @@
+<svg viewBox="0 0 660 232" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M170.0,24.0 L170.0,184.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="170.0" y="200.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>1 天</tspan></text>
+<path d="M272.4,24.0 L272.4,184.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="272.4" y="200.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>1 周</tspan></text>
+<path d="M349.0,24.0 L349.0,184.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="349.0" y="200.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>1 个月</tspan></text>
+<path d="M480.5,24.0 L480.5,184.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="480.5" y="200.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>1 年</tspan></text>
+<text x="162.0" y="44.0" font-size="11" text-anchor="end" fill="#1d2329"><tspan>GPT-3 级别</tspan></text>
+<rect x="170.0" y="30.0" width="115.6" height="9.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="170.0" y="41.0" width="73.0" height="9.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="290.6" y="38.0" font-size="10" text-anchor="start" fill="#1d2329"><tspan>9 天</tspan></text>
+<text x="162.0" y="76.0" font-size="11" text-anchor="end" fill="#1d2329"><tspan>Chinchilla 级别</tspan></text>
+<rect x="170.0" y="62.0" width="149.1" height="9.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="170.0" y="73.0" width="102.4" height="9.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="324.1" y="70.0" font-size="10" text-anchor="start" fill="#1d2329"><tspan>17 天</tspan></text>
+<text x="162.0" y="108.0" font-size="11" text-anchor="end" fill="#1d2329"><tspan>8B 训练 15T token</tspan></text>
+<rect x="170.0" y="94.0" width="160.2" height="9.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="170.0" y="105.0" width="109.4" height="9.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="335.2" y="102.0" font-size="10" text-anchor="start" fill="#1d2329"><tspan>21 天</tspan></text>
+<text x="162.0" y="140.0" font-size="11" text-anchor="end" fill="#1d2329"><tspan>DeepSeek-V3 级别</tspan></text>
+<rect x="170.0" y="126.0" width="239.6" height="9.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="170.0" y="137.0" width="191.4" height="9.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="414.6" y="134.0" font-size="10" text-anchor="start" fill="#1d2329"><tspan>95 天</tspan></text>
+<text x="162.0" y="172.0" font-size="11" text-anchor="end" fill="#1d2329"><tspan>Llama 3 405B 级别</tspan></text>
+<rect x="170.0" y="158.0" width="368.3" height="9.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="170.0" y="169.0" width="320.1" height="9.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="543.3" y="166.0" font-size="10" text-anchor="start" fill="#1d2329"><tspan>约 3 年</tspan></text>
+<rect x="172.0" y="210.0" width="14.0" height="11.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="193.0" y="220.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>1 万张 V100</tspan></text>
+<rect x="274.6" y="210.0" width="14.0" height="11.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="295.6" y="220.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>2.5 万张 V100</tspan></text>
+<text x="640.0" y="220.0" font-size="10.5" text-anchor="end" fill="#6b7785"><tspan>每卡有效 40 TFLOP/s（估算）</tspan></text>
+</svg>

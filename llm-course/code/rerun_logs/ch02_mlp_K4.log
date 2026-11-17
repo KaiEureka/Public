@@ -1,0 +1,44 @@
+gradient check (analytic vs numerical):
+  E (np.int64(58), np.int64(1)) analytic=-0.00266747  numerical=-0.00266747
+  W1(np.int64(20), np.int64(236)) analytic=-0.00064794  numerical=-0.00064794
+  b1(np.int64(391),) analytic=-0.00123736  numerical=-0.00123736
+  W2(np.int64(340), np.int64(60)) analytic=-0.00254551  numerical=-0.00254551
+  b2(np.int64(62),) analytic= 0.01452345  numerical= 0.01452345
+
+params = 67,665   context K=4  emb D=16  hidden H=512
+step     0  train 4.2002  val 4.1996   (ln V = 4.1744)
+step   100  train 2.8341  val 2.8474   (1s)
+step  1000  train 2.2738  val 2.3202   (3s)
+step  5000  train 1.8932  val 2.0000   (13s)
+step 10000  train 1.7637  val 1.8954   (25s)
+step 20000  train 1.6545  val 1.7991   (49s)
+step 30000  train 1.6064  val 1.7674   (72s)
+step 40000  train 1.5625  val 1.7261   (95s)
+step 50000  train 1.5515  val 1.7220   (119s)
+step 60000  train 1.5393  val 1.7105   (143s)
+
+predictions for the next char:
+  't hi'       -> 'm' 0.49, 's' 0.45, 't' 0.03, 'g' 0.01
+  'ing '       -> 't' 0.15, 'o' 0.09, 'h' 0.08, 's' 0.07
+  ' Kin'       -> 'g' 0.91, 't' 0.03, 'e' 0.02, 'd' 0.02
+  ' Kin'       -> 'g' 0.91, 't' 0.03, 'e' 0.02, 'd' 0.02
+  ' kin'       -> 'g' 0.78, 'd' 0.14, 's' 0.03, 'e' 0.01
+
+nearest characters by embedding (cosine similarity):
+  'a': 'y'  ','  'o'  'Z'  'u'
+  'e': "'"  'y'  'Z'  'J'  'b'
+  'k': '-'  'b'  'v'  'B'  'K'
+  'K': 'd'  'O'  '!'  'L'  'X'
+  'T': 'I'  't'  'n'  '.'  'U'
+  't': 'x'  'd'  'n'  'I'  'T'
+  ',': '&'  '3'  'q'  'y'  'X'
+  '!': 'X'  '.'  '3'  'K'  ':'
+  '3': ':'  'j'  '!'  'N'  ';'
+
+sample (temperature 0.8):
+t and while to corse the provish yourse:
+As it and won, she is a for that the rodertain'd in the pretch'd it of ullant heart!
+
+ISABELLA:
+On'G children you are were infe's he, the with the comfortal equage: but the king with the cannot mystards and by king one that stoned of our grave;
+And show she had and tentain, what of the poor a hast of adding in eadly place, I the make that I am not so-e for 

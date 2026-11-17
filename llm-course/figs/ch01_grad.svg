@@ -1,0 +1,56 @@
+<svg viewBox="0 0 660 218" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<text x="109.0" y="18.0" font-size="12" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>模型的分布 </tspan><tspan font-family="LatinSerif" font-style="italic">q</tspan><tspan> = softmax(</tspan><tspan font-family="LatinSerif" font-style="italic">z</tspan><tspan>)</tspan></text>
+<path d="M14.0,118.0 L204.0,118.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="22.0" y="110.0" width="22.0" height="8.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="33.0" y="105.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>0.1</tspan></text>
+<text x="33.0" y="138.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>猫</tspan></text>
+<rect x="60.0" y="74.0" width="22.0" height="44.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="71.0" y="69.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>0.55</tspan></text>
+<text x="71.0" y="138.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>狗</tspan></text>
+<rect x="98.0" y="102.0" width="22.0" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="109.0" y="97.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>0.2</tspan></text>
+<text x="109.0" y="138.0" font-size="12.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>垫</tspan></text>
+<rect x="136.0" y="110.0" width="22.0" height="8.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="147.0" y="105.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>0.1</tspan></text>
+<text x="147.0" y="138.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>地</tspan></text>
+<rect x="174.0" y="114.0" width="22.0" height="4.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="185.0" y="109.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>0.05</tspan></text>
+<text x="185.0" y="138.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>上</tspan></text>
+<text x="327.0" y="18.0" font-size="12" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>正确答案 onehot(</tspan><tspan font-family="LatinSerif" font-style="italic">y</tspan><tspan>)</tspan></text>
+<path d="M232.0,118.0 L422.0,118.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="240.0" y="118.0" width="22.0" height="0.0" rx="2" fill="#9cc9ad" stroke="none" stroke-width="0"/>
+<text x="251.0" y="113.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>0</tspan></text>
+<text x="251.0" y="138.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>猫</tspan></text>
+<rect x="278.0" y="118.0" width="22.0" height="0.0" rx="2" fill="#9cc9ad" stroke="none" stroke-width="0"/>
+<text x="289.0" y="113.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>0</tspan></text>
+<text x="289.0" y="138.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>狗</tspan></text>
+<rect x="316.0" y="38.0" width="22.0" height="80.0" rx="2" fill="#9cc9ad" stroke="none" stroke-width="0"/>
+<text x="327.0" y="33.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>1</tspan></text>
+<text x="327.0" y="138.0" font-size="12.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>垫</tspan></text>
+<rect x="354.0" y="118.0" width="22.0" height="0.0" rx="2" fill="#9cc9ad" stroke="none" stroke-width="0"/>
+<text x="365.0" y="113.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>0</tspan></text>
+<text x="365.0" y="138.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>地</tspan></text>
+<rect x="392.0" y="118.0" width="22.0" height="0.0" rx="2" fill="#9cc9ad" stroke="none" stroke-width="0"/>
+<text x="403.0" y="113.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>0</tspan></text>
+<text x="403.0" y="138.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>上</tspan></text>
+<text x="545.0" y="18.0" font-size="12" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>梯度 </tspan><tspan font-family="LatinSerif" font-style="italic">q</tspan><tspan> − onehot(</tspan><tspan font-family="LatinSerif" font-style="italic">y</tspan><tspan>)</tspan></text>
+<path d="M450.0,92.0 L640.0,92.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="458.0" y="84.0" width="22.0" height="8.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="469.0" y="79.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>+0.10</tspan></text>
+<text x="469.0" y="186.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>猫</tspan></text>
+<rect x="496.0" y="48.0" width="22.0" height="44.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="507.0" y="43.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>+0.55</tspan></text>
+<text x="507.0" y="186.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>狗</tspan></text>
+<rect x="534.0" y="92.0" width="22.0" height="64.0" rx="2" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<text x="545.0" y="169.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>-0.80</tspan></text>
+<text x="545.0" y="186.0" font-size="12.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>垫</tspan></text>
+<rect x="572.0" y="84.0" width="22.0" height="8.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="583.0" y="79.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>+0.10</tspan></text>
+<text x="583.0" y="186.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>地</tspan></text>
+<rect x="610.0" y="88.0" width="22.0" height="4.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="621.0" y="83.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>+0.05</tspan></text>
+<text x="621.0" y="186.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>上</tspan></text>
+<text x="330.0" y="210.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>梯度下降沿梯度的反方向走：正确答案“垫”的 logit 被往上推 0.80，最自信的错误答案“狗”被往下推得最狠</tspan></text>
+<text x="14.0" y="168.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>正确答案是“垫”</tspan></text>
+</svg>

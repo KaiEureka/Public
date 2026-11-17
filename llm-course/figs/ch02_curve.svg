@@ -1,0 +1,46 @@
+<svg viewBox="0 0 660 255" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M50.0,183.4 L520.0,183.4" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="187.4" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>1.5</tspan></text>
+<path d="M50.0,130.2 L520.0,130.2" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="134.3" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>2.0</tspan></text>
+<path d="M50.0,77.1 L520.0,77.1" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="81.2" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>2.5</tspan></text>
+<path d="M50.0,24.0 L520.0,24.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="28.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>3.0</tspan></text>
+<path d="M50.0,194.0 L50.0,198.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="50.0" y="211.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>0</tspan></text>
+<path d="M128.3,194.0 L128.3,198.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="128.3" y="211.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>10k</tspan></text>
+<path d="M206.7,194.0 L206.7,198.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="206.7" y="211.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>20k</tspan></text>
+<path d="M285.0,194.0 L285.0,198.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="285.0" y="211.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>30k</tspan></text>
+<path d="M363.3,194.0 L363.3,198.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="363.3" y="211.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>40k</tspan></text>
+<path d="M441.7,194.0 L441.7,198.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="441.7" y="211.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>50k</tspan></text>
+<path d="M520.0,194.0 L520.0,198.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="520.0" y="211.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>60k</tspan></text>
+<path d="M50.0,194.0 L520.0,194.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M50.0,24.0 L50.0,194.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="285.0" y="229.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>step</tspan></text>
+<text x="44.0" y="14.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>loss</tspan></text>
+<path d="M50.0,79.0 L520.0,79.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<text x="516.0" y="75.0" font-size="11" text-anchor="end" fill="#52606d"><tspan>bigram 计数 2.48</tspan></text>
+<path d="M50.0,154.7 L520.0,154.7" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<text x="54.0" y="150.7" font-size="11" text-anchor="start" fill="#52606d"><tspan>5-gram 计数 1.77</tspan></text>
+<path d="M332.0,24.0 L332.0,194.0" fill="none" stroke="#c8d1db" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="2 3"/>
+<path d="M449.5,24.0 L449.5,194.0" fill="none" stroke="#c8d1db" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="2 3"/>
+<text x="335.0" y="39.9" font-size="10.5" text-anchor="start" fill="#6b7785"><tspan>学习率 0.1 → 0.03</tspan></text>
+<text x="452.5" y="55.9" font-size="10.5" text-anchor="start" fill="#6b7785"><tspan>→ 0.01</tspan></text>
+<path d="M50.8,37.7 L57.8,84.8 L89.2,122.6 L128.3,143.8 L206.7,161.1 L285.0,170.1 L363.3,176.6 L441.7,178.1 L520.0,179.5" fill="none" stroke="#c77d12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50.8,33.1 L57.8,80.5 L89.2,115.1 L128.3,131.8 L206.7,145.5 L285.0,151.7 L363.3,157.0 L441.7,158.1 L520.0,159.3" fill="none" stroke="#1c5d99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="526.0" y="183.5" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>训练集 1.54</tspan></text>
+<text x="526.0" y="157.3" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>验证集 1.73</tspan></text>
+<path d="M300.0,12.0 L318.0,12.0" fill="none" stroke="#c77d12" stroke-width="2.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="323.0" y="16.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>训练集</tspan></text>
+<path d="M375.5,12.0 L393.5,12.0" fill="none" stroke="#1c5d99" stroke-width="2.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="398.5" y="16.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>验证集</tspan></text>
+<text x="330.0" y="250.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>两条曲线之间的差距就是过拟合；初始 loss 4.19（图上未画出）≈ ln 65</tspan></text>
+</svg>

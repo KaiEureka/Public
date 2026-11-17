@@ -1,0 +1,49 @@
+pre-tokenization example: ['First', ' Citizen', ':\n', 'We', ' know', "'t", ',', ' we', ' know', "'t", '.', ' Price', ':', ' ', '123', '45', ' dollars', '!']
+
+[1] train byte-level BPE on Shakespeare (train split), first merges:
+  merge   1:       b' ' + b't'       -> b' t'  (count 21591)
+  merge   2:       b'h' + b'e'       -> b'he'  (count 16418)
+  merge   3:       b' ' + b'a'       -> b' a'  (count 12054)
+  merge   4:       b'o' + b'u'       -> b'ou'  (count 11506)
+  merge   5:       b' ' + b's'       -> b' s'  (count 10960)
+  merge   6:       b' ' + b'm'       -> b' m'  (count 9581)
+  merge   7:       b'i' + b'n'       -> b'in'  (count 9531)
+  merge   8:       b' ' + b'w'       -> b' w'  (count 9469)
+  merge   9:       b'r' + b'e'       -> b're'  (count 8863)
+  merge  10:       b'h' + b'a'       -> b'ha'  (count 8723)
+  merge  11:      b' t' + b'he'      -> b' the'  (count 7886)
+  merge  12:       b'n' + b'd'       -> b'nd'  (count 7832)
+  merge  13:       b':' + b'\n'      -> b':\n'  (count 7662)
+  merge  14:       b' ' + b'b'       -> b' b'  (count 7652)
+  merge  15:       b'i' + b's'       -> b'is'  (count 6766)
+  (1s)
+
+[2] compression on Shakespeare validation split vs vocab size
+  V=  256: 111,540 tokens, 1.00 bytes/token
+  V=  512:  55,963 tokens, 1.99 bytes/token
+      To| be|,| |or| not| to| be|:| that| is| the| |q|u|est|ion|.
+      M|et|h|in|k|s| the| l|ad|y| d|oth| pr|ot|est| to|o| m|u|ch|.
+  V= 1024:  45,665 tokens, 2.44 bytes/token
+  V= 2048:  39,697 tokens, 2.81 bytes/token
+  V= 4096:  34,478 tokens, 3.24 bytes/token
+  V= 8192:  31,038 tokens, 3.59 bytes/token
+      To| be|,| or| not| to| be|:| that| is| the| question|.
+      Methinks| the| lady| doth| protest| too| much|.
+
+[3] V=8192 on its own training text: 5466 of 8192 tokens appear fewer than 10 times
+  some long tokens: [' Northumberland', 'NORTHUMBERLAND', ' entertainment', 'Northumberland', ' understanding', ' imprisonment', ' satisfaction', ' discontented']
+
+[4] spelling / numbers with the V=8192 tokenizer
+  ' strawberry'   ->  straw|ber|ry
+  ' Strawberry'   ->  St|raw|ber|ry
+  ' STRAWBERRY'   ->  S|TR|A|W|BER|RY
+  ' 1234567'      ->  |1|2|3|4|5|6|7
+  ' 3.14159'      ->  |3|.|1|4|1|5|9
+
+[5] Chinese
+  UTF-8 bytes of '孟子見梁惠王': E5 AD 9F E5 AD 90 E8 A6 8B E6 A2 81 E6 83 A0 E7 8E 8B
+  English-trained tokenizer on Mengzi: 2.97 tokens per Chinese char
+     �|�|�|�|�|�|�|�|�|�|�|�|�|�|�|�|�|�|�|�|�
+  mixed (Shakespeare + Tang poems) tokenizer, V=8192: 1.16 tokens per Chinese char on Mengzi; English: 3.37 bytes/token (was 3.59)
+     �|�|子|見|梁|惠|王|。
+total 16s

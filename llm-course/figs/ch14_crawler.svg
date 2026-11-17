@@ -1,0 +1,33 @@
+<svg viewBox="0 0 660 246" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch14_crawler-ah-6b7785" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7785"/></marker></defs>
+<rect x="10.0" y="40.0" width="126.0" height="56.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="73.0" y="57.0" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>待抓取队列</tspan></text>
+<text x="73.0" y="71.3" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>按质量、语言、</tspan></text>
+<text x="73.0" y="85.6" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>更新频率排优先级</tspan></text>
+<path d="M138.0,68.0 L166.0,68.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch14_crawler-ah-6b7785)"/>
+<rect x="168.0" y="34.0" width="150.0" height="68.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="243.0" y="57.0" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>调度器（礼貌规则）</tspan></text>
+<text x="243.0" y="71.3" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>同一网站限并发和频率；</tspan></text>
+<text x="243.0" y="85.6" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>查 robots.txt、DNS 缓存</tspan></text>
+<path d="M320.0,68.0 L348.0,68.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch14_crawler-ah-6b7785)"/>
+<rect x="350.0" y="40.0" width="130.0" height="56.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="415.0" y="57.0" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>大量异步下载器</tspan></text>
+<text x="415.0" y="71.3" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>（必要时用无头</tspan></text>
+<text x="415.0" y="85.6" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>浏览器渲染 JS）</tspan></text>
+<path d="M482.0,68.0 L510.0,68.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch14_crawler-ah-6b7785)"/>
+<rect x="512.0" y="40.0" width="138.0" height="56.0" rx="5" fill="#eef1f4" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="581.0" y="64.2" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>原始响应存成 WARC</tspan></text>
+<text x="581.0" y="78.5" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>内容哈希去重</tspan></text>
+<path d="M415.0,98.0 L415.0,140.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch14_crawler-ah-6b7785)"/>
+<rect x="350.0" y="142.0" width="130.0" height="44.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="415.0" y="160.1" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>解析页面中的</tspan></text>
+<text x="415.0" y="174.4" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>新链接</tspan></text>
+<path d="M348.0,164.0 L320.0,164.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch14_crawler-ah-6b7785)"/>
+<rect x="168.0" y="142.0" width="150.0" height="44.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="243.0" y="160.1" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>网址规范化、去重；</tspan></text>
+<text x="243.0" y="174.4" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>识别爬虫陷阱</tspan></text>
+<path d="M166.0,164.0 L73.0,164.0 L73.0,98.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch14_crawler-ah-6b7785)"/>
+<text x="78.0" y="186.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>放回队列</tspan></text>
+<text x="330.0" y="220.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>一个大规模爬虫的工作循环（14.9 节）。抓取数十亿网页需要成千上万个并发下载器，存储达 PB 级；</tspan></text>
+<text x="330.0" y="238.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>还要决定已抓过的页面隔多久重新抓一次</tspan></text>
+</svg>

@@ -1,0 +1,53 @@
+<svg viewBox="0 0 660 270" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch03_residual-ah-6b7785" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7785"/></marker><marker id="ch03_residual-ah-2e7d4f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d4f"/></marker></defs>
+<text x="110.0" y="18.0" font-size="13" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>普通层</tspan></text>
+<rect x="80.0" y="226.0" width="60.0" height="26.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="110.0" y="242.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">h</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="9.4" baseline-shift="-0.25em">l</tspan></text>
+<rect x="80.0" y="44.0" width="60.0" height="26.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="110.0" y="60.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">h</tspan><tspan font-family="LatinSerif" font-size="9.4" baseline-shift="-0.25em">l+1</tspan></text>
+<text x="320.0" y="18.0" font-size="13" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>Post-norm 残差</tspan></text>
+<text x="320.0" y="34.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>（2017 年原始 Transformer）</tspan></text>
+<rect x="290.0" y="226.0" width="60.0" height="26.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="320.0" y="242.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">h</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="9.4" baseline-shift="-0.25em">l</tspan></text>
+<rect x="290.0" y="44.0" width="60.0" height="26.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="320.0" y="60.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">h</tspan><tspan font-family="LatinSerif" font-size="9.4" baseline-shift="-0.25em">l+1</tspan></text>
+<text x="540.0" y="18.0" font-size="13" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>Pre-norm 残差</tspan></text>
+<text x="540.0" y="34.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>（现代标准）</tspan></text>
+<rect x="510.0" y="226.0" width="60.0" height="26.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="540.0" y="242.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">h</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="9.4" baseline-shift="-0.25em">l</tspan></text>
+<rect x="510.0" y="44.0" width="60.0" height="26.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="540.0" y="60.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">h</tspan><tspan font-family="LatinSerif" font-size="9.4" baseline-shift="-0.25em">l+1</tspan></text>
+<rect x="70.0" y="126.0" width="80.0" height="34.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="110.0" y="146.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">f</tspan></text>
+<path d="M110.0,224.0 L110.0,162.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-6b7785)"/>
+<path d="M110.0,124.0 L110.0,72.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-6b7785)"/>
+<rect x="256.0" y="150.0" width="70.0" height="30.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="291.0" y="168.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">f</tspan></text>
+<circle cx="320.0" cy="116.0" r="11" fill="#ffffff" stroke="#0f2740" stroke-width="1.2"/>
+<text x="320.0" y="121.0" font-size="15" text-anchor="middle" fill="#1d2329"><tspan>+</tspan></text>
+<rect x="280.0" y="80.0" width="80.0" height="24.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="320.0" y="95.8" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>Norm</tspan></text>
+<path d="M320.0,224.0 L320.0,206.0 L291.0,206.0 L291.0,182.0" fill="none" stroke="#6b7785" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-6b7785)"/>
+<path d="M291.0,148.0 L291.0,116.0 L307.0,116.0" fill="none" stroke="#6b7785" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-6b7785)"/>
+<path d="M320.0,206.0 L362.0,206.0 L362.0,116.0 L333.0,116.0" fill="none" stroke="#2e7d4f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-2e7d4f)"/>
+<path d="M320.0,104.0 L320.0,106.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-6b7785)"/>
+<path d="M320.0,78.0 L320.0,72.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-6b7785)"/>
+<path d="M320.0,105.0 L320.0,106.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="368.0" y="170.0" font-size="11" text-anchor="start" fill="#b5443a"><tspan>恒等路径</tspan></text>
+<text x="368.0" y="184.8" font-size="11" text-anchor="start" fill="#b5443a"><tspan>也要穿过 Norm</tspan></text>
+<rect x="476.0" y="172.0" width="70.0" height="24.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="511.0" y="187.8" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>Norm</tspan></text>
+<rect x="476.0" y="124.0" width="70.0" height="30.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="511.0" y="142.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">f</tspan></text>
+<circle cx="540.0" cy="92.0" r="11" fill="#ffffff" stroke="#0f2740" stroke-width="1.2"/>
+<text x="540.0" y="97.0" font-size="15" text-anchor="middle" fill="#1d2329"><tspan>+</tspan></text>
+<path d="M540.0,224.0 L540.0,210.0 L511.0,210.0 L511.0,198.0" fill="none" stroke="#6b7785" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-6b7785)"/>
+<path d="M511.0,170.0 L511.0,156.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-6b7785)"/>
+<path d="M511.0,122.0 L511.0,92.0 L527.0,92.0" fill="none" stroke="#6b7785" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-6b7785)"/>
+<path d="M540.0,210.0 L582.0,210.0 L582.0,92.0 L553.0,92.0" fill="none" stroke="#2e7d4f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-2e7d4f)"/>
+<path d="M540.0,80.0 L540.0,72.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch03_residual-ah-6b7785)"/>
+<text x="588.0" y="150.0" font-size="11" text-anchor="start" fill="#2e7d4f"><tspan>恒等路径畅通：</tspan></text>
+<text x="588.0" y="164.8" font-size="11" text-anchor="start" fill="#2e7d4f"><tspan>梯度可以原封</tspan></text>
+<text x="588.0" y="179.7" font-size="11" text-anchor="start" fill="#2e7d4f"><tspan>不动地传回去</tspan></text>
+<text x="330.0" y="266.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>绿色：残差连接提供的恒等路径。</tspan><tspan font-family="LatinSerif">∂</tspan><tspan font-family="LatinSerif"> </tspan><tspan font-family="LatinSerif" font-style="italic">h</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="-0.25em">l+1</tspan><tspan font-family="LatinSerif">/</tspan><tspan font-family="LatinSerif">∂</tspan><tspan font-family="LatinSerif"> </tspan><tspan font-family="LatinSerif" font-style="italic">h</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="8.3" baseline-shift="-0.25em">l</tspan><tspan font-family="LatinSerif"> = </tspan><tspan font-family="LatinSerif" font-style="italic">I</tspan><tspan font-family="LatinSerif"> + </tspan><tspan font-family="LatinSerif">∂</tspan><tspan font-family="LatinSerif"> </tspan><tspan font-family="LatinSerif" font-style="italic">f</tspan><tspan font-family="LatinSerif">/</tspan><tspan font-family="LatinSerif">∂</tspan><tspan font-family="LatinSerif"> </tspan><tspan font-family="LatinSerif" font-style="italic">h</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="8.3" baseline-shift="-0.25em">l</tspan><tspan>，其中的 </tspan><tspan font-family="LatinSerif" font-style="italic">I</tspan><tspan> 就来自这条路</tspan></text>
+</svg>

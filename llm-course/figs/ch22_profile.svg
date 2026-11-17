@@ -1,0 +1,53 @@
+<svg viewBox="0 0 660 236" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<text x="10.0" y="16.0" font-size="11.5" text-anchor="start" fill="#b5443a" font-weight="700"><tspan>有问题的时间线</tspan></text>
+<text x="108.0" y="37.0" font-size="10.5" text-anchor="end" fill="#52606d"><tspan>CPU</tspan></text>
+<path d="M114.0,33.0 L650.0,33.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="114.0" y="25.0" width="27.8" height="16.0" rx="2" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="210.0" y="25.0" width="27.8" height="16.0" rx="2" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="342.0" y="25.0" width="35.0" height="16.0" rx="2" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="474.0" y="25.0" width="27.8" height="16.0" rx="2" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<text x="108.0" y="59.0" font-size="10.5" text-anchor="end" fill="#52606d"><tspan>GPU 计算</tspan></text>
+<path d="M114.0,55.0 L650.0,55.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="142.8" y="47.0" width="66.2" height="16.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="238.8" y="47.0" width="102.2" height="16.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="378.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="384.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="390.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="396.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="402.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="408.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="414.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="420.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="426.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="432.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="438.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="444.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="450.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="456.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="462.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="468.0" y="47.0" width="3.3" height="16.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="502.8" y="47.0" width="66.2" height="16.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="108.0" y="81.0" font-size="10.5" text-anchor="end" fill="#52606d"><tspan>GPU 通信</tspan></text>
+<path d="M114.0,77.0 L650.0,77.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="570.0" y="69.0" width="75.8" height="16.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="212.4" y="102.0" font-size="10.5" text-anchor="middle" fill="#b5443a"><tspan>① 空隙：GPU 在等 CPU</tspan></text>
+<text x="414.0" y="102.0" font-size="10.5" text-anchor="middle" fill="#b5443a"><tspan>② 大量小内核</tspan></text>
+<text x="606.0" y="102.0" font-size="10.5" text-anchor="middle" fill="#b5443a"><tspan>③ 通信没有重叠</tspan></text>
+<text x="10.0" y="132.0" font-size="11.5" text-anchor="start" fill="#2e7d4f" font-weight="700"><tspan>改进后</tspan></text>
+<text x="108.0" y="153.0" font-size="10.5" text-anchor="end" fill="#52606d"><tspan>CPU</tspan></text>
+<path d="M114.0,149.0 L650.0,149.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="114.0" y="141.0" width="23.0" height="16.0" rx="2" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="186.0" y="141.0" width="18.2" height="16.0" rx="2" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<text x="108.0" y="175.0" font-size="10.5" text-anchor="end" fill="#52606d"><tspan>GPU 计算</tspan></text>
+<path d="M114.0,171.0 L650.0,171.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="138.0" y="163.0" width="143.0" height="16.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="282.0" y="163.0" width="95.0" height="16.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="378.0" y="163.0" width="95.0" height="16.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="108.0" y="197.0" font-size="10.5" text-anchor="end" fill="#52606d"><tspan>GPU 通信</tspan></text>
+<path d="M114.0,193.0 L650.0,193.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="258.0" y="185.0" width="75.8" height="16.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="354.0" y="185.0" width="95.0" height="16.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="480.0" y="175.0" font-size="11" text-anchor="start" fill="#2e7d4f"><tspan>更早结束</tspan></text>
+<text x="330.0" y="228.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>在性能分析的时间线上找什么（示意）：融合小内核、去掉强制同步、让通信与计算重叠</tspan></text>
+</svg>

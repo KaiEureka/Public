@@ -1,0 +1,89 @@
+<svg viewBox="0 0 660 245" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<text x="80.0" y="18.0" font-size="13" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>MHA</tspan></text>
+<text x="80.0" y="34.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>8 个 KV 头</tspan></text>
+<rect x="18.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="34.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="51.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="67.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="84.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="100.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="117.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="133.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="18.0" y="136.0" width="13.0" height="30.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="34.5" y="136.0" width="13.0" height="30.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="51.0" y="136.0" width="13.0" height="30.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="67.5" y="136.0" width="13.0" height="30.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="84.0" y="136.0" width="13.0" height="30.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="100.5" y="136.0" width="13.0" height="30.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="117.0" y="136.0" width="13.0" height="30.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="133.5" y="136.0" width="13.0" height="30.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<path d="M24.5,88.0 L24.5,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M41.0,88.0 L41.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M57.5,88.0 L57.5,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M74.0,88.0 L74.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M90.5,88.0 L90.5,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M107.0,88.0 L107.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M123.5,88.0 L123.5,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M140.0,88.0 L140.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="240.0" y="18.0" font-size="13" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>GQA</tspan></text>
+<text x="240.0" y="34.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>2 个 KV 头</tspan></text>
+<rect x="178.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="194.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="211.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="227.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="244.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="260.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="277.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="293.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="179.0" y="136.0" width="60.0" height="30.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="245.0" y="136.0" width="60.0" height="30.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<path d="M184.5,88.0 L209.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M201.0,88.0 L209.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M217.5,88.0 L209.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M234.0,88.0 L209.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M250.5,88.0 L275.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M267.0,88.0 L275.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M283.5,88.0 L275.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M300.0,88.0 L275.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="400.0" y="18.0" font-size="13" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>MQA</tspan></text>
+<text x="400.0" y="34.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>1 个 KV 头</tspan></text>
+<rect x="338.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="354.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="371.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="387.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="404.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="420.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="437.0" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="453.5" y="56.0" width="13.0" height="30.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="339.0" y="136.0" width="126.0" height="30.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<path d="M344.5,88.0 L402.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M361.0,88.0 L402.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M377.5,88.0 L402.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M394.0,88.0 L402.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M410.5,88.0 L402.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M427.0,88.0 L402.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M443.5,88.0 L402.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M460.0,88.0 L402.0,134.0" fill="none" stroke="#9aa7b4" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M520.0,170.0 L640.0,170.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="514.0" y="173.7" font-size="10.5" text-anchor="end" fill="#52606d"><tspan>0</tspan></text>
+<path d="M520.0,114.5 L640.0,114.5" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="514.0" y="118.2" font-size="10.5" text-anchor="end" fill="#52606d"><tspan>256</tspan></text>
+<path d="M520.0,59.1 L640.0,59.1" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="514.0" y="62.7" font-size="10.5" text-anchor="end" fill="#52606d"><tspan>512</tspan></text>
+<path d="M520.0,170.0 L640.0,170.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M520.0,40.0 L520.0,170.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="514.0" y="30.0" font-size="10.5" text-anchor="start" fill="#52606d"><tspan>每 token 缓存（KB）</tspan></text>
+<rect x="527.0" y="59.1" width="26.0" height="110.9" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="540.0" y="55.1" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>512</tspan></text>
+<text x="540.0" y="184.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>MHA</tspan></text>
+<rect x="567.0" y="142.3" width="26.0" height="27.7" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="580.0" y="138.3" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>128</tspan></text>
+<text x="580.0" y="184.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>GQA</tspan></text>
+<rect x="607.0" y="166.5" width="26.0" height="3.5" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="620.0" y="162.5" font-size="10.5" text-anchor="middle" fill="#1d2329"><tspan>16</tspan></text>
+<text x="620.0" y="184.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>MQA</tspan></text>
+<text x="330.0" y="202.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>上排是 8 个 Q 头，下排是 K/V 头，连线表示共用。右侧：Llama 3 8B（32 个 Q 头）分别用 32、8、1 个</tspan></text>
+<text x="330.0" y="220.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>KV 头时，每个 token 在 32 层里的缓存总量（bf16）。KV 头越少，推理时要存、要读的数据越少；</tspan></text>
+<text x="330.0" y="238.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>GQA（Llama 3 用 8 个 KV 头）在效果和缓存之间取了折中</tspan></text>
+</svg>

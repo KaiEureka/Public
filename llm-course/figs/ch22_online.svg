@@ -1,0 +1,31 @@
+<svg viewBox="0 0 660 238" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<text x="10.0" y="18.0" font-size="11.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>某一行的 6 个分数，分 3 块依次到来：</tspan></text>
+<rect x="248.0" y="6.0" width="34.0" height="22.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="265.0" y="20.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="286.0" y="6.0" width="34.0" height="22.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="303.0" y="20.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>3</tspan></text>
+<rect x="338.0" y="6.0" width="34.0" height="22.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="355.0" y="20.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="376.0" y="6.0" width="34.0" height="22.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="393.0" y="20.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>5</tspan></text>
+<rect x="428.0" y="6.0" width="34.0" height="22.0" rx="5" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="445.0" y="20.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>0</tspan></text>
+<rect x="466.0" y="6.0" width="34.0" height="22.0" rx="5" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="483.0" y="20.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>4</tspan></text>
+<rect x="10.0" y="44.0" width="640.0" height="44.0" rx="4" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="20.0" y="62.0" font-size="11.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>看完第 1 块 [1, 3]</tspan></text>
+<text x="170.0" y="62.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">m</tspan><tspan> = 3</tspan></text>
+<text x="300.0" y="62.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan font-family="LatinSerif">ℓ</tspan><tspan> = </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">−2</tspan><tspan> + </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">0</tspan><tspan> = 1.135</tspan></text>
+<rect x="10.0" y="96.0" width="640.0" height="44.0" rx="4" fill="#fff8ec" stroke="none" stroke-width="0"/>
+<text x="20.0" y="114.0" font-size="11.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>看完第 2 块 [2, 5]</tspan></text>
+<text x="170.0" y="114.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">m</tspan><tspan> = 5（变大了）</tspan></text>
+<text x="300.0" y="114.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan font-family="LatinSerif">ℓ</tspan><tspan> = 1.135 × </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">3−5</tspan><tspan> + </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">−3</tspan><tspan> + </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">0</tspan><tspan> = 1.203</tspan></text>
+<text x="300.0" y="132.0" font-size="10.5" text-anchor="start" fill="#b5443a"><tspan>旧的累加值先乘以 </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="7.6" baseline-shift="0.42em">3−5</tspan><tspan> = 0.135，换算到新的最大值</tspan></text>
+<rect x="10.0" y="148.0" width="640.0" height="44.0" rx="4" fill="#eef8f1" stroke="none" stroke-width="0"/>
+<text x="20.0" y="166.0" font-size="11.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>看完第 3 块 [0, 4]</tspan></text>
+<text x="170.0" y="166.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">m</tspan><tspan> = 5（没变）</tspan></text>
+<text x="300.0" y="166.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan font-family="LatinSerif">ℓ</tspan><tspan> = 1.203 + </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">−5</tspan><tspan> + </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">−1</tspan><tspan> = 1.578</tspan></text>
+<text x="10.0" y="214.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>一次性计算：</tspan><tspan font-family="LatinSerif">Σ</tspan><tspan font-family="LatinSerif"> </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">x−5</tspan><tspan> = </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">−4</tspan><tspan> + </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">−2</tspan><tspan> + </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">−3</tspan><tspan> + 1 + </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">−5</tspan><tspan> + </tspan><tspan font-family="LatinSerif" font-style="italic">e</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="0.42em">−1</tspan><tspan> = 1.578，完全相同。输出 </tspan><tspan font-family="LatinSerif" font-style="italic">o</tspan><tspan> 的累加按同样的方式换算</tspan></text>
+<text x="10.0" y="232.0" font-size="11" text-anchor="start" fill="#6b7785"><tspan>（数字为手算示例）</tspan></text>
+</svg>

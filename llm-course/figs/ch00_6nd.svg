@@ -1,0 +1,48 @@
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<rect x="6.0" y="6.0" width="206.0" height="196.0" rx="6" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="109.0" y="30.0" font-size="13" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>前向</tspan></text>
+<text x="109.0" y="58.0" font-size="15" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">y</tspan><tspan font-family="LatinSerif"> = </tspan><tspan font-family="LatinSerif" font-style="italic">xW</tspan></text>
+<text x="109.0" y="190.0" font-size="12" text-anchor="middle" fill="#52606d"><tspan>每个参数 2 FLOP</tspan></text>
+<rect x="223.0" y="6.0" width="206.0" height="196.0" rx="6" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="326.0" y="30.0" font-size="13" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>反向①：传给前一层的梯度</tspan></text>
+<text x="326.0" y="58.0" font-size="15" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">dx</tspan><tspan font-family="LatinSerif"> = </tspan><tspan font-family="LatinSerif" font-style="italic">dy</tspan><tspan font-family="LatinSerif"> </tspan><tspan font-family="LatinSerif" font-style="italic">W</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="10.8" baseline-shift="0.42em">T</tspan></text>
+<text x="326.0" y="190.0" font-size="12" text-anchor="middle" fill="#52606d"><tspan>每个参数 2 FLOP</tspan></text>
+<rect x="440.0" y="6.0" width="206.0" height="196.0" rx="6" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="543.0" y="30.0" font-size="13" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>反向②：本层权重的梯度</tspan></text>
+<text x="543.0" y="58.0" font-size="15" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">dW</tspan><tspan font-family="LatinSerif"> = </tspan><tspan font-family="LatinSerif" font-style="italic">x</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="10.8" baseline-shift="0.42em">T</tspan><tspan font-family="LatinSerif" font-style="italic">dy</tspan></text>
+<text x="543.0" y="190.0" font-size="12" text-anchor="middle" fill="#52606d"><tspan>每个参数 2 FLOP</tspan></text>
+<rect x="14.0" y="104.5" width="60.0" height="15.0" rx="2" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="44.0" y="134.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">x</tspan></text>
+<text x="85.0" y="117.0" font-size="15" text-anchor="middle" fill="#52606d"><tspan>×</tspan></text>
+<rect x="94.0" y="82.0" width="45.0" height="60.0" rx="2" fill="#9cbbd9" stroke="#0f2740" stroke-width="1.2"/>
+<text x="116.5" y="156.5" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">W</tspan></text>
+<text x="150.0" y="117.0" font-size="15" text-anchor="middle" fill="#52606d"><tspan>=</tspan></text>
+<rect x="159.0" y="104.5" width="45.0" height="15.0" rx="2" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="181.5" y="134.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">y</tspan></text>
+<rect x="231.0" y="104.5" width="45.0" height="15.0" rx="2" fill="#e6bf86" stroke="#0f2740" stroke-width="1.2"/>
+<text x="253.5" y="134.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">dy</tspan></text>
+<text x="287.0" y="117.0" font-size="15" text-anchor="middle" fill="#52606d"><tspan>×</tspan></text>
+<rect x="296.0" y="89.5" width="60.0" height="45.0" rx="2" fill="#9cbbd9" stroke="#0f2740" stroke-width="1.2"/>
+<text x="326.0" y="149.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">W</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="8.3" baseline-shift="0.42em">T</tspan></text>
+<text x="367.0" y="117.0" font-size="15" text-anchor="middle" fill="#52606d"><tspan>=</tspan></text>
+<rect x="376.0" y="104.5" width="60.0" height="15.0" rx="2" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="406.0" y="134.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">dx</tspan></text>
+<rect x="458.0" y="82.0" width="15.0" height="60.0" rx="2" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="465.5" y="156.5" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">x</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="8.3" baseline-shift="0.42em">T</tspan></text>
+<text x="484.0" y="117.0" font-size="15" text-anchor="middle" fill="#52606d"><tspan>×</tspan></text>
+<rect x="493.0" y="104.5" width="45.0" height="15.0" rx="2" fill="#e6bf86" stroke="#0f2740" stroke-width="1.2"/>
+<text x="515.5" y="134.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">dy</tspan></text>
+<text x="549.0" y="117.0" font-size="15" text-anchor="middle" fill="#52606d"><tspan>=</tspan></text>
+<rect x="558.0" y="82.0" width="45.0" height="60.0" rx="2" fill="#e6bf86" stroke="#0f2740" stroke-width="1.2"/>
+<text x="580.5" y="156.5" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan font-family="LatinSerif" font-style="italic">dW</tspan></text>
+<text x="6.0" y="240.0" font-size="12.5" text-anchor="start" fill="#1d2329"><tspan>每个参数、每个 token：</tspan></text>
+<rect x="150.0" y="226.0" width="78.0" height="22.0" rx="3" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="189.0" y="241.5" font-size="12" text-anchor="middle" fill="#ffffff"><tspan>前向 2</tspan></text>
+<rect x="230.0" y="226.0" width="78.0" height="22.0" rx="3" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="269.0" y="241.5" font-size="12" text-anchor="middle" fill="#ffffff"><tspan>反向 2</tspan></text>
+<rect x="310.0" y="226.0" width="78.0" height="22.0" rx="3" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="349.0" y="241.5" font-size="12" text-anchor="middle" fill="#ffffff"><tspan>反向 2</tspan></text>
+<text x="400.0" y="241.5" font-size="12.5" text-anchor="start" fill="#1d2329"><tspan>= 6 FLOP，于是 </tspan><tspan font-family="LatinSerif" font-style="italic">C</tspan><tspan font-family="LatinSerif"> </tspan><tspan font-family="LatinSerif">≈</tspan><tspan font-family="LatinSerif"> 6</tspan><tspan font-family="LatinSerif" font-style="italic">ND</tspan></text>
+<text x="330.0" y="288.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>方块的形状表示矩阵的形状：三次乘法规模相同，都要做 </tspan><tspan font-family="LatinSerif" font-style="italic">d</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="-0.25em">in</tspan><tspan font-family="LatinSerif"> </tspan><tspan font-family="LatinSerif">×</tspan><tspan font-family="LatinSerif"> </tspan><tspan font-family="LatinSerif" font-style="italic">d</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="-0.25em">out</tspan><tspan> 次乘加</tspan></text>
+</svg>

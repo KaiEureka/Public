@@ -1,0 +1,27 @@
+<svg viewBox="0 0 660 200" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch09_state-ah-c77d12" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c77d12"/></marker></defs>
+<text x="160.0" y="18.0" font-size="12.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>softmax 注意力：KV cache 随序列增长</tspan></text>
+<rect x="20.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="44.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="68.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="92.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="116.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="140.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="164.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="188.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="212.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="236.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="260.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<rect x="284.0" y="40.0" width="20.0" height="46.0" rx="2" fill="#9cbbd9" stroke="none" stroke-width="0"/>
+<text x="312.0" y="68.0" font-size="14" text-anchor="start" fill="#52606d"><tspan>…</tspan></text>
+<text x="160.0" y="108.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>每个位置的 K、V 都保留：能精确找回</tspan></text>
+<text x="160.0" y="126.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>1,000 个 token 之前的任何内容，但成本随 </tspan><tspan font-family="LatinSerif" font-style="italic">T</tspan><tspan> 增长</tspan></text>
+<text x="500.0" y="18.0" font-size="12.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>线性注意力 / SSM：固定大小的状态</tspan></text>
+<rect x="450.0" y="40.0" width="100.0" height="46.0" rx="4" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="500.0" y="68.0" font-size="12.5" text-anchor="middle" fill="#ffffff"><tspan>状态 </tspan><tspan font-family="LatinSerif" font-style="italic">S</tspan></text>
+<path d="M552,60 C600,40 600,90 552,72" fill="none" stroke="#c77d12" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch09_state-ah-c77d12)"/>
+<text x="500.0" y="108.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>每来一个 token 就更新一次状态：</tspan></text>
+<text x="500.0" y="126.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>成本不随 </tspan><tspan font-family="LatinSerif" font-style="italic">T</tspan><tspan> 增长，但旧信息会被挤掉</tspan></text>
+<text x="330.0" y="168.0" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>混合架构：大量线性层 / SSM 层降低成本，少量全注意力层负责精确检索</tspan></text>
+<text x="330.0" y="190.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan font-family="LatinSerif" font-style="italic">S</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="8.3" baseline-shift="-0.25em">t</tspan><tspan font-family="LatinSerif"> = </tspan><tspan font-family="LatinSerif" font-style="italic">S</tspan><tspan font-family="LatinSerif" font-size="8.3" baseline-shift="-0.25em">t-1</tspan><tspan font-family="LatinSerif"> + </tspan><tspan font-family="LatinSerif">φ</tspan><tspan font-family="LatinSerif">(</tspan><tspan font-family="LatinSerif" font-style="italic">k</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="8.3" baseline-shift="-0.25em">t</tspan><tspan font-family="LatinSerif">)</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="8.3" baseline-shift="0.42em">T</tspan><tspan font-family="LatinSerif" font-style="italic">v</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="8.3" baseline-shift="-0.25em">t</tspan><tspan>，</tspan><tspan font-family="LatinSerif" font-style="italic">o</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="8.3" baseline-shift="-0.25em">t</tspan><tspan font-family="LatinSerif"> = </tspan><tspan font-family="LatinSerif">φ</tspan><tspan font-family="LatinSerif">(</tspan><tspan font-family="LatinSerif" font-style="italic">q</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="8.3" baseline-shift="-0.25em">t</tspan><tspan font-family="LatinSerif">)</tspan><tspan font-family="LatinSerif" font-style="italic">S</tspan><tspan font-family="LatinSerif" font-style="italic" font-size="8.3" baseline-shift="-0.25em">t</tspan></text>
+</svg>

@@ -1,0 +1,61 @@
+<svg viewBox="0 0 660 220" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch29_three-ah-2e7d4f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d4f"/></marker></defs>
+<text x="112.0" y="20.0" font-size="12.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>基于数据的蒸馏</tspan></text>
+<text x="112.0" y="38.0" font-size="10.5" text-anchor="middle" fill="#c77d12"><tspan>回答由教师写</tspan></text>
+<rect x="14.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="39.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="64.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="89.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="114.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="139.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="164.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<rect x="189.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<path d="M24.5,100.0 L24.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M49.5,100.0 L49.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M74.5,100.0 L74.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M99.5,100.0 L99.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M124.5,100.0 L124.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M149.5,100.0 L149.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M174.5,100.0 L174.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M199.5,100.0 L199.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<text x="112.0" y="134.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>每个 token 都有目标</tspan></text>
+<text x="330.0" y="20.0" font-size="12.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>强化学习</tspan></text>
+<text x="330.0" y="38.0" font-size="10.5" text-anchor="middle" fill="#1c5d99"><tspan>回答由学生自己写</tspan></text>
+<rect x="232.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="257.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="282.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="307.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="332.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="357.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="382.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="407.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<path d="M417.5,100.0 L417.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<text x="417.5" y="114.0" font-size="10.5" text-anchor="middle" fill="#2e7d4f"><tspan>奖励</tspan></text>
+<text x="330.0" y="134.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>只在结尾有一个奖励</tspan></text>
+<text x="548.0" y="20.0" font-size="12.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>在线蒸馏</tspan></text>
+<text x="548.0" y="38.0" font-size="10.5" text-anchor="middle" fill="#1c5d99"><tspan>回答由学生自己写</tspan></text>
+<rect x="450.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="475.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="500.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="525.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="550.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="575.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="600.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="625.0" y="50.0" width="21.0" height="22.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<path d="M460.5,100.0 L460.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M485.5,100.0 L485.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M510.5,100.0 L510.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M535.5,100.0 L535.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M560.5,100.0 L560.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M585.5,100.0 L585.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M610.5,100.0 L610.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<path d="M635.5,100.0 L635.5,76.0" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch29_three-ah-2e7d4f)"/>
+<text x="548.0" y="134.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>教师给每个 token 打分</tspan></text>
+<text x="112.0" y="160.0" font-size="10.5" text-anchor="middle" fill="#b5443a"><tspan>学生没见过自己犯错之后</tspan></text>
+<text x="112.0" y="174.2" font-size="10.5" text-anchor="middle" fill="#b5443a"><tspan>该怎样继续</tspan></text>
+<text x="330.0" y="160.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>在自己的错误上学习，</tspan></text>
+<text x="330.0" y="174.2" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>但信号稀疏</tspan></text>
+<text x="548.0" y="160.0" font-size="10.5" text-anchor="middle" fill="#2e7d4f"><tspan>两者的优点：在自己的错误上</tspan></text>
+<text x="548.0" y="174.2" font-size="10.5" text-anchor="middle" fill="#2e7d4f"><tspan>学习，而且信号密集</tspan></text>
+<text x="330.0" y="212.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>三种训练方式的对比：谁写回答（色块），反馈落在哪里（绿色箭头）</tspan></text>
+</svg>

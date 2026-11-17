@@ -1,0 +1,33 @@
+<svg viewBox="0 0 660 252" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M222.3,22.0 L222.3,190.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="222.3" y="206.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>1</tspan></text>
+<path d="M322.3,22.0 L322.3,190.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="322.3" y="206.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>10</tspan></text>
+<path d="M422.3,22.0 L422.3,190.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="422.3" y="206.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>100</tspan></text>
+<path d="M522.3,22.0 L522.3,190.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="522.3" y="206.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>1,000</tspan></text>
+<text x="370.0" y="224.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>训练 token 数 ÷ 参数量（对数坐标）</tspan></text>
+<text x="162.0" y="40.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>MT-NLG 530B（2022）</tspan></text>
+<rect x="170.0" y="27.0" width="23.0" height="18.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="199.0" y="40.0" font-size="11" text-anchor="start" fill="#1d2329"><tspan>0.5</tspan></text>
+<text x="162.0" y="68.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>Gopher 280B（2021）</tspan></text>
+<rect x="170.0" y="55.0" width="55.3" height="18.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="231.3" y="68.0" font-size="11" text-anchor="start" fill="#1d2329"><tspan>1.1</tspan></text>
+<text x="162.0" y="96.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>GPT-3 175B（2020）</tspan></text>
+<rect x="170.0" y="83.0" width="75.7" height="18.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="251.7" y="96.0" font-size="11" text-anchor="start" fill="#1d2329"><tspan>1.7</tspan></text>
+<text x="162.0" y="124.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>Chinchilla 70B（2022）</tspan></text>
+<rect x="170.0" y="111.0" width="182.4" height="18.0" rx="2" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<text x="358.4" y="124.0" font-size="11" text-anchor="start" fill="#1d2329"><tspan>20</tspan></text>
+<text x="162.0" y="152.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>Llama 3 405B（2024）</tspan></text>
+<rect x="170.0" y="139.0" width="210.9" height="18.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="386.9" y="152.0" font-size="11" text-anchor="start" fill="#1d2329"><tspan>39</tspan></text>
+<text x="162.0" y="180.0" font-size="11.5" text-anchor="end" fill="#1d2329"><tspan>Llama 3 8B（2024）</tspan></text>
+<rect x="170.0" y="167.0" width="379.6" height="18.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="555.6" y="180.0" font-size="11" text-anchor="start" fill="#1d2329"><tspan>1,875</tspan></text>
+<path d="M352.4,22.0 L352.4,190.0" fill="none" stroke="#2e7d4f" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<text x="356.4" y="16.0" font-size="11" text-anchor="start" fill="#2e7d4f"><tspan>Chinchilla：约 20</tspan></text>
+<text x="330.0" y="246.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>橙色：Kaplan 时代“参数多、数据少”；蓝色：考虑推理成本后的“过度训练”（数据见本章与第 0 章）</tspan></text>
+</svg>

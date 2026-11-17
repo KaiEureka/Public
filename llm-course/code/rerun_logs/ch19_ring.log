@@ -1,0 +1,11 @@
+[1] traced ring all-reduce, 4 ranks, 4 chunks of 1 element
+  initial                      GPU0: [1, 2, 3, 4] | GPU1: [10, 20, 30, 40] | GPU2: [100, 200, 300, 400] | GPU3: [1000, 2000, 3000, 4000]
+  after reduce-scatter step 1  GPU0: [1, 2, 3, 4004] | GPU1: [11, 20, 30, 40] | GPU2: [100, 220, 300, 400] | GPU3: [1000, 2000, 3300, 4000]
+  after reduce-scatter step 2  GPU0: [1, 2, 3303, 4004] | GPU1: [11, 20, 30, 4044] | GPU2: [111, 220, 300, 400] | GPU3: [1000, 2220, 3300, 4000]
+  after reduce-scatter step 3  GPU0: [1, 2222, 3303, 4004] | GPU1: [11, 20, 3333, 4044] | GPU2: [111, 220, 300, 4444] | GPU3: [1111, 2220, 3300, 4000]
+  after all-gather step 1      GPU0: [1111, 2222, 3303, 4004] | GPU1: [11, 2222, 3333, 4044] | GPU2: [111, 220, 3333, 4444] | GPU3: [1111, 2220, 3300, 4444]
+  after all-gather step 2      GPU0: [1111, 2222, 3303, 4444] | GPU1: [1111, 2222, 3333, 4044] | GPU2: [111, 2222, 3333, 4444] | GPU3: [1111, 2220, 3333, 4444]
+  after all-gather step 3      GPU0: [1111, 2222, 3333, 4444] | GPU1: [1111, 2222, 3333, 4444] | GPU2: [1111, 2222, 3333, 4444] | GPU3: [1111, 2222, 3333, 4444]
+
+[2] 64 MB tensor, 4 ranks: max |mine - dist.all_reduce| = 1.91e-06
+    elements sent per rank = 25,165,824 = 1.500 x tensor size (theory 2(N-1)/N = 1.500);  wall time 683 ms

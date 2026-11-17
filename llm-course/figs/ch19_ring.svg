@@ -1,0 +1,251 @@
+<svg viewBox="0 0 660 214" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch19_ring-ah-6b7785" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7785"/></marker></defs>
+<text x="80.0" y="50.0" font-size="11" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>初始</tspan></text>
+<text x="42.0" y="70.0" font-size="10" text-anchor="end" fill="#52606d"><tspan>GPU 0</tspan></text>
+<rect x="48.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="55.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="64.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="71.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="80.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="87.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="96.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="103.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<text x="42.0" y="88.0" font-size="10" text-anchor="end" fill="#52606d"><tspan>GPU 1</tspan></text>
+<rect x="48.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="55.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="64.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="71.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="80.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="87.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="96.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="103.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<text x="42.0" y="106.0" font-size="10" text-anchor="end" fill="#52606d"><tspan>GPU 2</tspan></text>
+<rect x="48.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="55.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="64.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="71.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="80.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="87.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="96.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="103.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<text x="42.0" y="124.0" font-size="10" text-anchor="end" fill="#52606d"><tspan>GPU 3</tspan></text>
+<rect x="48.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="55.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="64.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="71.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="80.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="87.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="96.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="103.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<path d="M114.0,95.0 L130.0,95.0" fill="none" stroke="#6b7785" stroke-width="1.1" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch19_ring-ah-6b7785)"/>
+<text x="168.0" y="50.0" font-size="11" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>第 1 步</tspan></text>
+<rect x="136.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="143.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="152.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="159.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="168.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="175.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="184.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="191.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="136.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="143.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="152.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="159.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="168.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="175.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="184.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="191.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="136.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="143.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="152.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="159.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="168.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="175.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="184.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="191.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="136.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="143.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="152.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="159.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="168.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="175.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="184.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="191.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<path d="M202.0,95.0 L218.0,95.0" fill="none" stroke="#6b7785" stroke-width="1.1" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch19_ring-ah-6b7785)"/>
+<text x="256.0" y="50.0" font-size="11" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>第 2 步</tspan></text>
+<rect x="224.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="231.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="240.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="247.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="256.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="263.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="272.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="279.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="224.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="231.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="240.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="247.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="256.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="263.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="272.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="279.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="224.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="231.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="240.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="247.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="256.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="263.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="272.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="279.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="224.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="231.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="240.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="247.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="256.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="263.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="272.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="279.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<path d="M290.0,95.0 L306.0,95.0" fill="none" stroke="#6b7785" stroke-width="1.1" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch19_ring-ah-6b7785)"/>
+<text x="344.0" y="50.0" font-size="11" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>第 3 步</tspan></text>
+<rect x="312.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="319.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="328.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="335.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="344.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="351.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="360.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="367.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="312.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="319.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="328.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="335.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="344.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="351.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="360.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="367.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="312.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="319.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="328.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="335.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="344.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="351.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<rect x="360.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="367.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="312.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="319.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="328.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="335.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="344.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="351.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="360.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#e8eff6" stroke="none" stroke-width="0"/>
+<text x="367.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>1</tspan></text>
+<path d="M378.0,95.0 L394.0,95.0" fill="none" stroke="#6b7785" stroke-width="1.1" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch19_ring-ah-6b7785)"/>
+<text x="432.0" y="50.0" font-size="11" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>第 1 步</tspan></text>
+<rect x="400.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="407.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="416.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="423.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="432.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="439.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="448.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="455.5" y="71.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="400.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="407.5" y="89.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="416.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="423.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="432.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="439.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="448.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="455.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="400.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="407.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="416.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="423.5" y="107.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="432.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="439.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="448.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="455.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="400.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="407.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="416.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="423.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="432.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#9facb9" stroke="none" stroke-width="0"/>
+<text x="439.5" y="125.0" font-size="10" text-anchor="middle" fill="#1d2329"><tspan>2</tspan></text>
+<rect x="448.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="455.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<path d="M466.0,95.0 L482.0,95.0" fill="none" stroke="#6b7785" stroke-width="1.1" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch19_ring-ah-6b7785)"/>
+<text x="520.0" y="50.0" font-size="11" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>第 2 步</tspan></text>
+<rect x="488.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="495.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="504.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="511.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="520.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="527.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="536.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="543.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="488.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="495.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="504.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="511.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="520.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="527.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="536.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="543.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="488.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="495.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="504.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="511.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="520.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="527.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="536.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="543.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="488.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="495.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="504.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#57697c" stroke="none" stroke-width="0"/>
+<text x="511.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>3</tspan></text>
+<rect x="520.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="527.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="536.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="543.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<path d="M554.0,95.0 L570.0,95.0" fill="none" stroke="#6b7785" stroke-width="1.1" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch19_ring-ah-6b7785)"/>
+<text x="608.0" y="50.0" font-size="11" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>第 3 步</tspan></text>
+<rect x="576.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="583.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="592.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="599.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="608.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="615.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="624.0" y="59.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="631.5" y="71.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="576.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="583.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="592.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="599.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="608.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="615.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="624.0" y="77.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="631.5" y="89.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="576.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="583.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="592.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="599.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="608.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="615.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="624.0" y="95.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="631.5" y="107.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="576.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="583.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="592.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="599.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="608.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="615.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="624.0" y="113.0" width="15.0" height="16.0" rx="1.5" fill="#0f2740" stroke="none" stroke-width="0"/>
+<text x="631.5" y="125.0" font-size="10" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<path d="M136.0,40.0 L136.0,34.0 L376.0,34.0 L376.0,40.0" fill="none" stroke="#1c5d99" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="256.0" y="22.0" font-size="11" text-anchor="middle" fill="#1c5d99"><tspan>reduce-scatter：把一块传给下一张卡，对方累加</tspan></text>
+<path d="M400.0,40.0 L400.0,34.0 L640.0,34.0 L640.0,40.0" fill="none" stroke="#2e7d4f" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="520.0" y="22.0" font-size="11" text-anchor="middle" fill="#2e7d4f"><tspan>all-gather：传递求和完毕的块，对方覆盖</tspan></text>
+<text x="330.0" y="160.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>每个格子：这张 GPU（行）上这一块数据（列）已经累加了几张卡的贡献。4 = 求和完毕</tspan></text>
+<text x="330.0" y="180.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>reduce-scatter 3 步后，每张卡恰好有一块是 4；all-gather 3 步后全部是 4</tspan></text>
+<text x="330.0" y="202.0" font-size="11" text-anchor="middle" fill="#6b7785"><tspan>与 19.4 节实验表中的数值逐格对应（例如 GPU 0 第 3 步后第 1 块 = 2222，即 4 张卡的和）</tspan></text>
+</svg>

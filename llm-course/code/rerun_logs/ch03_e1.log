@@ -1,0 +1,24 @@
+
+plain, std=1   initial loss 4.173
+  layer:                 1       2       5      10      15      20
+  activation std:    0.962   0.963   0.963   0.963   0.962   0.963
+  saturated(>.97):   84.3%   84.8%   85.0%   84.7%   84.7%   84.8%
+  grad RMS:        6.2e+02 2.9e+02 2.3e+01 2.2e-01 1.8e-03 1.9e-05
+
+plain, std=1/sqrt(n)   initial loss 4.173
+  layer:                 1       2       5      10      15      20
+  activation std:    0.606   0.470   0.316   0.224   0.194   0.156
+  saturated(>.97):    2.5%    0.0%    0.0%    0.0%    0.0%    0.0%
+  grad RMS:        5.2e-06 6.3e-06 9.2e-06 1.3e-05 1.7e-05 1.9e-05
+
+plain, std=(5/3)/sqrt(n)   initial loss 4.179
+  layer:                 1       2       5      10      15      20
+  activation std:    0.742   0.684   0.654   0.651   0.657   0.648
+  saturated(>.97):   17.6%    8.6%    5.6%    5.5%    5.7%    5.4%
+  grad RMS:        1.1e-04 1.0e-04 7.9e-05 4.8e-05 3.1e-05 1.9e-05
+
+residual + RMSNorm   initial loss 4.179
+  layer:                 1       2       5      10      15      20
+  activation std:    1.199   1.420   1.921   2.585   3.091   3.544
+  saturated(>.97):   20.2%   21.7%   21.2%   20.4%   21.1%   20.4%
+  grad RMS:        2.6e-05 2.0e-05 1.3e-05 8.4e-06 6.4e-06 5.3e-06

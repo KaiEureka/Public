@@ -1,0 +1,28 @@
+[1] memory bandwidth: y = x + 1 on 64M float32 (256 MB in, 256 MB out)
+    54.4 ms per pass -> 9.9 GB/s, 1.23 GFLOP/s (1 FLOP per element)
+
+[2] square matmul C = A @ B (float32): arithmetic intensity = 2n^3 / (3 n^2 * 4 bytes) = n/6
+    n=   32  intensity=    5.3 FLOP/B      21.1 GFLOP/s
+    n=   64  intensity=   10.7 FLOP/B      61.9 GFLOP/s
+    n=  128  intensity=   21.3 FLOP/B     113.4 GFLOP/s
+    n=  256  intensity=   42.7 FLOP/B     214.6 GFLOP/s
+    n=  512  intensity=   85.3 FLOP/B     293.1 GFLOP/s
+    n= 1024  intensity=  170.7 FLOP/B     269.0 GFLOP/s
+    n= 2048  intensity=  341.3 FLOP/B     304.5 GFLOP/s
+    n= 4096  intensity=  682.7 FLOP/B     362.9 GFLOP/s
+
+[3] batch of B tokens through one 4096x4096 weight matrix: (B x 4096) @ (4096 x 4096)
+    B=    1  intensity=    0.5 FLOP/B      20.4 GFLOP/s      1.64 ms  (1.643 ms per token)
+    B=    4  intensity=    2.0 FLOP/B      18.9 GFLOP/s      7.10 ms  (1.775 ms per token)
+    B=   16  intensity=    7.9 FLOP/B      64.2 GFLOP/s      8.37 ms  (0.523 ms per token)
+    B=   64  intensity=   31.0 FLOP/B     145.4 GFLOP/s     14.77 ms  (0.231 ms per token)
+    B=  256  intensity=  113.8 FLOP/B     282.7 GFLOP/s     30.39 ms  (0.119 ms per token)
+    B= 1024  intensity=  341.3 FLOP/B     288.3 GFLOP/s    119.16 ms  (0.116 ms per token)
+
+[4] chain of k elementwise ops on 64M floats, unfused (each op = one full memory pass)
+    k=1:   155.1 ms   (2 numpy ops, 0.13 GFLOP total)
+    k=2:   333.9 ms   (4 numpy ops, 0.27 GFLOP total)
+    k=4:   640.7 ms   (8 numpy ops, 0.54 GFLOP total)
+    k=8:  1995.6 ms   (16 numpy ops, 1.07 GFLOP total)
+
+measured peak ~363 GFLOP/s, bandwidth ~10 GB/s -> balance point ~37 FLOP/byte

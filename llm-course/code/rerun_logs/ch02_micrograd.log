@@ -1,0 +1,9 @@
+L = -4.0
+dL/da = -8.0
+dL/db = 12.0
+dL/dc = 4.0
+dL/df = -1.0
+dL/de = 4.0
+dL/dd = 4.0
+numerical dL/da = -8.000000
+y = x*x, dy/dx = 6.0

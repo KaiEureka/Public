@@ -1,0 +1,40 @@
+<svg viewBox="0 0 660 230" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M70.0,176.0 L290.0,176.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="64.0" y="179.8" font-size="11" text-anchor="end" fill="#52606d"><tspan>0</tspan></text>
+<path d="M70.0,106.0 L290.0,106.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="64.0" y="109.8" font-size="11" text-anchor="end" fill="#52606d"><tspan>5</tspan></text>
+<path d="M70.0,36.0 L290.0,36.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="64.0" y="39.9" font-size="11" text-anchor="end" fill="#52606d"><tspan>10</tspan></text>
+<path d="M70.0,176.0 L290.0,176.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M70.0,36.0 L70.0,176.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="180.0" y="18.0" font-size="12" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>每 600 个字符中的破折号数</tspan></text>
+<rect x="86.7" y="173.2" width="40.0" height="2.8" rx="1.5" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<text x="106.7" y="167.2" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>0.2</tspan></text>
+<text x="106.7" y="192.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>不干预</tspan></text>
+<rect x="160.0" y="47.2" width="40.0" height="128.8" rx="1.5" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="180.0" y="41.2" font-size="11" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>9.2</tspan></text>
+<text x="180.0" y="192.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>加特征 148</tspan></text>
+<rect x="233.3" y="175.3" width="40.0" height="0.7" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="253.3" y="170.0" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>0</tspan></text>
+<text x="253.3" y="192.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>加特征 352</tspan></text>
+<path d="M390.0,176.0 L610.0,176.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="179.8" font-size="11" text-anchor="end" fill="#52606d"><tspan>0</tspan></text>
+<path d="M390.0,106.0 L610.0,106.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="109.8" font-size="11" text-anchor="end" fill="#52606d"><tspan>8</tspan></text>
+<path d="M390.0,36.0 L610.0,36.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="39.9" font-size="11" text-anchor="end" fill="#52606d"><tspan>16</tspan></text>
+<path d="M390.0,176.0 L610.0,176.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M390.0,36.0 L390.0,176.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="500.0" y="18.0" font-size="12" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>字母中大写字母的比例</tspan></text>
+<rect x="406.7" y="90.2" width="40.0" height="85.8" rx="1.5" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<text x="426.7" y="84.2" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>9.8%</tspan></text>
+<text x="426.7" y="192.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>不干预</tspan></text>
+<rect x="480.0" y="99.9" width="40.0" height="76.1" rx="1.5" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="500.0" y="93.9" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>8.7%</tspan></text>
+<text x="500.0" y="192.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>加特征 148</tspan></text>
+<rect x="553.3" y="44.8" width="40.0" height="131.2" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="573.3" y="38.8" font-size="11" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>15%</tspan></text>
+<text x="573.3" y="192.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>加特征 352</tspan></text>
+<text x="330.0" y="216.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>32.6 节的干预实验（实测）：特征 148 是“句末破折号”，特征 352 是“正在写说话人名字”</tspan></text>
+</svg>

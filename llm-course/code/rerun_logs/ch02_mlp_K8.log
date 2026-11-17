@@ -1,0 +1,46 @@
+gradient check (analytic vs numerical):
+  E (np.int64(43), np.int64(10)) analytic=-0.00424799  numerical=-0.00424799
+  W1(np.int64(61), np.int64(73)) analytic=-0.00214315  numerical=-0.00214315
+  b1(np.int64(230),) analytic=-0.00293307  numerical=-0.00293307
+  W2(np.int64(151), np.int64(2)) analytic=-0.00118893  numerical=-0.00118893
+  b2(np.int64(21),) analytic= 0.01681568  numerical= 0.01681568
+
+params = 100,433   context K=8  emb D=16  hidden H=512
+step     0  train 4.1944  val 4.1962   (ln V = 4.1744)
+step   100  train 2.8709  val 2.9147   (1s)
+step  1000  train 2.4273  val 2.4681   (4s)
+step  5000  train 2.0724  val 2.1429   (18s)
+step 10000  train 1.8728  val 1.9850   (34s)
+step 20000  train 1.7099  val 1.8560   (67s)
+step 30000  train 1.6250  val 1.7980   (99s)
+step 40000  train 1.5637  val 1.7482   (132s)
+step 50000  train 1.5499  val 1.7380   (165s)
+step 60000  train 1.5360  val 1.7266   (199s)
+
+predictions for the next char:
+  'ccept hi'   -> 'm' 0.50, 's' 0.23, 'g' 0.12, 'e' 0.04
+  'he King '   -> 'H' 0.16, 'o' 0.13, 'a' 0.06, 'R' 0.06
+  ' the Kin'   -> 'g' 0.86, ' ' 0.05, 's' 0.02, 'c' 0.02
+  '     Kin'   -> 'g' 0.54, 'c' 0.16, 'k' 0.05, 'e' 0.05
+  '     kin'   -> 'g' 0.58, 'n' 0.11, 'e' 0.06, ' ' 0.05
+
+nearest characters by embedding (cosine similarity):
+  'a': 'o'  '3'  'r'  'M'  'i'
+  'e': 'k'  'z'  'X'  'd'  'n'
+  'k': 'u'  'e'  'j'  'i'  ':'
+  'K': 'z'  'v'  'w'  '\n'  'E'
+  'T': 't'  '-'  's'  'a'  'R'
+  't': 'T'  'x'  'p'  'H'  ','
+  ',': ';'  ':'  '?'  '!'  't'
+  '!': '.'  ':'  '?'  'E'  'I'
+  '3': 'Q'  'E'  'a'  'C'  'r'
+
+sample (temperature 0.8):
+tizen:
+portan the shall exches true host a further of that my heart more perpen me to thy against him.
+
+KING EDWARD IV:
+From thee are in and are go, that he has desit dear wife to my father, be sume to Losst without regt death to bean to with my liegers, sir.
+
+LUCIO:
+With all trity of his promise with him these betome at be as at the seal man, and shall sues; there's for the be bet their to fermy 

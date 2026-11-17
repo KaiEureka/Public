@@ -1,0 +1,10 @@
+[1] teacher val loss 2.482
+    M training positions | student on hard labels (sampled next char) | student on soft labels (teacher's full distribution)
+       300               |   3.302                                      |   2.908
+      1000               |   2.896                                      |   2.645
+      3000               |   2.687                                      |   2.545
+     10000               |   2.560                                      |   2.499
+
+[2] teacher = two peaks at -2 and +2 (std 0.5); student = one Gaussian
+    minimize forward KL: student mean +0.00, std 2.06
+    minimize reverse KL: student mean -2.00, std 0.50

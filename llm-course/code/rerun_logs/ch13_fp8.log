@@ -1,0 +1,6 @@
+outlier size | per-tensor error | per-1x128-tile error   (relative error on the ordinary values)
+      1e+02  |       2.66%      |      2.57%
+      1e+03  |       2.65%      |      2.57%
+      1e+04  |       2.71%      |      2.57%
+      3e+04  |       3.97%      |      2.57%
+      1e+05  |      12.59%      |      2.64%

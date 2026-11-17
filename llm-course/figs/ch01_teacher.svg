@@ -1,0 +1,39 @@
+<svg viewBox="0 0 660 215" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch01_teacher-ah-9aa7b4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9aa7b4"/></marker></defs>
+<text x="8.0" y="196.0" font-size="12" text-anchor="start" fill="#52606d"><tspan>输入</tspan></text>
+<text x="8.0" y="30.0" font-size="12" text-anchor="start" fill="#52606d"><tspan>目标</tspan></text>
+<rect x="62.0" y="96.0" width="476.0" height="46.0" rx="6" fill="#e8eff6" stroke="#0f2740" stroke-width="1.2"/>
+<text x="300.0" y="116.0" font-size="12.5" text-anchor="middle" fill="#1d2329"><tspan>Transformer（因果：每个位置只看得到自己和前面的 token）</tspan></text>
+<text x="300.0" y="134.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>一次前向，同时算出所有位置的预测</tspan></text>
+<rect x="72.0" y="172.0" width="40.0" height="30.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="92.0" y="191.2" font-size="14" text-anchor="middle" fill="#1d2329"><tspan>猫</tspan></text>
+<path d="M92.0,170.0 L92.0,144.0" fill="none" stroke="#9aa7b4" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch01_teacher-ah-9aa7b4)"/>
+<path d="M92.0,94.0 L92.0,66.0" fill="none" stroke="#9aa7b4" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch01_teacher-ah-9aa7b4)"/>
+<rect x="66.0" y="36.0" width="52.0" height="30.0" rx="5" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="92.0" y="54.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan>坐</tspan></text>
+<rect x="176.0" y="172.0" width="40.0" height="30.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="196.0" y="191.2" font-size="14" text-anchor="middle" fill="#1d2329"><tspan>坐</tspan></text>
+<path d="M196.0,170.0 L196.0,144.0" fill="none" stroke="#9aa7b4" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch01_teacher-ah-9aa7b4)"/>
+<path d="M196.0,94.0 L196.0,66.0" fill="none" stroke="#9aa7b4" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch01_teacher-ah-9aa7b4)"/>
+<rect x="170.0" y="36.0" width="52.0" height="30.0" rx="5" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="196.0" y="54.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan>在</tspan></text>
+<rect x="280.0" y="172.0" width="40.0" height="30.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="300.0" y="191.2" font-size="14" text-anchor="middle" fill="#1d2329"><tspan>在</tspan></text>
+<path d="M300.0,170.0 L300.0,144.0" fill="none" stroke="#9aa7b4" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch01_teacher-ah-9aa7b4)"/>
+<path d="M300.0,94.0 L300.0,66.0" fill="none" stroke="#9aa7b4" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch01_teacher-ah-9aa7b4)"/>
+<rect x="274.0" y="36.0" width="52.0" height="30.0" rx="5" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="300.0" y="54.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan>垫</tspan></text>
+<rect x="384.0" y="172.0" width="40.0" height="30.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="404.0" y="191.2" font-size="14" text-anchor="middle" fill="#1d2329"><tspan>垫</tspan></text>
+<path d="M404.0,170.0 L404.0,144.0" fill="none" stroke="#9aa7b4" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch01_teacher-ah-9aa7b4)"/>
+<path d="M404.0,94.0 L404.0,66.0" fill="none" stroke="#9aa7b4" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch01_teacher-ah-9aa7b4)"/>
+<rect x="378.0" y="36.0" width="52.0" height="30.0" rx="5" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="404.0" y="54.9" font-size="13" text-anchor="middle" fill="#1d2329"><tspan>上</tspan></text>
+<rect x="488.0" y="172.0" width="40.0" height="30.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="508.0" y="191.2" font-size="14" text-anchor="middle" fill="#1d2329"><tspan>上</tspan></text>
+<path d="M508.0,170.0 L508.0,144.0" fill="none" stroke="#9aa7b4" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch01_teacher-ah-9aa7b4)"/>
+<path d="M508.0,94.0 L508.0,66.0" fill="none" stroke="#9aa7b4" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch01_teacher-ah-9aa7b4)"/>
+<rect x="482.0" y="36.0" width="52.0" height="30.0" rx="5" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="508.0" y="54.4" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>⟨eos⟩</tspan></text>
+<text x="300.0" y="18.0" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>每个位置预测下一个 token，loss = 各位置 </tspan><tspan font-family="LatinSerif">-</tspan><tspan font-family="LatinSerif">log</tspan><tspan font-family="LatinSerif"> </tspan><tspan font-family="LatinSerif" font-style="italic">q</tspan><tspan>(目标) 的平均</tspan></text>
+</svg>

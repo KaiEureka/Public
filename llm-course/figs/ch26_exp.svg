@@ -1,0 +1,63 @@
+<svg viewBox="0 0 660 212" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M30.0,150.0 L160.0,150.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="24.0" y="153.5" font-size="10" text-anchor="end" fill="#52606d"><tspan>0</tspan></text>
+<path d="M30.0,95.0 L160.0,95.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="24.0" y="98.5" font-size="10" text-anchor="end" fill="#52606d"><tspan>0.5</tspan></text>
+<path d="M30.0,40.0 L160.0,40.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="24.0" y="43.5" font-size="10" text-anchor="end" fill="#52606d"><tspan>1</tspan></text>
+<path d="M30.0,150.0 L160.0,150.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M30.0,40.0 L30.0,150.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="32.1" y="148.0" width="12.0" height="2.0" rx="1.5" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<rect x="48.4" y="146.9" width="12.0" height="3.1" rx="1.5" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<rect x="64.6" y="145.4" width="12.0" height="4.6" rx="1.5" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<rect x="80.9" y="142.8" width="12.0" height="7.2" rx="1.5" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<rect x="97.1" y="139.0" width="12.0" height="11.0" rx="1.5" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<rect x="113.4" y="133.2" width="12.0" height="16.8" rx="1.5" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<rect x="129.6" y="124.2" width="12.0" height="25.8" rx="1.5" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<rect x="145.9" y="110.4" width="12.0" height="39.6" rx="1.5" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<text x="95.0" y="20.0" font-size="10" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>理论最优 </tspan><tspan font-family="LatinSerif">π</tspan><tspan font-family="LatinSerif" font-size="7.2" baseline-shift="0.42em">*</tspan><tspan>（= DPO + BT 标签）</tspan></text>
+<text x="95.0" y="32.0" font-size="10" text-anchor="middle" fill="#52606d"><tspan>KL 0.37</tspan></text>
+<text x="95.0" y="166.0" font-size="10" text-anchor="middle" fill="#6b7785"><tspan>奖励低 → 高</tspan></text>
+<path d="M190.0,150.0 L320.0,150.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M190.0,40.0 L190.0,150.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="192.1" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="208.4" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="224.6" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="240.9" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="257.1" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="273.4" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="289.6" y="146.0" width="12.0" height="4.0" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="305.9" y="44.1" width="12.0" height="105.9" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<text x="255.0" y="20.0" font-size="10" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>DPO，确定标签，1 千步</tspan></text>
+<text x="255.0" y="32.0" font-size="10" text-anchor="middle" fill="#52606d"><tspan>KL 1.91</tspan></text>
+<text x="255.0" y="166.0" font-size="10" text-anchor="middle" fill="#6b7785"><tspan>奖励低 → 高</tspan></text>
+<path d="M350.0,150.0 L480.0,150.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M350.0,40.0 L350.0,150.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="352.1" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="368.4" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="384.6" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="400.9" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="417.1" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="433.4" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="449.6" y="149.6" width="12.0" height="0.4" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<rect x="465.9" y="40.0" width="12.0" height="110.0" rx="1.5" fill="#b5443a" stroke="none" stroke-width="0"/>
+<text x="415.0" y="20.0" font-size="10" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>DPO，确定标签，1 万步</tspan></text>
+<text x="415.0" y="32.0" font-size="10" text-anchor="middle" fill="#52606d"><tspan>KL 2.08 = log 8</tspan></text>
+<text x="415.0" y="166.0" font-size="10" text-anchor="middle" fill="#6b7785"><tspan>奖励低 → 高</tspan></text>
+<path d="M510.0,150.0 L640.0,150.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M510.0,40.0 L510.0,150.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="512.1" y="141.5" width="12.0" height="8.5" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="528.4" y="140.3" width="12.0" height="9.7" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="544.6" y="139.1" width="12.0" height="10.9" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="560.9" y="137.6" width="12.0" height="12.4" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="577.1" y="136.0" width="12.0" height="14.0" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="593.4" y="134.1" width="12.0" height="15.9" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="609.6" y="132.0" width="12.0" height="18.0" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<rect x="625.9" y="129.5" width="12.0" height="20.5" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="575.0" y="20.0" font-size="10" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>IPO，确定标签，1 万步</tspan></text>
+<text x="575.0" y="32.0" font-size="10" text-anchor="middle" fill="#52606d"><tspan>KL 0.04</tspan></text>
+<text x="575.0" y="166.0" font-size="10" text-anchor="middle" fill="#6b7785"><tspan>奖励低 → 高</tspan></text>
+<text x="330.0" y="190.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>8 个回答的概率（实测，数据同上表）。标签确定时，DPO 坍缩到只生成一个回答，KL 正则化失效；</tspan></text>
+<text x="330.0" y="206.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>IPO 让差距收敛到有限值，策略保持在参考模型附近</tspan></text>
+</svg>

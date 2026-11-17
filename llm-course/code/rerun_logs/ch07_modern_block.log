@@ -1,0 +1,6 @@
+RoPE scores:  (5,3) = -10.14267  (105,103) = -10.14267  (3005,3003) = -10.14262  | (5,1) = -7.53591
+block output shape: (2, 16, 256)  params: 692736
+Llama 3 8B: attention/layer 41.9M, MLP/layer 176.2M, total 8.030B
+  KV cache MHA (32 KV heads) :    512 KB per token,  64.0 GB for a 128K-token sequence
+  KV cache GQA (8 KV heads)  :    128 KB per token,  16.0 GB for a 128K-token sequence
+  KV cache MQA (1 KV head)   :     16 KB per token,   2.0 GB for a 128K-token sequence

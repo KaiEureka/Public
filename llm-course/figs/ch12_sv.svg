@@ -1,0 +1,48 @@
+<svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M60.0,176.9 L500.0,176.9" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="180.9" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>0.001</tspan></text>
+<path d="M60.0,146.7 L500.0,146.7" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="150.8" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>0.01</tspan></text>
+<path d="M60.0,116.5 L500.0,116.5" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="120.6" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>0.1</tspan></text>
+<path d="M60.0,86.4 L500.0,86.4" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="90.4" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>1</tspan></text>
+<path d="M60.0,56.2 L500.0,56.2" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="60.2" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>10</tspan></text>
+<path d="M60.0,26.0 L500.0,26.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="30.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>100</tspan></text>
+<path d="M60.0,186.0 L500.0,186.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M60.0,26.0 L60.0,186.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="54.0" y="16.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>奇异值（对数坐标）</tspan></text>
+<rect x="74.4" y="35.1" width="16.0" height="150.9" rx="1.5" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="92.4" y="84.0" width="16.0" height="102.0" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="91.4" y="201.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>0</tspan></text>
+<rect x="137.3" y="47.1" width="16.0" height="138.9" rx="1.5" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="155.3" y="84.0" width="16.0" height="102.0" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="154.3" y="201.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>1</tspan></text>
+<rect x="200.1" y="59.1" width="16.0" height="126.9" rx="1.5" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="218.1" y="84.0" width="16.0" height="102.0" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="217.1" y="201.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>2</tspan></text>
+<rect x="263.0" y="88.9" width="16.0" height="97.1" rx="1.5" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="281.0" y="84.2" width="16.0" height="101.8" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="280.0" y="201.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>10</tspan></text>
+<rect x="325.9" y="103.2" width="16.0" height="82.8" rx="1.5" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="343.9" y="87.7" width="16.0" height="98.3" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="342.9" y="201.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>50</tspan></text>
+<rect x="388.7" y="131.1" width="16.0" height="54.9" rx="1.5" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="406.7" y="102.8" width="16.0" height="83.2" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="405.7" y="201.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>128</tspan></text>
+<rect x="451.6" y="176.9" width="16.0" height="9.1" rx="1.5" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<rect x="469.6" y="148.1" width="16.0" height="37.9" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="468.6" y="201.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>255</tspan></text>
+<text x="280.0" y="219.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>第几个奇异值（从大到小排序）</tspan></text>
+<rect x="518.0" y="40.0" width="14.0" height="11.0" rx="2" fill="#9aa7b4" stroke="none" stroke-width="0"/>
+<text x="539.0" y="50.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>原始梯度 </tspan><tspan font-family="LatinSerif" font-style="italic">G</tspan></text>
+<rect x="518.0" y="58.0" width="14.0" height="11.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="539.0" y="68.0" font-size="11.5" text-anchor="start" fill="#1d2329"><tspan>5 次迭代之后</tspan></text>
+<text x="516.0" y="110.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>最强 3 个方向的份额</tspan></text>
+<text x="516.0" y="125.5" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>（按奇异值平方计）：</tspan></text>
+<text x="516.0" y="141.1" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>99.4% → 4.6%</tspan></text>
+<text x="330.0" y="244.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>Newton–Schulz 正交化的数值演示（实测，数据同上表）：大和中等的奇异值都被拉到 1 附近</tspan></text>
+</svg>

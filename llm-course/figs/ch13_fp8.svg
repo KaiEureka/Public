@@ -1,0 +1,55 @@
+<svg viewBox="0 0 660 262" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M56.0,200.0 L326.0,200.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="50.0" y="203.8" font-size="11" text-anchor="end" fill="#52606d"><tspan>0</tspan></text>
+<path d="M56.0,151.4 L326.0,151.4" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="50.0" y="155.3" font-size="11" text-anchor="end" fill="#52606d"><tspan>4</tspan></text>
+<path d="M56.0,102.9 L326.0,102.9" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="50.0" y="106.7" font-size="11" text-anchor="end" fill="#52606d"><tspan>8</tspan></text>
+<path d="M56.0,54.3 L326.0,54.3" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="50.0" y="58.1" font-size="11" text-anchor="end" fill="#52606d"><tspan>12</tspan></text>
+<path d="M73.5,200.0 L73.5,204.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="73.5" y="217.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan font-family="LatinSerif">10</tspan><tspan font-family="LatinSerif" font-size="7.9" baseline-shift="0.42em">2</tspan></text>
+<path d="M152.3,200.0 L152.3,204.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="152.3" y="217.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan font-family="LatinSerif">10</tspan><tspan font-family="LatinSerif" font-size="7.9" baseline-shift="0.42em">3</tspan></text>
+<path d="M231.1,200.0 L231.1,204.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="231.1" y="217.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan font-family="LatinSerif">10</tspan><tspan font-family="LatinSerif" font-size="7.9" baseline-shift="0.42em">4</tspan></text>
+<path d="M309.9,200.0 L309.9,204.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="309.9" y="217.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan font-family="LatinSerif">10</tspan><tspan font-family="LatinSerif" font-size="7.9" baseline-shift="0.42em">5</tspan></text>
+<path d="M56.0,200.0 L326.0,200.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M56.0,30.0 L56.0,200.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="191.0" y="234.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>离群值大小 </tspan><tspan font-family="LatinSerif" font-style="italic">K</tspan><tspan>（对数坐标）</tspan></text>
+<text x="50.0" y="20.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>普通值的相对误差（%）</tspan></text>
+<path d="M73.5,167.7 L152.3,167.8 L231.1,167.1 L268.7,151.8 L309.9,47.1" fill="none" stroke="#b5443a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="73.5" cy="167.7" r="3.6" fill="#b5443a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="152.3" cy="167.8" r="3.6" fill="#b5443a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="231.1" cy="167.1" r="3.6" fill="#b5443a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="268.7" cy="151.8" r="3.6" fill="#b5443a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="309.9" cy="47.1" r="3.6" fill="#b5443a" stroke="#ffffff" stroke-width="1.5"/>
+<path d="M73.5,168.8 L152.3,168.8 L231.1,168.8 L268.7,168.8 L309.9,167.9" fill="none" stroke="#1c5d99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="73.5" cy="168.8" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="152.3" cy="168.8" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="231.1" cy="168.8" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="268.7" cy="168.8" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="309.9" cy="167.9" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<text x="301.9" y="51.1" font-size="11" text-anchor="end" fill="#b5443a"><tspan>整个张量共用一个缩放因子</tspan></text>
+<text x="73.5" y="184.4" font-size="11" text-anchor="start" fill="#1c5d99"><tspan>每 1×128 一块各用一个缩放因子</tspan></text>
+<text x="510.0" y="22.0" font-size="11.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>一行 1,024 个数，切成 8 块，每块 128 个</tspan></text>
+<rect x="370.0" y="40.0" width="33.0" height="26.0" rx="2" fill="#e8eff6" stroke="#1c5d99" stroke-width="1"/>
+<rect x="405.0" y="40.0" width="33.0" height="26.0" rx="2" fill="#e8eff6" stroke="#1c5d99" stroke-width="1"/>
+<rect x="440.0" y="40.0" width="33.0" height="26.0" rx="2" fill="#e8eff6" stroke="#1c5d99" stroke-width="1"/>
+<rect x="475.0" y="40.0" width="33.0" height="26.0" rx="2" fill="#e8eff6" stroke="#1c5d99" stroke-width="1"/>
+<rect x="510.0" y="40.0" width="33.0" height="26.0" rx="2" fill="#e8eff6" stroke="#1c5d99" stroke-width="1"/>
+<rect x="545.0" y="40.0" width="33.0" height="26.0" rx="2" fill="#fff4f2" stroke="#b5443a" stroke-width="1"/>
+<rect x="580.0" y="40.0" width="33.0" height="26.0" rx="2" fill="#e8eff6" stroke="#1c5d99" stroke-width="1"/>
+<rect x="615.0" y="40.0" width="33.0" height="26.0" rx="2" fill="#e8eff6" stroke="#1c5d99" stroke-width="1"/>
+<circle cx="561.0" cy="53.0" r="5" fill="#b5443a" stroke="none" stroke-width="1"/>
+<text x="561.0" y="84.0" font-size="11" text-anchor="middle" fill="#b5443a"><tspan>离群值</tspan></text>
+<text x="370.0" y="112.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>共用一个缩放因子：为了装下离群值，</tspan></text>
+<text x="370.0" y="127.5" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>缩放因子只能很小，普通值全被挤进</tspan></text>
+<text x="370.0" y="143.1" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>FP8 的最低端，精度大量丢失。</tspan></text>
+<text x="370.0" y="158.6" font-size="11.5" text-anchor="start" fill="#52606d"></text>
+<text x="370.0" y="174.1" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>按块缩放：只有离群值所在的那一块</tspan></text>
+<text x="370.0" y="189.6" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>受影响，其余 7 块照常使用全部精度</tspan></text>
+<text x="330.0" y="256.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>FP8（E4M3）量化实验（实测，数据同上表）。DeepSeek-V3 对激活值用 1×128、对权重用 128×128 的块</tspan></text>
+</svg>

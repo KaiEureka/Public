@@ -1,0 +1,41 @@
+<svg viewBox="0 0 660 254" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch14_formats-ah-6b7785" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7785"/></marker></defs>
+<text x="70.0" y="18.0" font-size="12" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>一个网页</tspan></text>
+<rect x="10.0" y="28.0" width="120.0" height="168.0" rx="4" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<rect x="16.0" y="34.0" width="108.0" height="12.0" rx="2" fill="#eef1f4" stroke="none" stroke-width="0"/>
+<rect x="16.0" y="52.0" width="72.0" height="96.0" rx="2" fill="#e8eff6" stroke="#1c5d99" stroke-width="0.8"/>
+<path d="M22.0,62.0 L82.0,62.0" fill="none" stroke="#9cbbd9" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M22.0,75.0 L82.0,75.0" fill="none" stroke="#9cbbd9" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M22.0,88.0 L82.0,88.0" fill="none" stroke="#9cbbd9" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M22.0,101.0 L82.0,101.0" fill="none" stroke="#9cbbd9" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M22.0,114.0 L82.0,114.0" fill="none" stroke="#9cbbd9" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M22.0,127.0 L82.0,127.0" fill="none" stroke="#9cbbd9" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="94.0" y="52.0" width="30.0" height="96.0" rx="2" fill="#eef1f4" stroke="none" stroke-width="0"/>
+<text x="109.0" y="104.0" font-size="9.5" text-anchor="middle" fill="#6b7785"><tspan>广告</tspan></text>
+<rect x="16.0" y="154.0" width="108.0" height="16.0" rx="2" fill="#eef1f4" stroke="none" stroke-width="0"/>
+<rect x="16.0" y="176.0" width="108.0" height="14.0" rx="2" fill="#eef1f4" stroke="none" stroke-width="0"/>
+<text x="70.0" y="214.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>正文只占一部分，其余是</tspan></text>
+<text x="70.0" y="228.2" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>导航、广告、推荐、页脚</tspan></text>
+<path d="M134.0,112.0 L176.0,112.0" fill="none" stroke="#6b7785" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch14_formats-ah-6b7785)"/>
+<text x="155.0" y="102.0" font-size="10.5" text-anchor="middle" fill="#52606d"><tspan>抓取</tspan></text>
+<rect x="180.0" y="30.0" width="64.0" height="52.0" rx="5" fill="#1c5d99" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="212.0" y="59.9" font-size="13" text-anchor="middle" fill="#ffffff" font-weight="700"><tspan>WARC</tspan></text>
+<text x="252.0" y="52.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>原始 HTTP 响应，</tspan></text>
+<text x="252.0" y="68.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>含完整 HTML</tspan></text>
+<rect x="180.0" y="94.0" width="64.0" height="52.0" rx="5" fill="#eef1f4" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="212.0" y="123.9" font-size="13" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>WAT</tspan></text>
+<text x="252.0" y="116.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>元数据（JSON）：</tspan></text>
+<text x="252.0" y="132.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>HTTP 头、页面中的链接</tspan></text>
+<rect x="180.0" y="158.0" width="64.0" height="52.0" rx="5" fill="#eef1f4" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="212.0" y="187.9" font-size="13" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>WET</tspan></text>
+<text x="252.0" y="180.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>Common Crawl 自己</tspan></text>
+<text x="252.0" y="196.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>提取的纯文本，较粗糙</tspan></text>
+<path d="M392.0,56.0 L440.0,56.0 L440.0,70.0" fill="none" stroke="#6b7785" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch14_formats-ah-6b7785)"/>
+<rect x="444.0" y="72.0" width="206.0" height="52.0" rx="5" fill="#eef8f1" stroke="#2e7d4f" stroke-width="1.2"/>
+<text x="547.0" y="94.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>自己提取正文（trafilatura 等）</tspan></text>
+<text x="547.0" y="108.9" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>保留标题、列表、表格、公式</tspan></text>
+<text x="547.0" y="142.0" font-size="11" text-anchor="middle" fill="#2e7d4f"><tspan>FineWeb：效果比直接用 WET 更好</tspan></text>
+<path d="M392.0,184.0 L444.0,184.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch14_formats-ah-6b7785)" stroke-dasharray="4 3"/>
+<text x="450.0" y="188.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>直接用 WET：省事，但质量差一些</tspan></text>
+<text x="330.0" y="250.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>Common Crawl 的三种文件。按网址、域名、语言筛选时可以先查索引，只下载需要的记录</tspan></text>
+</svg>

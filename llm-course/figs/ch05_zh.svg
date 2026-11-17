@@ -1,0 +1,40 @@
+<svg viewBox="0 0 660 205" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M70.0,154.0 L290.0,154.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="64.0" y="158.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>0</tspan></text>
+<path d="M70.0,117.6 L290.0,117.6" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="64.0" y="121.7" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>1</tspan></text>
+<path d="M70.0,81.3 L290.0,81.3" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="64.0" y="85.3" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>2</tspan></text>
+<path d="M70.0,44.9 L290.0,44.9" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="64.0" y="48.9" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>3</tspan></text>
+<path d="M70.0,154.0 L290.0,154.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M70.0,34.0 L70.0,154.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="64.0" y="24.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>每个汉字要几个 token（《孟子》）</tspan></text>
+<rect x="103.0" y="46.0" width="44.0" height="108.0" rx="1.5" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="125.0" y="40.0" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>2.97</tspan></text>
+<text x="125.0" y="170.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>只用莎士比亚训练</tspan></text>
+<rect x="213.0" y="111.8" width="44.0" height="42.2" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="235.0" y="105.8" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>1.16</tspan></text>
+<text x="235.0" y="170.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>莎士比亚 + 唐诗</tspan></text>
+<path d="M390.0,154.0 L610.0,154.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="158.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>0</tspan></text>
+<path d="M390.0,124.0 L610.0,124.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="128.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>1</tspan></text>
+<path d="M390.0,94.0 L610.0,94.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="98.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>2</tspan></text>
+<path d="M390.0,64.0 L610.0,64.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="68.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>3</tspan></text>
+<path d="M390.0,34.0 L610.0,34.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="38.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>4</tspan></text>
+<path d="M390.0,154.0 L610.0,154.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M390.0,34.0 L390.0,154.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="24.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>英文每个 token 几个字节</tspan></text>
+<rect x="423.0" y="46.3" width="44.0" height="107.7" rx="1.5" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="445.0" y="40.3" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>3.59</tspan></text>
+<text x="445.0" y="170.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>只用莎士比亚训练</tspan></text>
+<rect x="533.0" y="52.9" width="44.0" height="101.1" rx="1.5" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="555.0" y="46.9" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>3.37</tspan></text>
+<text x="555.0" y="170.0" font-size="11" text-anchor="middle" fill="#52606d"><tspan>莎士比亚 + 唐诗</tspan></text>
+<text x="330.0" y="198.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>两个分词器的词表都是 8,192（实测）。照顾中文之后，中文的 token 数降到约 40%，英文的压缩率略有下降</tspan></text>
+</svg>

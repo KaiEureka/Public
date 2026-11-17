@@ -1,0 +1,47 @@
+<svg viewBox="0 0 660 252" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M50.0,186.0 L490.0,186.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="190.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>0</tspan></text>
+<path d="M50.0,146.0 L490.0,146.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="150.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>1</tspan></text>
+<path d="M50.0,106.0 L490.0,106.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="110.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>2</tspan></text>
+<path d="M50.0,66.0 L490.0,66.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="70.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>3</tspan></text>
+<path d="M50.0,26.0 L490.0,26.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="30.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>4</tspan></text>
+<path d="M77.8,186.0 L77.8,190.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="77.8" y="203.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>256</tspan></text>
+<path d="M155.7,186.0 L155.7,190.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="155.7" y="203.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>512</tspan></text>
+<path d="M233.7,186.0 L233.7,190.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="233.7" y="203.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>1,024</tspan></text>
+<path d="M311.6,186.0 L311.6,190.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="311.6" y="203.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>2,048</tspan></text>
+<path d="M389.6,186.0 L389.6,190.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="389.6" y="203.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>4,096</tspan></text>
+<path d="M467.6,186.0 L467.6,190.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="467.6" y="203.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>8,192</tspan></text>
+<path d="M50.0,186.0 L490.0,186.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M50.0,26.0 L50.0,186.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="270.0" y="221.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>词表大小 </tspan><tspan font-family="LatinSerif" font-style="italic">V</tspan><tspan>（对数坐标）</tspan></text>
+<text x="44.0" y="16.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>每个 token 平均几个字节</tspan></text>
+<path d="M77.8,146.0 L155.7,106.4 L233.7,88.4 L311.6,73.6 L389.6,56.4 L467.6,42.4" fill="none" stroke="#1c5d99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="77.8" cy="146.0" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="155.7" cy="106.4" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="233.7" cy="88.4" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="311.6" cy="73.6" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="389.6" cy="56.4" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="467.6" cy="42.4" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<text x="77.8" y="137.0" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>1.00</tspan></text>
+<text x="155.7" y="97.4" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>1.99</tspan></text>
+<text x="233.7" y="79.4" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>2.44</tspan></text>
+<text x="311.6" y="64.6" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>2.81</tspan></text>
+<text x="389.6" y="47.4" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>3.24</tspan></text>
+<text x="467.6" y="33.4" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>3.59</tspan></text>
+<text x="510.0" y="70.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>收益递减：</tspan></text>
+<text x="510.0" y="85.5" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>256 → 512，序列减半；</tspan></text>
+<text x="510.0" y="101.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>4,096 → 8,192，</tspan></text>
+<text x="510.0" y="116.6" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>只缩短了 10%</tspan></text>
+<text x="330.0" y="246.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>在莎士比亚训练集上训练、在验证集上测量（实测，数据同上表）</tspan></text>
+</svg>

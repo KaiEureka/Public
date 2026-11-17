@@ -1,0 +1,74 @@
+<svg viewBox="0 0 660 230" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<path d="M50.0,150.0 L300.0,150.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="154.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>1.8</tspan></text>
+<path d="M50.0,120.0 L300.0,120.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="124.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>2.0</tspan></text>
+<path d="M50.0,90.0 L300.0,90.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="94.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>2.2</tspan></text>
+<path d="M50.0,60.0 L300.0,60.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="64.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>2.4</tspan></text>
+<path d="M50.0,30.0 L300.0,30.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="44.0" y="34.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>2.6</tspan></text>
+<path d="M67.2,180.0 L67.2,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="67.2" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>2</tspan></text>
+<path d="M110.3,180.0 L110.3,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="110.3" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>3</tspan></text>
+<path d="M153.4,180.0 L153.4,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="153.4" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>4</tspan></text>
+<path d="M196.6,180.0 L196.6,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="196.6" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>5</tspan></text>
+<path d="M239.7,180.0 L239.7,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="239.7" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>6</tspan></text>
+<path d="M282.8,180.0 L282.8,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="282.8" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>7</tspan></text>
+<path d="M50.0,180.0 L300.0,180.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M50.0,30.0 L50.0,180.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="175.0" y="215.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan font-family="LatinSerif" font-style="italic">n</tspan><tspan>（看前 </tspan><tspan font-family="LatinSerif" font-style="italic">n</tspan><tspan font-family="LatinSerif">-1</tspan><tspan> 个字符）</tspan></text>
+<text x="44.0" y="20.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>验证集 loss</tspan></text>
+<path d="M67.2,46.8 L110.3,110.1 L153.4,150.6 L196.6,154.5 L239.7,118.9 L282.8,65.1" fill="none" stroke="#1c5d99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="67.2" cy="46.8" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="110.3" cy="110.1" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="153.4" cy="150.6" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="196.6" cy="154.5" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="239.7" cy="118.9" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="282.8" cy="65.1" r="3.6" fill="#1c5d99" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="196.6" cy="154.5" r="7" fill="none" stroke="#c77d12" stroke-width="1.6"/>
+<text x="196.6" y="176.5" font-size="11" text-anchor="middle" fill="#1d2329"><tspan>最好：5-gram</tspan></text>
+<path d="M390.0,180.0 L640.0,180.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="184.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>0</tspan></text>
+<path d="M390.0,150.0 L640.0,150.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="154.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>5</tspan></text>
+<path d="M390.0,120.0 L640.0,120.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="124.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>10</tspan></text>
+<path d="M390.0,90.0 L640.0,90.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="94.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>15</tspan></text>
+<path d="M390.0,60.0 L640.0,60.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="64.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>20</tspan></text>
+<path d="M390.0,30.0 L640.0,30.0" fill="none" stroke="#e3e7eb" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="384.0" y="34.0" font-size="11.5" text-anchor="end" fill="#52606d"><tspan>25</tspan></text>
+<path d="M407.2,180.0 L407.2,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="407.2" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>2</tspan></text>
+<path d="M450.3,180.0 L450.3,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="450.3" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>3</tspan></text>
+<path d="M493.4,180.0 L493.4,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="493.4" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>4</tspan></text>
+<path d="M536.6,180.0 L536.6,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="536.6" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>5</tspan></text>
+<path d="M579.7,180.0 L579.7,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="579.7" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>6</tspan></text>
+<path d="M622.8,180.0 L622.8,184.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="622.8" y="197.5" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>7</tspan></text>
+<path d="M390.0,180.0 L640.0,180.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M390.0,30.0 L390.0,180.0" fill="none" stroke="#9aa7b4" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<text x="515.0" y="215.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan font-family="LatinSerif" font-style="italic">n</tspan></text>
+<text x="384.0" y="20.0" font-size="11.5" text-anchor="start" fill="#52606d"><tspan>上下文从没在训练集里出现过的位置（%）</tspan></text>
+<path d="M407.2,180.0 L450.3,178.8 L493.4,171.6 L536.6,154.8 L579.7,119.4 L622.8,55.2" fill="none" stroke="#c77d12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="407.2" cy="180.0" r="3.6" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="450.3" cy="178.8" r="3.6" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="493.4" cy="171.6" r="3.6" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="536.6" cy="154.8" r="3.6" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="579.7" cy="119.4" r="3.6" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="622.8" cy="55.2" r="3.6" fill="#c77d12" stroke="#ffffff" stroke-width="1.5"/>
+<text x="612.0" y="51.0" font-size="11" text-anchor="end" fill="#1d2329"><tspan>20.8% 的位置只能均匀乱猜</tspan></text>
+</svg>

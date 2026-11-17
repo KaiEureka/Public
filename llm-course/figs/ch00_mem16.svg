@@ -1,0 +1,38 @@
+<svg viewBox="0 0 660 210" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+
+<text x="6.0" y="20.0" font-size="12.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>每个参数要存的东西（字节）</tspan></text>
+<rect x="50.0" y="34.0" width="60.0" height="34.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="80.0" y="49.0" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>bf16 权重</tspan></text>
+<text x="80.0" y="63.0" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>2</tspan></text>
+<rect x="112.0" y="34.0" width="60.0" height="34.0" rx="2" fill="#5b8fc2" stroke="none" stroke-width="0"/>
+<text x="142.0" y="49.0" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>bf16 梯度</tspan></text>
+<text x="142.0" y="63.0" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>2</tspan></text>
+<rect x="174.0" y="34.0" width="122.0" height="34.0" rx="2" fill="#c77d12" stroke="none" stroke-width="0"/>
+<text x="235.0" y="49.0" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>fp32 主权重</tspan></text>
+<text x="235.0" y="63.0" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="298.0" y="34.0" width="122.0" height="34.0" rx="2" fill="#2e7d4f" stroke="none" stroke-width="0"/>
+<text x="359.0" y="49.0" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>Adam </tspan><tspan font-family="LatinSerif" font-style="italic">m</tspan></text>
+<text x="359.0" y="63.0" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<rect x="422.0" y="34.0" width="122.0" height="34.0" rx="2" fill="#5fa37a" stroke="none" stroke-width="0"/>
+<text x="483.0" y="49.0" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>Adam </tspan><tspan font-family="LatinSerif" font-style="italic">v</tspan></text>
+<text x="483.0" y="63.0" font-size="11.5" text-anchor="middle" fill="#ffffff"><tspan>4</tspan></text>
+<text x="554.0" y="56.0" font-size="13" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>= 16 字节</tspan></text>
+<text x="50.0" y="84.0" font-size="10.5" text-anchor="middle" fill="#6b7785"><tspan>0</tspan></text>
+<text x="112.0" y="84.0" font-size="10.5" text-anchor="middle" fill="#6b7785"><tspan>2</tspan></text>
+<text x="174.0" y="84.0" font-size="10.5" text-anchor="middle" fill="#6b7785"><tspan>4</tspan></text>
+<text x="236.0" y="84.0" font-size="10.5" text-anchor="middle" fill="#6b7785"><tspan>6</tspan></text>
+<text x="298.0" y="84.0" font-size="10.5" text-anchor="middle" fill="#6b7785"><tspan>8</tspan></text>
+<text x="360.0" y="84.0" font-size="10.5" text-anchor="middle" fill="#6b7785"><tspan>10</tspan></text>
+<text x="422.0" y="84.0" font-size="10.5" text-anchor="middle" fill="#6b7785"><tspan>12</tspan></text>
+<text x="484.0" y="84.0" font-size="10.5" text-anchor="middle" fill="#6b7785"><tspan>14</tspan></text>
+<text x="546.0" y="84.0" font-size="10.5" text-anchor="middle" fill="#6b7785"><tspan>16</tspan></text>
+<text x="6.0" y="112.0" font-size="12.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>7B 模型的权重、梯度和优化器状态，与一张 H100 的显存相比（GB）</tspan></text>
+<rect x="50.0" y="120.0" width="481.6" height="24.0" rx="2" fill="#1c5d99" stroke="none" stroke-width="0"/>
+<text x="56.0" y="136.5" font-size="12" text-anchor="start" fill="#ffffff"><tspan>7B × 16 字节 = 112 GB</tspan></text>
+<rect x="50.0" y="152.0" width="344.0" height="24.0" rx="2" fill="#eef1f4" stroke="#9aa7b4" stroke-width="1"/>
+<text x="56.0" y="168.5" font-size="12" text-anchor="start" fill="#1d2329"><tspan>一张 H100：80 GB</tspan></text>
+<path d="M394.0,116.0 L394.0,180.0" fill="none" stroke="#b5443a" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<text x="400.0" y="168.5" font-size="11.5" text-anchor="start" fill="#b5443a"><tspan>放不下：要切分到多张卡上（第 20 章）</tspan></text>
+<text x="6.0" y="138.0" font-size="12" text-anchor="start" fill="#1d2329"></text>
+<text x="330.0" y="202.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>这还不包括激活值，它随 batch 大小和序列长度增长</tspan></text>
+</svg>

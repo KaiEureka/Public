@@ -1,0 +1,21 @@
+compute-optimal allocation:
+  C=1e+21: N=    2.78B  D=   0.06T tokens  D/N= 21.6  loss=2.3055
+  C=1e+22: N=    9.05B  D=   0.18T tokens  D/N= 20.4  loss=2.1411
+  C=1e+23: N=   29.46B  D=   0.57T tokens  D/N= 19.2  loss=2.0321
+  C=1e+24: N=   95.85B  D=   1.74T tokens  D/N= 18.1  loss=1.9597
+  C=1e+25: N=  312.14B  D=   5.34T tokens  D/N= 17.1  loss=1.9117
+  C=1e+26: N= 1015.66B  D=  16.41T tokens  D/N= 16.2  loss=1.8799
+
+fixed C=1e24: moving away from the optimum (N0=95.9B)
+  N = 0.0625 x N0 =    5.99B, D =  27.82T, D/N =  4644.0: loss 2.0340 (+0.0743)
+  N =  0.125 x N0 =   11.98B, D =  13.91T, D/N =  1161.0: loss 2.0002 (+0.0405)
+  N =   0.25 x N0 =   23.96B, D =   6.96T, D/N =   290.2: loss 1.9773 (+0.0176)
+  N =    0.5 x N0 =   47.93B, D =   3.48T, D/N =    72.6: loss 1.9641 (+0.0044)
+  N =      1 x N0 =   95.85B, D =   1.74T, D/N =    18.1: loss 1.9597 (+0.0000)
+  N =      2 x N0 =  191.70B, D =   0.87T, D/N =     4.5: loss 1.9641 (+0.0044)
+  N =      4 x N0 =  383.41B, D =   0.43T, D/N =     1.1: loss 1.9776 (+0.0179)
+
+Llama-3-8B-like overtraining: N=8B, D=15T
+  C=7.20e+23, loss(8B,15T)=2.0221; optimal for this C: N=81.0B D=1.48T loss=1.9683
+  compute-optimal model reaches the same loss at C~1.32e+23 (5.5x less training compute)
+     that model: N=33.9B, D=0.65T  -> but inference costs 4.2x more per token

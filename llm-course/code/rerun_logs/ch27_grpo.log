@@ -1,0 +1,8 @@
+iter | mean thinking steps | accuracy | groups with zero signal (all right or all wrong)
+   0 |          2.9        |  47.3%  |    3.1%
+  50 |          5.5        |  61.7%  |    6.2%
+ 100 |          6.8        |  61.3%  |    6.2%
+ 200 |          8.4        |  75.0%  |   18.8%
+ 400 |          9.2        |  71.1%  |   15.6%
+ 700 |         10.0        |  71.9%  |   12.5%
+1000 |         10.0        |  82.0%  |   21.9%

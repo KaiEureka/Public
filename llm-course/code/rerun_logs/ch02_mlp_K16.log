@@ -1,0 +1,49 @@
+gradient check (analytic vs numerical):
+  E (np.int64(44), np.int64(10)) analytic=-0.00504624  numerical=-0.00504624
+  W1(np.int64(93), np.int64(336)) analytic=-0.00047279  numerical=-0.00047279
+  b1(np.int64(264),) analytic= 0.00133675  numerical= 0.00133675
+  W2(np.int64(193), np.int64(43)) analytic=-0.00275609  numerical=-0.00275609
+  b2(np.int64(21),) analytic= 0.01490213  numerical= 0.01490213
+
+params = 165,969   context K=16  emb D=16  hidden H=512
+step     0  train 4.1960  val 4.1971   (ln V = 4.1744)
+step   100  train 3.0077  val 3.0508   (1s)
+step  1000  train 2.5521  val 2.5812   (6s)
+step  5000  train 2.2163  val 2.2788   (25s)
+step 10000  train 2.0189  val 2.1253   (48s)
+step 20000  train 1.8007  val 1.9678   (94s)
+step 30000  train 1.6946  val 1.9030   (139s)
+step 40000  train 1.6112  val 1.8439   (183s)
+step 50000  train 1.5915  val 1.8334   (228s)
+step 60000  train 1.5726  val 1.8208   (272s)
+
+predictions for the next char:
+  '       accept hi' -> 'm' 0.59, 's' 0.20, 'l' 0.09, 'e' 0.05
+  '       the King ' -> 'H' 0.13, 'o' 0.11, 'a' 0.10, 't' 0.08
+  '         the Kin' -> 'g' 0.48, 'd' 0.24, 't' 0.07, 'n' 0.07
+  '             Kin' -> 'c' 0.29, 'g' 0.20, 'e' 0.17, 't' 0.15
+  '             kin' -> 'g' 0.50, 'c' 0.21, 'k' 0.09, 'd' 0.06
+
+nearest characters by embedding (cosine similarity):
+  'a': 'o'  'q'  'i'  'z'  'Z'
+  'e': 'r'  'I'  'A'  'y'  'g'
+  'k': 'M'  'd'  'K'  'E'  'R'
+  'K': 'G'  'b'  'k'  'z'  'i'
+  'T': 't'  'W'  '3'  ' '  ','
+  't': 'T'  'Z'  'x'  'w'  'o'
+  ',': ':'  'U'  ';'  'T'  '!'
+  '!': '.'  'F'  '?'  ':'  'j'
+  '3': 'x'  '.'  'o'  'T'  'j'
+
+sample (temperature 0.8):
+ut so biers with were me jountrs unto my was made a generful come and revant: for a wife,
+This shall not his putent prigence that watest chance,
+Set more am I see can leward lish that be
+Andishonountle their thy sindless are been
+To meed ming-head
+your falst to fell.
+
+Cacond the just of his ligh some set ape, to stoum'd by the hand theeped and
+scofing himselfed Cleens,
+Which you to the cound
+What 

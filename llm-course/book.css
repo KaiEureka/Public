@@ -1,0 +1,145 @@
+/* ---------- fonts ---------- */
+@font-face { font-family: "BookSerif"; src: url("fonts/NotoSerifCJKsc-Regular.otf"); font-weight: 400; }
+@font-face { font-family: "BookSerif"; src: url("fonts/NotoSerifCJKsc-Bold.otf"); font-weight: 700; }
+@font-face { font-family: "BookSans"; src: url("fonts/NotoSansCJKsc-Regular.otf"); font-weight: 400; }
+@font-face { font-family: "BookSans"; src: url("fonts/NotoSansCJKsc-Bold.otf"); font-weight: 700; }
+/* Latin letters, digits and math-ish symbols from STIX; CJK punctuation and quotes fall through to Noto */
+@font-face {
+  font-family: "LatinSerif"; src: url("fonts/STIXTwoText.ttf"); font-weight: 400 700;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+0370-03FF, U+2010-2012, U+2016, U+2020-2022, U+2026, U+2030-203A;
+}
+/* arrows, math operators and angle brackets (absent from STIX Two Text and Noto CJK) come from STIX Two Math */
+@font-face {
+  font-family: "LatinSerif"; src: url("fonts/STIXTwoMath-Regular.ttf");
+  unicode-range: U+2190-21FF, U+2200-22FF, U+27E8-27E9;
+}
+@font-face { font-family: "MathFont"; src: url("fonts/STIXTwoMath-Regular.ttf"); }
+
+/* ---------- page ---------- */
+@page {
+  size: A4;
+  margin: 19mm 18mm 20mm 18mm;
+  @bottom-center { content: counter(page); font-family: "LatinSerif", "BookSans"; font-size: 9pt; color: #6b7785; }
+}
+@page cover { margin: 0; @bottom-center { content: none; } }
+@page part { @bottom-center { content: none; } }
+
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  font-family: "LatinSerif", "BookSerif", serif;
+  font-size: 10.4pt; line-height: 1.75; color: #1d2329;
+  text-align: justify; margin: 0;
+  hyphens: auto;
+}
+p { margin: 0.45em 0 0.55em; orphans: 2; widows: 2; }
+strong { font-family: "LatinSerif", "BookSans"; font-weight: 700; color: #102a43; }
+em { font-style: normal; color: #7a3e00; }
+a { color: #1c5d99; text-decoration: none; }
+hr { border: none; border-top: 0.6pt solid #c8d1db; margin: 1.2em 0; }
+
+/* ---------- cover ---------- */
+.cover { page: cover; height: 297mm; position: relative; background: #0f2740; color: #fff; overflow: hidden; break-after: page; }
+.cover-band { position: absolute; left: 0; right: 0; top: 0; height: 9mm; background: #d9a441; }
+.cover-inner { position: absolute; left: 24mm; right: 24mm; top: 62mm; }
+.cover-kicker { font-family: "BookSans"; font-size: 12pt; letter-spacing: 0.2em; color: #d9a441; }
+.cover-title { font-family: "BookSans"; font-weight: 700; font-size: 44pt; line-height: 1.25; margin: 10mm 0 8mm; color: #fff; border: none; }
+.cover-sub { font-family: "BookSerif"; font-size: 14pt; line-height: 1.7; color: #dfe8f1; }
+.cover-parts { margin-top: 26mm; font-family: "BookSans"; font-size: 10.5pt; line-height: 2; color: #9fb6cc; border-left: 2pt solid #d9a441; padding-left: 5mm; }
+.cover-meta { position: absolute; top: 175mm; font-family: "BookSans"; font-size: 10.5pt; line-height: 1.9; color: #dfe8f1; }
+
+/* ---------- table of contents ---------- */
+nav.toc { break-after: page; }
+.toc-title { font-family: "BookSans"; font-size: 22pt; text-align: center; color: #0f2740; margin: 6mm 0 8mm; border: none; }
+nav.toc ul { list-style: none; margin: 0; padding: 0; }
+nav.toc > ul > li { margin-top: 0.55em; }
+nav.toc ul ul { padding-left: 1.6em; }
+nav.toc li { line-height: 1.55; }
+nav.toc a { display: flex; align-items: baseline; color: #1d2329; font-size: 9.6pt; }
+nav.toc > ul > li > a { font-family: "BookSans"; font-weight: 700; color: #0f2740; font-size: 10.4pt; }
+nav.toc .t { flex: 0 1 auto; }
+nav.toc .dots { flex: 1 1 auto; border-bottom: 0.8pt dotted #9aa7b4; margin: 0 0.4em; transform: translateY(-0.28em); }
+nav.toc .pn { flex: 0 0 auto; min-width: 1.8em; text-align: right; font-family: "LatinSerif"; }
+nav.toc li { break-inside: avoid; }
+
+/* ---------- headings ---------- */
+h1, h2, h3, h4 { font-family: "LatinSerif", "BookSans"; font-weight: 700; color: #0f2740; line-height: 1.4; text-align: left; break-after: avoid; }
+.partpage { page: part; break-before: page; break-after: page; }
+h1.part { font-size: 30pt; text-align: center; margin: 62mm 0 8mm; color: #0f2740; }
+.part-intro { text-align: left; font-family: "BookSans"; color: #3e4c59; font-size: 10.5pt; line-height: 1.95; margin: 0 16mm; padding: 4mm 6mm; border-top: 0.8pt solid #c8d1db; border-bottom: 0.8pt solid #c8d1db; }
+.part-intro p { margin: 0.3em 0; }
+h1.front { break-before: page; font-size: 20pt; margin: 4mm 0 6mm; padding-bottom: 3mm; border-bottom: 1.2pt solid #0f2740; }
+h2.chapter {
+  break-before: page; font-size: 19pt; margin: 2mm 0 7mm; padding: 4mm 0 3.5mm;
+  border-top: 3.2pt solid #0f2740; border-bottom: 0.6pt solid #0f2740;
+}
+h3 { font-size: 13.2pt; margin: 1.5em 0 0.5em; padding-left: 2.6mm; border-left: 3pt solid #d9a441; }
+h4 { font-size: 11pt; margin: 1.2em 0 0.35em; color: #1c3d5a; }
+
+/* ---------- boxes ---------- */
+div.goals, div.keypoints, div.experiment, div.note, div.deep, div.exercises, div.revision {
+  margin: 0.9em 0; padding: 2.6mm 4mm 2.2mm; border-radius: 1.6mm; break-inside: auto;
+}
+div.goals::before, div.keypoints::before, div.experiment::before, div.note::before, div.deep::before, div.exercises::before, div.revision::before {
+  display: block; font-family: "BookSans"; font-weight: 700; font-size: 9.6pt; letter-spacing: 0.08em; margin-bottom: 0.2em;
+  break-after: avoid;
+}
+div.goals { background: #eef4fb; border-left: 3pt solid #1c5d99; }
+div.goals::before { content: "学习目标"; color: #1c5d99; }
+div.keypoints { background: #eef8f1; border-left: 3pt solid #2e7d4f; }
+div.keypoints::before { content: "本章要点"; color: #2e7d4f; }
+div.experiment { background: #fff8ec; border-left: 3pt solid #c77d12; }
+div.experiment::before { content: "实验（实测）"; color: #a0620a; }
+div.note { background: #f3f4f6; border-left: 3pt solid #7b8794; }
+div.note::before { content: "说明"; color: #52606d; }
+div.deep { background: #f5f0fb; border-left: 3pt solid #6b3fa0; }
+div.deep::before { content: "深入"; color: #6b3fa0; }
+div.exercises { background: #fbfbf8; border: 0.6pt solid #d8d3c4; }
+/* end-of-chapter boxes are set a little tighter than body text */
+div.keypoints, div.exercises { font-size: 9.9pt; line-height: 1.66; }
+div.exercises::before { content: "习题"; color: #6d5d2e; }
+div.revision { background: #fff4f2; border-left: 3pt solid #b5443a; }
+div.revision::before { content: "修订说明"; color: #9c3a31; }
+div.goals > :first-child, div.keypoints > :first-child, div.experiment > :first-child, div.note > :first-child,
+div.deep > :first-child, div.exercises > :first-child, div.revision > :first-child { margin-top: 0.1em; break-before: avoid; }
+/* keep a box title together with the first item of its list */
+div.goals > ul:first-child > li:first-child, div.keypoints > ol:first-child > li:first-child,
+div.exercises > ol:first-child > li:first-child { break-inside: avoid; }
+div.goals ul, div.keypoints ol, div.keypoints ul, div.exercises ol { margin: 0.2em 0 0.2em; padding-left: 1.4em; }
+
+/* ---------- lists ---------- */
+ul, ol { margin: 0.35em 0 0.55em; padding-left: 1.6em; }
+li { margin: 0.12em 0; }
+li > p { margin: 0.15em 0; }
+
+/* ---------- tables ---------- */
+table { width: 100%; border-collapse: collapse; margin: 0.8em 0 1em; font-size: 8.9pt; line-height: 1.55; text-align: left; }
+thead th { background: #e8eff6; color: #0f2740; font-family: "LatinSerif", "BookSans"; font-weight: 700; border-top: 1pt solid #0f2740; border-bottom: 0.8pt solid #0f2740; }
+th, td { padding: 1.4mm 2mm; vertical-align: top; }
+td { border-bottom: 0.4pt solid #d5dde5; }
+tbody tr:nth-child(even) td { background: #f8fafc; }
+tr { break-inside: avoid; }
+table caption { caption-side: top; font-family: "BookSans"; font-size: 9pt; color: #52606d; text-align: left; margin-bottom: 1mm; }
+
+/* ---------- code ---------- */
+pre, code { font-family: "JetBrains Mono", "BookSans", monospace; }
+code { font-size: 0.86em; background: #f1f4f7; padding: 0.05em 0.28em; border-radius: 0.8mm; }
+pre { font-size: 8.2pt; line-height: 1.5; background: #f6f8fa; border: 0.5pt solid #dfe4ea; border-left: 2.4pt solid #8ea6bf;
+      padding: 2.4mm 3.2mm; margin: 0.7em 0 0.9em; white-space: pre-wrap; word-break: break-all; border-radius: 1mm; text-align: left; }
+pre code { background: none; padding: 0; font-size: 1em; }
+div.sourceCode { margin: 0.7em 0 0.9em; }
+div.sourceCode pre { margin: 0; }
+
+/* ---------- math ---------- */
+math { font-family: "MathFont", "BookSerif", math; font-size: 1.04em; }
+math[display="block"] { margin: 0.55em 0 0.65em; }
+
+/* ---------- misc ---------- */
+blockquote { margin: 0.8em 0; padding: 0.4em 4mm; border-left: 2.4pt solid #d9a441; background: #fffaf0; color: #3b3326; }
+.pnmark { position: relative; height: 0; overflow: visible; font-size: 2px; line-height: 2px; color: #ffffff; white-space: nowrap; }
+figure { margin: 0.8em 0 0.7em; text-align: center; break-inside: avoid; }
+figure svg { display: block; margin: 0 auto 0.25em; }
+figcaption { font-family: "BookSans"; font-size: 9pt; color: #52606d; }
+.map { width: 100%; }
+.small { font-size: 9pt; color: #52606d; }
+/* answers and references: long inline formulas and titles look better ragged-right than justified */
+h2#appD ~ p, h2#appD ~ ul, h2#appD ~ ol { text-align: left; }

@@ -1,0 +1,14 @@
+trained model, greedy, 100 new tokens: identical = True
+   text: 'ht the so the shall the shall the shall the\nThat have the shall the shall the st'
+
+d=256, 4 layers: time to generate n tokens after a 32-token prompt
+   n= 128: no cache   1.10s   KV cache  0.25s   speedup   4.4x
+   n= 256: no cache   2.95s   KV cache  0.52s   speedup   5.7x
+   n= 512: no cache   9.88s   KV cache  1.09s   speedup   9.0x
+   n= 960: no cache  48.26s   KV cache  2.29s   speedup  21.1x
+
+decode step with 512 cached tokens per sequence, varying batch size B
+   B=  1:    3.2 ms per step  ->       312 tokens/s total,    312 tokens/s per sequence
+   B=  4:    5.2 ms per step  ->       770 tokens/s total,    192 tokens/s per sequence
+   B= 16:   15.0 ms per step  ->      1067 tokens/s total,     67 tokens/s per sequence
+   B= 64:   76.7 ms per step  ->       834 tokens/s total,     13 tokens/s per sequence

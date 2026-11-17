@@ -1,0 +1,6 @@
+max |flash - standard| = 8.33e-16
+K/V tiles computed: 36, skipped by causality: 28 (of 64)
+largest score block held at once: 128x128 = 16,384 numbers vs full matrix 1,048,576
+  materialized S+P in bf16 for N=8,192, 32 heads, batch 1:      8.6 GB per layer;  FlashAttention keeps O + logsumexp:   68.2 MB
+  materialized S+P in bf16 for N=32,768, 32 heads, batch 1:    137.4 GB per layer;  FlashAttention keeps O + logsumexp:  272.6 MB
+  materialized S+P in bf16 for N=131,072, 64 heads, batch 1:   4398.0 GB per layer;  FlashAttention keeps O + logsumexp: 2181.0 MB

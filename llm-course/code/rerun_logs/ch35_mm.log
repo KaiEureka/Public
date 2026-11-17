@@ -1,0 +1,6 @@
+[1] contrastive alignment: retrieval top-1 among 1000 candidates before training = 0.1% (chance 0.1%)
+    after 2000 steps: retrieval top-1 = 99.5%   (9s)
+
+[2] diffusion: data          radius mean 1.000, std 0.050; share per quadrant [0.25, 0.24, 0.25, 0.26]
+    pure Gaussian noise       radius mean 1.237, std 0.645; share per quadrant [0.25, 0.25, 0.25, 0.25]
+    DDPM samples (100 steps)  radius mean 0.996, std 0.065; share per quadrant [0.26, 0.24, 0.2, 0.3]   (23s)

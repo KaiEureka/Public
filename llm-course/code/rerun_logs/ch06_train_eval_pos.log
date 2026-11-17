@@ -1,0 +1,7 @@
+  context   1-  1 chars: 2.563
+  context   2-  3 chars: 2.145
+  context   4-  7 chars: 1.927
+  context   8- 15 chars: 1.892
+  context  16- 31 chars: 1.869
+  context  32- 63 chars: 1.865
+  context  64-128 chars: 1.865

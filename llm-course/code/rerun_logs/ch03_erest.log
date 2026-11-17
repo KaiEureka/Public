@@ -1,0 +1,19 @@
+[E2] output-layer init scale (SGD lr 0.1)
+  W_out std = 0.010                  init  4.196  step 200: 2.715  step 2000: 2.311  (8s)
+  W_out std = 0.044                  init  4.485  step 200: 2.749  step 2000: 2.315  (8s)
+  W_out std = 1.000                  init 40.975  step 200: 7.383  step 2000: 2.919  (51s)
+[E4] optimizers, 5000 steps
+  SGD lr=0.1                         init  4.196  step 500: 2.534  step 5000: 2.144  (27s)
+  SGD+momentum(0.9) lr=0.01          init  4.196  step 500: 2.538  step 5000: 2.145  (20s)
+  Adam lr=3e-3                       init  4.196  step 500: 2.224  step 5000: 1.890  (20s)
+[E5] learning-rate schedules with Adam, 5000 steps
+  constant 3e-3                      init  4.196  step 5000: 1.890  (21s)
+  warmup 250 + cosine, peak 3e-3     init  4.196  step 5000: 1.780  (22s)
+  constant 3e-2 (too high)           init  4.196  step 100: 3.878  step 5000: 3.992  (25s)
+  warmup 250 + cosine, peak 3e-2     init  4.196  step 100: 2.763  step 5000: 2.044  (27s)
+[E6] batch size, same 640k training examples, Adam 3e-3
+  B=  32  steps=20000                init  4.196  step 20000: 2.206  (40s)
+  B= 128  steps=5000                 init  4.196  step 5000: 2.010  (14s)
+  B= 512  steps=1250                 init  4.196  step 1250: 1.943  (27s)
+  B=2048  steps=312                  init  4.196  step 312: 2.036  (25s)
+total 336s

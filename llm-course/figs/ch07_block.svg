@@ -1,0 +1,58 @@
+<svg viewBox="0 0 660 280" xmlns="http://www.w3.org/2000/svg" font-family="BookSans" font-size="13" style="width:165.0mm;max-width:100%">
+<defs><marker id="ch07_block-ah-6b7785" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7785"/></marker></defs>
+<text x="10.0" y="24.0" font-size="12.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>GPT-2 的 block</tspan></text>
+<rect x="10.0" y="83.0" width="60.0" height="26.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="40.0" y="99.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>输入</tspan></text>
+<path d="M70.0,96.0 L321.0,96.0" fill="none" stroke="#6b7785" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M339.0,96.0 L581.0,96.0" fill="none" stroke="#6b7785" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M599.0,96.0 L610.0,96.0" fill="none" stroke="#6b7785" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<rect x="612.0" y="83.0" width="44.0" height="26.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="634.0" y="99.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>输出</tspan></text>
+<path d="M85.0,96.0 L85.0,56.0 L98.0,56.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<rect x="100.0" y="44.0" width="90.0" height="24.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="145.0" y="59.4" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>LayerNorm</tspan></text>
+<path d="M190.0,56.0 L200.0,56.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<rect x="202.0" y="44.0" width="108.0" height="24.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="256.0" y="59.4" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>多头注意力</tspan></text>
+<path d="M310.0,56.0 L330.0,56.0 L330.0,86.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<circle cx="330.0" cy="96.0" r="9" fill="#ffffff" stroke="#0f2740" stroke-width="1.2"/>
+<text x="330.0" y="101.0" font-size="14" text-anchor="middle" fill="#1d2329"><tspan>+</tspan></text>
+<path d="M345.0,96.0 L345.0,56.0 L358.0,56.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<rect x="360.0" y="44.0" width="90.0" height="24.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="405.0" y="59.4" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>LayerNorm</tspan></text>
+<path d="M450.0,56.0 L460.0,56.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<rect x="462.0" y="44.0" width="108.0" height="24.0" rx="5" fill="#e8eff6" stroke="#1c5d99" stroke-width="1.2"/>
+<text x="516.0" y="59.4" font-size="11.5" text-anchor="middle" fill="#1d2329"><tspan>GELU MLP</tspan></text>
+<path d="M570.0,56.0 L590.0,56.0 L590.0,86.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<circle cx="590.0" cy="96.0" r="9" fill="#ffffff" stroke="#0f2740" stroke-width="1.2"/>
+<text x="590.0" y="101.0" font-size="14" text-anchor="middle" fill="#1d2329"><tspan>+</tspan></text>
+<text x="10.0" y="126.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>输入 = token 嵌入 + 可学习的位置嵌入</tspan></text>
+<text x="10.0" y="156.0" font-size="12.5" text-anchor="start" fill="#1d2329" font-weight="700"><tspan>现代（Llama 式）block</tspan></text>
+<rect x="10.0" y="215.0" width="60.0" height="26.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="40.0" y="231.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>输入</tspan></text>
+<path d="M70.0,228.0 L321.0,228.0" fill="none" stroke="#6b7785" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M339.0,228.0 L581.0,228.0" fill="none" stroke="#6b7785" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M599.0,228.0 L610.0,228.0" fill="none" stroke="#6b7785" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<rect x="612.0" y="215.0" width="44.0" height="26.0" rx="5" fill="#ffffff" stroke="#9aa7b4" stroke-width="1.2"/>
+<text x="634.0" y="231.6" font-size="12" text-anchor="middle" fill="#1d2329"><tspan>输出</tspan></text>
+<path d="M85.0,228.0 L85.0,188.0 L98.0,188.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<rect x="100.0" y="176.0" width="90.0" height="24.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="145.0" y="191.5" font-size="11.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>RMSNorm</tspan></text>
+<path d="M190.0,188.0 L200.0,188.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<rect x="202.0" y="176.0" width="108.0" height="24.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="256.0" y="191.5" font-size="11.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>GQA + RoPE</tspan></text>
+<path d="M310.0,188.0 L330.0,188.0 L330.0,218.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<circle cx="330.0" cy="228.0" r="9" fill="#ffffff" stroke="#0f2740" stroke-width="1.2"/>
+<text x="330.0" y="233.0" font-size="14" text-anchor="middle" fill="#1d2329"><tspan>+</tspan></text>
+<path d="M345.0,228.0 L345.0,188.0 L358.0,188.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<rect x="360.0" y="176.0" width="90.0" height="24.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="405.0" y="191.5" font-size="11.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>RMSNorm</tspan></text>
+<path d="M450.0,188.0 L460.0,188.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<rect x="462.0" y="176.0" width="108.0" height="24.0" rx="5" fill="#fff8ec" stroke="#c77d12" stroke-width="1.2"/>
+<text x="516.0" y="191.5" font-size="11.5" text-anchor="middle" fill="#1d2329" font-weight="700"><tspan>SwiGLU</tspan></text>
+<path d="M570.0,188.0 L590.0,188.0 L590.0,218.0" fill="none" stroke="#6b7785" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ch07_block-ah-6b7785)"/>
+<circle cx="590.0" cy="228.0" r="9" fill="#ffffff" stroke="#0f2740" stroke-width="1.2"/>
+<text x="590.0" y="233.0" font-size="14" text-anchor="middle" fill="#1d2329"><tspan>+</tspan></text>
+<text x="10.0" y="258.0" font-size="11" text-anchor="start" fill="#52606d"><tspan>输入 = token 嵌入（位置信息由 RoPE 在注意力里加入）；线性层不带偏置</tspan></text>
+<text x="330.0" y="274.0" font-size="11.5" text-anchor="middle" fill="#52606d"><tspan>骨架相同：Pre-norm 残差结构，“+”把子层的输出加回主干。橙色是现代模型换掉的组件</tspan></text>
+</svg>

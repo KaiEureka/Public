@@ -1,0 +1,5 @@
+singular value index:         0        1        2       10       50      128      255
+gradient G:              50.000   20.000    8.000    0.825    0.276    0.033    0.001
+after Newton-Schulz:      1.202    1.202    1.200    1.178    0.906    0.286    0.009
+cosine similarity with exact U V^T: 0.734
+share of update norm in top-3 directions: G 99.4%  ->  NS 4.6%

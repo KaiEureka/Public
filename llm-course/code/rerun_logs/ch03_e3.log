@@ -1,0 +1,5 @@
+1 layer (reference)        step 500: 2.689  step 3000: 2.274  step 6000: 2.127   (12s)
+20 plain, std=1            step 500: 3.491  step 3000: 3.365  step 6000: 3.358   (63s)
+20 plain, 1/sqrt(n)        step 500: 2.736  step 3000: 2.182  step 6000: 1.997   (65s)
+20 plain, (5/3)/sqrt(n)    step 500: 2.681  step 3000: 2.085  step 6000: 1.925   (65s)
+20 residual + RMSNorm      step 500: 2.452  step 3000: 1.978  step 6000: 1.826   (108s)

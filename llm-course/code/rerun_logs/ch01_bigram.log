@@ -1,0 +1,40 @@
+chars=1,115,394  vocab V=65  train=1,003,854  val=111,540
+
+[uniform]  loss = ln V = 4.1744 nats/char
+[unigram]  val loss = 3.3473
+[bigram counting]  train loss = 2.4546  val loss = 2.4819
+  step    1  train loss = 4.1744
+  step   10  train loss = 3.1613
+  step   50  train loss = 2.4760
+  step  200  train loss = 2.4558
+  step 1000  train loss = 2.4523
+[neural bigram]  val loss = 2.4853
+
+--- bigram sample, temperature 1.0 ---
+O:
+
+Tormetl
+V:
+
+Whan ashe:ayarin se!
+Wine, ges o tilo g is LI ar; by arththelyoounerdent stt two; tle tr, it sh s
+Ths t gethalof finor:
+Thuliou, w ter h pent t hedve!
+Windy busitroue rl!
+Whe me y,
+Tur
+
+--- bigram sample, temperature 0.5 ---
+
+
+I s w se m t murout aithe t; ore s thofre ther thethe t the t le an
+Pr thourtorerd t than or, burere the ts che t t d s t te ther s cour s the and yo thaner he on ar wand the lin de the thee, t t me
+
+[n-gram counting, add-0.01 smoothing]
+  1-gram: distinct contexts=       1  val contexts never seen in train=  0.0%  val loss=3.3473
+  2-gram: distinct contexts=      65  val contexts never seen in train=  0.0%  val loss=2.4875
+  3-gram: distinct contexts=   1,380  val contexts never seen in train=  0.2%  val loss=2.0658
+  4-gram: distinct contexts=  11,228  val contexts never seen in train=  1.4%  val loss=1.7959
+  5-gram: distinct contexts=  48,539  val contexts never seen in train=  4.2%  val loss=1.7704
+  6-gram: distinct contexts= 133,293  val contexts never seen in train= 10.1%  val loss=2.0065
+  7-gram: distinct contexts= 264,623  val contexts never seen in train= 20.8%  val loss=2.3658
