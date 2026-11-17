@@ -1,8 +1,7 @@
 """Build the web edition: src/*.md -> site/, one HTML page per front section, part, chapter and appendix,
 with a sidebar table of contents, full-text search, clickable figure references and (if built) the PDF.
 
-The site is published as a private Claude artifact: site/_main.html is the home page in the form the Artifact
-tool publishes (no doctype/head/body; it adds them), site/publish_files.json lists the other files to send.
+site/_main.html contains the embeddable home page. site/publish_files.json lists its companion files.
 
     python3 build_web.py                 # uses build/book.pdf when it exists
     python3 build_web.py --pdf path.pdf  # link a specific PDF

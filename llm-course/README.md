@@ -6,7 +6,7 @@
 
 [阅读全书索引](INDEX.md) · [阅读前言](src/00_front.md)
 
-- `src/`：全书的 Markdown 源文件。`00_front.md` 是前言（含“整理说明”，列出相对讲课原稿做了哪些调整），`partN.md` 是各篇的扉页，`chNN.md` 是第 N 章，`appA.md`–`appE.md` 是附录。
+- `src/`：全书的 Markdown 源文件。`00_front.md` 是前言（含阅读建议、图表标注与符号约定），`partN.md` 是各篇的扉页，`chNN.md` 是第 N 章，`appA.md`–`appE.md` 是附录。
 - `code/`：书中所有实测结果的程序和数据，`chNN/` 对应第 N 章；`code/rerun_logs/` 是整理时把全部程序复跑一遍的输出。运行方法见附录 C。
 - `figs/`：插图。`svglib.py` 是绘图工具；`p1.py`–`p7.py` 按篇生成 `figs/*.svg`；`spec_p*.py` 把图插入各章源文件（可重复运行，已插入的会跳过）；`data/` 里是作图用到的复跑数据。少数早期插图以内联 SVG 写在各章源文件里。
 - `INDEX.md`：全书索引（每章的节、实验、图和习题，附源文件行号），由 `make_index.py` 生成。
