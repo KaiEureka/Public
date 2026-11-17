@@ -1,0 +1,2 @@
+2. **并行扫描（Parallel Scan）**：将递归计算重写为前缀和问题。对于状态更新方程 $h_t=\bar{A}_th_{t-1}+\bar{B}_tx_t$，其展开形式为 $h_T=\sum_{i=1}^{T}\left(\prod_{j=i+1}^{T}\bar{A}_j\right)\bar{B}_ix_i$。这种形式可以通过高效的并行扫描算法（如Blelloch scan）在GPU上并行计算所有时刻的输出 $y_t$，从而在训练时实现完全的并行化，同时保持线性复杂度。
+3. **避免实例化大型矩阵**：在计算 $\overline{\mathbf{A}}$ 和 $\overline{\mathbf{B}}$ 时，并不真正构造大小为 $N\times N$ 的稠密矩阵（$N$ 可达16或更大），而是利用HiPPO矩阵的低秩结构和对角化，将计算简化为元素级操作，从而大幅减少计算量。

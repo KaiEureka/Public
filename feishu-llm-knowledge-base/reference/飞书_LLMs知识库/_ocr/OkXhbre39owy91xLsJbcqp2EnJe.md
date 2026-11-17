@@ -1,0 +1,3 @@
+- 对于线性层 $y = xW$，梯度 $\frac{\partial L}{\partial W} = x^T \frac{\partial L}{\partial y}$，需要前向输入 $x$。
+- 对于激活函数，如 ReLU：$\frac{\partial L}{\partial x} = \frac{\partial L}{\partial y} \odot \mathbf{1}[x > 0]$，需要前向输出 $y$ 或前向输入 $x$ 的符号。
+- 因此，为了在反向时高效计算梯度，通常需要保存前向的中间激活张量。

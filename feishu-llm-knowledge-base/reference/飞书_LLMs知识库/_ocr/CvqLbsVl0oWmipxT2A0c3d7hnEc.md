@@ -1,0 +1,2 @@
+- **DPO 组**：加载 SFT 模型作为策略模型 $\pi_\theta$ 和参考模型 $\pi_{\text{ref}}$（冻结）。配置 DPO 训练循环。
+- **SimPO 组**：仅加载 SFT 模型作为策略模型 $\pi_\theta$。配置 SimPO 训练循环。

@@ -1,0 +1,1 @@
+- **激活内存分析**：使用PyTorch的内存分析工具（如 `torch.cuda.memory_stats` 或 `torch.profiler`）测量每层产生的中间激活大小。通常注意力层产生的注意力矩阵（$O(n^2)$）是激活内存大户，FFN层（$O(n \times d_{ff})$）也是。对这些层重点设置检查点。

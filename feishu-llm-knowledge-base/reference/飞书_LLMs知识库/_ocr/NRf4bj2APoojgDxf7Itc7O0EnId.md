@@ -1,0 +1,1 @@
+- **映射方法**：最简单的做法是，对于软提示中的每一个向量 $p_i$，我们计算它与整个词嵌入矩阵 $E\in\mathbb{R}^{V\times d}$ 中所有词的余弦相似度，找到相似度最高的那个词。即：`nearest_word = argmax(cosine_similarity(p_i, E_v)) for v in 1...V`。

@@ -1,0 +1,3 @@
+$$
+p_i = \frac{\exp(z_i/T)}{\sum_j \exp(z_j/T)}.
+$$

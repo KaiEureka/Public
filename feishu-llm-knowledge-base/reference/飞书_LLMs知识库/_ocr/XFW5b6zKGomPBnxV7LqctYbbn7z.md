@@ -1,0 +1,7 @@
+- 内层循环逐个加载 K 块 $K_j$ 和 V 块 $V_j$（形状 $[B_c,d]$）到 SRAM。
+- 在 SRAM 上计算该局部的注意力分数 $S_{ij}=Q_iK_j^T$（形状 $[B_r,B_c]$）。
+- 使用 online softmax 更新：
+  - 新最大值 $m_{\text{new}}=\max(m_i,\mathrm{rowmax}(S_{ij}))$。
+  - 重新缩放旧和：$l_{\text{new}}=e^{m_i-m_{\text{new}}}\cdot l_i+e^{\mathrm{rowmax}(S_{ij})-m_{\text{new}}}\cdot\mathrm{rowsum}(e^{S_{ij}-\mathrm{rowmax}(S_{ij})})$。
+  - 更新输出：$O_i\leftarrow e^{m_i-m_{\text{new}}}O_i+e^{\mathrm{rowmax}(S_{ij})-m_{\text{new}}}\cdot P_{ij}V_j$，其中 $P_{ij}=\mathrm{softmax}(S_{ij})$。
+  - 更新统计量 $m_i,l_i$。

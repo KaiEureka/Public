@@ -1,0 +1,1 @@
+- 将一个大的嵌入矩阵 $E \in \mathbb{R}^{V \times d}$ 分解为两个小矩阵的乘积：$E = A \times B$，其中 $A \in \mathbb{R}^{V \times r}, B \in \mathbb{R}^{r \times d}$，且 $r \ll d$。这样，参数量从 $V \times d$ 降为 $V \times r + r \times d$。这在机器翻译等任务中非常有效。

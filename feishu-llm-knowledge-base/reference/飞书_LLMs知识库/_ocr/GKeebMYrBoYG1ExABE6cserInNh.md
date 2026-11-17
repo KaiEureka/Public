@@ -1,0 +1,1 @@
+- 在 DPO 中，Reference Model 的作用是提供一个“基准”，计算隐式奖励 $r = \beta \cdot \log \frac{\pi_\theta}{\pi_{\text{ref}}}$，从而将优化限制在参考模型附近。

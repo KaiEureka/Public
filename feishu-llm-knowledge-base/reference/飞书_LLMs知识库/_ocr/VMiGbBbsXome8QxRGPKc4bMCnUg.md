@@ -1,0 +1,2 @@
+- $\lambda = 0$：$\hat{A}_t = \delta_t$。只使用一步 TD 误差，方差最小（因为只依赖一步奖励和 Critic），但偏差最大（因为 Critic 的估计可能不准）。
+- $\lambda = 1$：$\hat{A}_t = \sum_{l=0}^{\infty} \gamma^l \delta_{t+l} = \sum_{l=0}^{\infty} \gamma^l r_{t+l} - V(s_t)$。这等价于蒙特卡洛回报，偏差最小（因为使用了真实的累计奖励），但方差最大（因为累计奖励的随机性很大）。

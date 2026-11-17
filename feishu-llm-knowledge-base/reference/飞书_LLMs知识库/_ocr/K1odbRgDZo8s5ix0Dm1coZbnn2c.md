@@ -1,0 +1,4 @@
+- $x \in \mathbb{R}^{d_{\mathrm{model}}}$ 是输入向量（经过层归一化后，来自注意力子层的输出）。
+- $W_1 \in \mathbb{R}^{d_{\mathrm{model}} \times d_{\mathrm{ff}}}$，$b_1 \in \mathbb{R}^{d_{\mathrm{ff}}}$ 是第一层线性变换的权重和偏置。
+- $W_2 \in \mathbb{R}^{d_{\mathrm{ff}} \times d_{\mathrm{model}}}$，$b_2 \in \mathbb{R}^{d_{\mathrm{model}}}$ 是第二层线性变换的权重和偏置。
+- $d_{\mathrm{ff}}$ 是 FFN 的隐藏层维度，通常远大于 $d_{\mathrm{model}}$（例如 $d_{\mathrm{ff}} = 4 \times d_{\mathrm{model}}$）。

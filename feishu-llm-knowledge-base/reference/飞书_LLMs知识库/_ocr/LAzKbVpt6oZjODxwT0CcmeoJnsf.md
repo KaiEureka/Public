@@ -1,0 +1,2 @@
+- **DPO 的隐式奖励**：$r_\theta = \beta \cdot \log \frac{\pi_\theta(y|x)}{\pi_{\text{ref}}(y|x)}$。这个定义天然地需要一个参考模型 $\pi_{\text{ref}}$ 来提供基准。其目的是通过 KL 散度约束策略不要偏离太远。
+- **SimPO 的隐式奖励**：$r_\theta = \frac{\beta}{|y|} \sum \log \pi_\theta(y|x)$。这个定义完全只依赖于策略模型 $\pi_\theta$ 自身的输出，不需要任何外部参照物。

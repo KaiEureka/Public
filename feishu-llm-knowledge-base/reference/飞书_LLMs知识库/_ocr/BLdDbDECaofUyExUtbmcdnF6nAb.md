@@ -1,0 +1,4 @@
+- `gate_proj`：将输入投影到高维空间，然后再通过 **SiLU** 激活函数（即 Swish，$\mathrm{SiLU}(x) = x \cdot \sigma(x)$）。
+- `up_proj`：将输入投影到相同的高维空间，不经过激活，直接输出信息向量。
+- 将 `gate_proj` 的输出与 `up_proj` 的输出进行**逐元素乘法**。
+- `down_proj`：将乘法结果投影回原始维度 $d_{model}$。

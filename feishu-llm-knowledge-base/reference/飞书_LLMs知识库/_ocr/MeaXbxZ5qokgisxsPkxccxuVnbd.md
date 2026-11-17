@@ -1,0 +1,1 @@
+- **KL惩罚**：PPO的目标函数被修改为 最大化[奖励 $-\beta\times\mathrm{KL}(\pi_\theta||\pi_{\mathrm{ref}})$]。KL散度衡量的正是当前策略 $\pi_\theta$ 与参考模型 $\pi_{\mathrm{ref}}$ 的差异。

@@ -1,0 +1,1 @@
+  - **结构**：使用两个线性矩阵的乘积 $BA$ 来模拟权重的更新量 $\Delta W$，其中 $B\in\mathbb{R}^{d\times r}$，$A\in\mathbb{R}^{r\times k}$，秩 $r\ll\min(d,k)$。

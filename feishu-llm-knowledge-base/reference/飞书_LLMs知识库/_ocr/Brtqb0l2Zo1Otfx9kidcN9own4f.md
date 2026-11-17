@@ -1,0 +1,1 @@
+设 GPU 每秒可处理的最大 token 数（token/s）为物理上限，记为 $T_{\max}$。静态批处理下，由于批次必须串行，实际吞吐受限于请求长度分布：$\mathrm{Throughput}_{\text{static}}\approx\frac{\sum L_i}{\max_i(L_i)\cdot\text{time\_per\_token\_batch}}$，受到最长请求的严重拖累。连续批处理下，每生成一个 token 后即可回收资源并注入新请求，系统近似连续处理 token 流，吞吐趋近于 $T_{\max}$，仅受限于显存可容纳的总请求数。实验表明，同等硬件下，连续批处理可实现数倍于静态批处理的吞吐，且延迟更稳定。

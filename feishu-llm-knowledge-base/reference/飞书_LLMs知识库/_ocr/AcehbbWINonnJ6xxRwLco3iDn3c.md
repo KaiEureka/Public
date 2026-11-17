@@ -1,0 +1,5 @@
+- 新最大值 $m_{\text{new}}=\max(m_i,\mathrm{rowmax}(S_{ij}))$
+- 调整系数：$\alpha=\exp(m_i-m_{\text{new}}),\ \beta=\exp(\mathrm{rowmax}(S_{ij})-m_{\text{new}})$
+- 更新 $O_i\leftarrow\alpha O_i+\beta(e^{S_{ij}-\mathrm{rowmax}(S_{ij})}V_j)$
+- 更新 $l_i\leftarrow\alpha l_i+\beta\cdot\mathrm{rowsum}(e^{S_{ij}-\mathrm{rowmax}(S_{ij})})$
+- 替换 $m_i\leftarrow m_{\text{new}}$

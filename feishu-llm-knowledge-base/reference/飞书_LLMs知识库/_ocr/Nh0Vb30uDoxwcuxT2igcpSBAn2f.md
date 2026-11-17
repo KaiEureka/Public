@@ -1,0 +1,5 @@
+- 前向：每层参数需要一次 All-Gather，整个模型累加起来，通信量约为 $2\Psi$ 字节（将参数分片收集到完整，每个参数 2 字节 × 通信量约等于总参数量，但 All-Gather 的通信量是 $(N_d - 1)/N_d \Psi$，当 $N_d$ 大时近似于 $\Psi$ 字节？需要精确计算）。
+    - 实际上，All-Gather 的通信量是每个进程发送自己分片，接收其他分片，总通信量 $(N_d - 1)/N_d \times \Psi \approx \Psi$ 字节（FP16 参数大小）。
+- 反向：每层参数同样需要一次 All-Gather（收集完整参数才能计算梯度），再增加约 $\Psi$ 字节通信。
+- 梯度同样通过 Reduce-Scatter 归约，约 $2\Psi$ 字节（FP16 梯度通信量类似于 ZeRO-2）。
+- **总通信量**：约 $2\Psi$（两次 All-Gather）+ $2\Psi$（Reduce-Scatter）= $4\Psi$ 字节。

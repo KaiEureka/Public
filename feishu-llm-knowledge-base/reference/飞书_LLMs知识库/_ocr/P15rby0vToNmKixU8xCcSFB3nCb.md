@@ -1,0 +1,2 @@
+- 创建一个新的词表，仅包含上述保留 token 和活跃 token。新词表大小为 $V_{new}$。
+- 对于模型的输入嵌入矩阵 $W_{emb} \in \mathbb{R}^{V_{old} \times d}$ 和输出投影矩阵 $W_{out} \in \mathbb{R}^{d \times V_{old}}$，需要移除与被修剪 token 对应的行/列。如果原模型共享输入输出权重，也需同步调整。

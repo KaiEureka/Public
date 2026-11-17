@@ -1,0 +1,4 @@
+- BERT 的最后一层编码器会为每个 token 输出一个上下文向量 $\mathbf{h}_i \in \mathbb{R}^d$。
+- 我们在这些向量之上添加一个**线性分类器**（全连接层）：$\mathbf{W} \in \mathbb{R}^{K \times d}, \mathbf{b} \in \mathbb{R}^K$，其中 $K$ 是标签类别总数（如 BIO 标签体系：B-PER, I-PER, B-LOC, I-LOC, O 等）。
+- 对于序列中的第 $i$ 个 token，其预测概率分布为：$\hat{\mathbf{y}}_i = \mathrm{softmax}(\mathbf{W}\mathbf{h}_i + \mathbf{b})$。
+- 训练时，计算每个 token 的交叉熵损失（忽略 `[CLS]` 和 `[SEP]` 等特殊 token，以及填充位置的 token），总损失为所有有效 token 损失的平均。

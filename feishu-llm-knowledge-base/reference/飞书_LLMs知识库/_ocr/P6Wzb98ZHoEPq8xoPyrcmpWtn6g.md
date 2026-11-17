@@ -1,0 +1,3 @@
+$$
+\mathrm{ReLU}(x) = \max(0, x)
+$$

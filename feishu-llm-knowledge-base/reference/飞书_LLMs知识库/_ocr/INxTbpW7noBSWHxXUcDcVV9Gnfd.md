@@ -1,0 +1,1 @@
+- **温度采样 (Temperature Sampling)**：对于语言 $i$，其采样概率为 $p_i = \frac{(N_i)^\alpha}{\sum_j (N_j)^\alpha}$，其中 $N_i$ 是语言 $i$ 的数据量，$\alpha$ 为温度系数（如 0.3）。$\alpha < 1$ 可以提升小语种的出现概率。

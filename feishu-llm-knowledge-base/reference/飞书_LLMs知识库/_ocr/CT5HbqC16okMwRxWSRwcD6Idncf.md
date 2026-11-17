@@ -1,0 +1,1 @@
+- 注意力矩阵：$B \times h \times S \times S = 1 \times 32 \times 2048 \times 2048 \approx 1.34 \times 10^8$ 元素，FP16 约为 0.268 GB。但通常要存储注意力分数和权重两个矩阵，且中间 Q, K, V 等，实际注意力部分约需 1~2 GB/层。

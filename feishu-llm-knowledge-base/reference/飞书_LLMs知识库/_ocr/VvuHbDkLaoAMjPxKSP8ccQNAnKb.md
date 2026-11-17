@@ -1,0 +1,2 @@
+- 如果该回复是 desirable 的，KTO 希望其隐式奖励 $r_\theta$ 能够**显著高于** $z_{\mathrm{ref}}$。
+- 如果该回复是 undesirable 的，KTO 希望其隐式奖励 $r_\theta$ 能够**显著低于** $z_{\mathrm{ref}}$。

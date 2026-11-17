@@ -1,0 +1,3 @@
+- 原始 RoPE 在位置 $pos$ 使用角度 $m\theta_i$。
+- 在 PI 中，将 $m$ 替换为 $m \cdot (L_{train}/L_{target})$。这相当于把频率 $\theta_i$ 缩放为 $\theta_i \cdot (L_{train}/L_{target})$。
+- 例如，训练长度 2K，扩展到 8K，则缩放因子为 0.25，所有位置索引乘以 0.25。原来距离 100 的 token 现在在模型中"看起来"距离为 25。

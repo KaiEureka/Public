@@ -1,0 +1,1 @@
+在 MHA 中，KV 缓存大小为 $2\times h\times d_k\times n$（每层）。在 MQA 中，仅需存储 1 个 $K$ 头和 1 个 $V$ 头，即 $2\times1\times d_k\times n$（若 $d_k$ 不变）。**注意**：有时 MQA 会增大 $d_k$ 以补偿容量，但常见实践中保持 $d_k$ 与 MHA 单头相同。假设 MHA 和 MQA 的 $d_k$ 一致，则 KV 缓存量之比为 $1:h$。

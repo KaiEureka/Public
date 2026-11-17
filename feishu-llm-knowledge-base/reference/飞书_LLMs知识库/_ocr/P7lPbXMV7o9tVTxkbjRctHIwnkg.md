@@ -1,0 +1,1 @@
+- 将生成的回复，连同提示一起，送入**Reference Model**。Reference Model 计算其在这些 token 上的对数概率 $\log \pi_{ref}$。

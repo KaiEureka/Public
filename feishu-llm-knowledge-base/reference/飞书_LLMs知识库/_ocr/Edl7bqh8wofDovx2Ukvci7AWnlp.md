@@ -1,0 +1,2 @@
+- 梯度累积相当于计算总损失对参数的梯度：$g_{total} = \sum_{i=1}^{k} g_i$，其中 $k$ 是累积步数。
+- 正确的范数裁剪是在 $g_{total}$ 上执行：若 $\|g_{total}\| > \text{max\_norm}$，则 $g_{total} \leftarrow g_{total} \times \frac{\text{max\_norm}}{\|g_{total}\|}$。

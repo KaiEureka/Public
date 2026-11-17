@@ -1,0 +1,1 @@
+**公式**：若原始总计算量为 $F$（前向+反向），使用每层检查点后，总计算量约为 $F + L \times C_{fwd\_layer}$，其中 $C_{fwd\_layer}$ 是单层前向FLOPs。因为反向计算量大约是前向的2倍，所以原始 $F \approx L \times C_{fwd\_layer} + 2 \times L \times C_{fwd\_layer} = 3LC_{fwd\_layer}$。检查点后总计算量 ≈ $LC_{fwd\_layer}$(原始前向) + $LC_{fwd\_layer}$(重计算前向) + $2LC_{fwd\_layer}$(反向) = $4LC_{fwd\_layer}$，增加了约 33% 计算量。

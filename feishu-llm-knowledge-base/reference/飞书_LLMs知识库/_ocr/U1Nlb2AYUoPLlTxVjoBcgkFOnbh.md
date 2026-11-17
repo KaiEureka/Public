@@ -1,0 +1,1 @@
+KV Cache 的存在，是 Decode 阶段能够高效运行的关键。在串行生成中，每步的计算量相对较小（与新 token 和缓存的 Key 交互），计算瓶颈不再是 GPU 的算力，而是从显存中读取巨大的 KV Cache 所需的内存带宽。因此，Decode 阶段是 memory-bound 的。KV Cache 使得 Decode 的每步计算量从 $O(t^2 d)$ 降至 $O(td)$，从而将瓶颈从计算转移到了内存带宽。

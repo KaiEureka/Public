@@ -1,0 +1,2 @@
+- 通过两个线性投影分别生成接收向量 $r_t'$ 和键向量 $k_t'$（这里的命名沿用了RWKV的风格，但含义不同）。
+- 进行门控线性变换：$z_t=\mathrm{sigmoid}(r_t')\odot\text{激活函数}(k_t')^2$ 或类似的平方操作。常见的实现是 $z_t=r_t'\odot\mathrm{sigmoid}(k_t')$ 或 $z_t=r_t'\odot(\max(k_t',0))^2$。

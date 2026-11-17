@@ -1,0 +1,1217 @@
+[
+ {
+  "token": "A7J5woWoRiJf2gkiyjVcJQ3AnYd",
+  "title": "LLMs（大语言模型）持续更新~",
+  "obj_type": 22,
+  "obj_token": "I12rdcEIUoPKObx7Uhzcfhbbnob",
+  "depth": 0,
+  "parent": null,
+  "file": "LLMs（大语言模型）持续更新~.md"
+ },
+ {
+  "token": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "title": "一：模型架构",
+  "obj_type": 22,
+  "obj_token": "JpGFdUEOMoslgUxPdsLcWi3fnaf",
+  "depth": 1,
+  "parent": "A7J5woWoRiJf2gkiyjVcJQ3AnYd",
+  "file": "一：模型架构.md"
+ },
+ {
+  "token": "GOflwsFQDicQ1YkkbUlcoi8lnFe",
+  "title": "1. 大模型（LLMs）Transformer 整体结构",
+  "obj_type": 22,
+  "obj_token": "T7VVdSVUio4I2Kx1H2pcYXYVnRh",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/1. 大模型（LLMs）Transformer 整体结构.md"
+ },
+ {
+  "token": "G2cXwqPiSioopokC8GCcl2aJnLg",
+  "title": "2. 大模型（LLMs）自注意力机制（缩放点积注意力，除以 dkdk）.pdf",
+  "obj_type": 12,
+  "obj_token": "TxlObi8BboKJYAx00uJcWpNRnQe",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/2. 大模型（LLMs）自注意力机制（缩放点积注意力，除以 dkdk）.pdf"
+ },
+ {
+  "token": "HYsiwYLhgiMtrTkWwwMcZCKinzb",
+  "title": "3. 大模型（LLMs）多头注意力（Multi-Head Attention）",
+  "obj_type": 22,
+  "obj_token": "NG27dbNvDouk7rxpS9CcRC6RnDd",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/3. 大模型（LLMs）多头注意力（Multi-Head Attention）.md"
+ },
+ {
+  "token": "T1lDwb4hxi97hzkT5A3c9KeJnrf",
+  "title": "4.  大模型（LLMs）因果掩码（Causal Mask）",
+  "obj_type": 22,
+  "obj_token": "BY0Ydo1eOoTG1GxeHXLcDQJZnHd",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/4. 大模型（LLMs）因果掩码（Causal Mask）.md"
+ },
+ {
+  "token": "XeuvwwKO8irlwIkrOlEcNQ8qn7e",
+  "title": "5.大模型（LLMs）位置编码（绝对位置编码、可学习位置编码）",
+  "obj_type": 22,
+  "obj_token": "CuB6dwNTcoFlODx9l8BcBFPLnPg",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/5.大模型（LLMs）位置编码（绝对位置编码、可学习位置编码）.md"
+ },
+ {
+  "token": "KYvfw3IKpinTbEktHoocP69HnSg",
+  "title": "6.大模型（LLMs）旋转位置编码（RoPE）",
+  "obj_type": 22,
+  "obj_token": "GFpOdqM10ojIs1x1c4LcysvWnVb",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/6.大模型（LLMs）旋转位置编码（RoPE）.md"
+ },
+ {
+  "token": "WKyywnwwviI1dTk2PgYcWmoQnKf",
+  "title": "7.大模型（LLMs）ALiBi 位置编码",
+  "obj_type": 22,
+  "obj_token": "Rt56dA6BIo2SP3xKUcRcWHlvnac",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/7.大模型（LLMs）ALiBi 位置编码.md"
+ },
+ {
+  "token": "Lh8vwqpgeir7KHk0c0LccEIrn8b",
+  "title": "8.大模型（LLMs）前馈网络（FFN）",
+  "obj_type": 22,
+  "obj_token": "OWpSdqBUroJNHnx00c6cnl6Pn6g",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/8.大模型（LLMs）前馈网络（FFN）.md"
+ },
+ {
+  "token": "TmFfwhhcyi0yAOkbmRoc1tD3nLc",
+  "title": "9.大模型（LLMs）激活函数（ReLU、GELU、SwiGLU）",
+  "obj_type": 22,
+  "obj_token": "NiwKdNJx2o8AKWxFPGNcaG6rnn4",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/9.大模型（LLMs）激活函数（ReLU、GELU、SwiGLU）.md"
+ },
+ {
+  "token": "SQsMwnjJaizIS4krnzkcigPUnue",
+  "title": "10.大模型（LLMs）层归一化（LayerNorm、RMSNorm）",
+  "obj_type": 22,
+  "obj_token": "EkJ2dDkD8opxLwxXxDFcsuNFnWh",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/10.大模型（LLMs）层归一化（LayerNorm、RMSNorm）.md"
+ },
+ {
+  "token": "TEhswoEI8iUDKnkX40uc35Ponoq",
+  "title": "11.大模型（LLMs）Pre-Norm 与 Post-Norm",
+  "obj_type": 22,
+  "obj_token": "SqTudjvcyoV8DpxxSJdcrenqnyf",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/11.大模型（LLMs）Pre-Norm 与 Post-Norm.md"
+ },
+ {
+  "token": "KmS5w89VIig4zEkCkcecHTuKn1d",
+  "title": "12.大模型（LLMs）残差连接",
+  "obj_type": 22,
+  "obj_token": "Pt1id5gQXoiQDUxOxXlcqqJLnNd",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/12.大模型（LLMs）残差连接.md"
+ },
+ {
+  "token": "A6fzwHMXGiFWjWk5mrPcBLIAnOc",
+  "title": "13.大模型（LLMs）Decoder-Only 架构（GPT 系列）",
+  "obj_type": 22,
+  "obj_token": "VEnSdqZiuowNcNxhGRkcstAhnog",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/13.大模型（LLMs）Decoder-Only 架构（GPT 系列）.md"
+ },
+ {
+  "token": "WBkewgh4BivNG0kKXpacpzdGn4c",
+  "title": "14.大模型（LLMs）Encoder-Only 架构（BERT）",
+  "obj_type": 22,
+  "obj_token": "RLRRdbm64ouyivxofJacd8Xenrd",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/14.大模型（LLMs）Encoder-Only 架构（BERT）.md"
+ },
+ {
+  "token": "Va10wi4VMiK8LUkS4wjcSdjEntA",
+  "title": "15.大模型（LLMs）Encoder-Decoder 架构（T5、BART）",
+  "obj_type": 22,
+  "obj_token": "RTUCdgbPaov0Mcxh30ycl8V3n0b",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/15.大模型（LLMs）Encoder-Decoder 架构（T5、BART）.md"
+ },
+ {
+  "token": "ZWVwwzBcjiE357kSFzmc8eA4ndb",
+  "title": "16.大模型（LLMs）LLaMA 架构细节",
+  "obj_type": 22,
+  "obj_token": "SSE1dqGs7oRXujxNzVbcpbPCn9f",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/16.大模型（LLMs）LLaMA 架构细节.md"
+ },
+ {
+  "token": "UbClwmrYXiwNeTkgdSEcuNYunif",
+  "title": "17.大模型（LLMs）Mistral 架构（滑动窗口注意力）",
+  "obj_type": 22,
+  "obj_token": "FnlvdRRwEoXdZVxDFgzc7IVynvc",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/17.大模型（LLMs）Mistral 架构（滑动窗口注意力）.md"
+ },
+ {
+  "token": "PdQowhnKGiWKbpkF2tUchOQBnlh",
+  "title": "18.大模型（LLMs）混合专家（MoE）",
+  "obj_type": 22,
+  "obj_token": "ISjQdb8wko0FxuxiuKJcFHixnqd",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/18.大模型（LLMs）混合专家（MoE）.md"
+ },
+ {
+  "token": "S1OHwfCUqigwnqkQq4tcDjQOn1g",
+  "title": "19.大模型（LLMs）多查询注意力（MQA）",
+  "obj_type": 22,
+  "obj_token": "QtZIdFOlcoiAYsxIUUVcpUVfn6e",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/19.大模型（LLMs）多查询注意力（MQA）.md"
+ },
+ {
+  "token": "SPxcwpiiJiDErJkkcbxc3fJLnne",
+  "title": "20.大模型（LLMs）分组查询注意力（GQA）",
+  "obj_type": 22,
+  "obj_token": "JDjydRtiIoQ7WQx33LUcxATNn2d",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/20.大模型（LLMs）分组查询注意力（GQA）.md"
+ },
+ {
+  "token": "RxQzwT6xWiMq6jkFtGTcVVECnmg",
+  "title": "21.大模型（LLMs）FlashAttention",
+  "obj_type": 22,
+  "obj_token": "AUyQd5ZRhoxQjIxptE8cEYiPnyc",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/21.大模型（LLMs）FlashAttention.md"
+ },
+ {
+  "token": "De9XwLns1iyyb4kgEKoc7B7unwg",
+  "title": "22.大模型（LLMs）多头潜在注意力（MLA）",
+  "obj_type": 22,
+  "obj_token": "IVPTdN6Lyoery7xxExwcYVffnAf",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/22.大模型（LLMs）多头潜在注意力（MLA）.md"
+ },
+ {
+  "token": "QXM4weXJoi39I4kTs3UcbegynBh",
+  "title": "23.大模型（LLMs）长上下文扩展（位置插值、NTK-aware、YaRN）",
+  "obj_type": 22,
+  "obj_token": "MrsidOYH7oRTSCxU9pGcuovSn2e",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/23.大模型（LLMs）长上下文扩展（位置插值、NTK-aware、YaRN）.md"
+ },
+ {
+  "token": "FACawT4XjiEoM2kLXPycx0eXncd",
+  "title": "24.大模型（LLMs）线性注意力机制概览",
+  "obj_type": 22,
+  "obj_token": "M81ld1D8WoZPvAxXrbzchfennEh",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/24.大模型（LLMs）线性注意力机制概览.md"
+ },
+ {
+  "token": "JQtww6PFwiffqAkffNvcJNcOnhb",
+  "title": "25.大模型（LLMs）最新主流模型架构特点（DeepSeek-V3, Qwen2.5 等）",
+  "obj_type": 22,
+  "obj_token": "GjXAd6Ymtolj2FxbPMnccqqanGg",
+  "depth": 2,
+  "parent": "RGR5w5rr1i6k8jkuVIuc0xmCnXc",
+  "file": "一：模型架构/25.大模型（LLMs）最新主流模型架构特点（DeepSeek-V3, Qwen2.5 等）.md"
+ },
+ {
+  "token": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "title": "二：预训练技术",
+  "obj_type": 22,
+  "obj_token": "CyNtdtIoAo0Y2GxuDuLc0sFUnjj",
+  "depth": 1,
+  "parent": "A7J5woWoRiJf2gkiyjVcJQ3AnYd",
+  "file": "二：预训练技术.md"
+ },
+ {
+  "token": "Y05JwS1wNiBIw7kvxw2cKEhVnrb",
+  "title": "26.大模型（LLMs）因果语言模型（CLM）",
+  "obj_type": 22,
+  "obj_token": "FUKZdYuh6ok4ZUxSZqRcaQTKnvt",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/26.大模型（LLMs）因果语言模型（CLM）.md"
+ },
+ {
+  "token": "HhEuw3Eb2ic7MJkbiKUcJxh8nVO",
+  "title": "27.大模型（LLMs）掩码语言模型（MLM）",
+  "obj_type": 22,
+  "obj_token": "GjXXdP0OEoSL11xrea6cxFhGnJZ",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/27.大模型（LLMs）掩码语言模型（MLM）.md"
+ },
+ {
+  "token": "VQryw3HUdiWHbekHEfpc0JK2nDe",
+  "title": "28.大模型（LLMs）预训练数据收集与清洗",
+  "obj_type": 22,
+  "obj_token": "Cev2dSKJ6oZPkTxoOkycFs2WnYe",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/28.大模型（LLMs）预训练数据收集与清洗.md"
+ },
+ {
+  "token": "KVkRw5fvSilOXfkibArc5VHSndf",
+  "title": "29.大模型（LLMs）数据去重（句子级、文档级、近似去重）",
+  "obj_type": 22,
+  "obj_token": "XETmdT48poDNDIxFQhMcu3Isnbd",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/29.大模型（LLMs）数据去重（句子级、文档级、近似去重）.md"
+ },
+ {
+  "token": "LJDQwfND7i0r4WkMK9TcAUA2nnf",
+  "title": "30.大模型（LLMs）数据质量过滤（困惑度筛选、分类器过滤）",
+  "obj_type": 22,
+  "obj_token": "Z4F4dUTaJoFTYKxafO2ccBrfnXb",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/30.大模型（LLMs）数据质量过滤（困惑度筛选、分类器过滤）.md"
+ },
+ {
+  "token": "EaTmwTd3Xi0km5kSPN3c54TGnlf",
+  "title": "31.大模型（LLMs）数据配比",
+  "obj_type": 22,
+  "obj_token": "JHBjd9gLao2nH6xRYBsc2Fc2nBc",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/31.大模型（LLMs）数据配比.md"
+ },
+ {
+  "token": "DLeUwhJruilHRukWQCMcK9g9nyb",
+  "title": "32.大模型（LLMs）扩展律（Kaplan Scaling Laws、Chinchilla 定律）.pdf",
+  "obj_type": 12,
+  "obj_token": "LTeQbX5nrol1fQxp3Zwc4ecknWh",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/32.大模型（LLMs）扩展律（Kaplan Scaling Laws、Chinchilla 定律）.pdf"
+ },
+ {
+  "token": "UKVSwsmrvizh73kD8qpckkNRnQh",
+  "title": "33.大模型（LLMs）分词器（BPE、WordPiece、SentencePiece）",
+  "obj_type": 22,
+  "obj_token": "PmdsdkXg8oGnyaxRslvcXoEenPf",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/33.大模型（LLMs）分词器（BPE、WordPiece、SentencePiece）.md"
+ },
+ {
+  "token": "GQ7qw1klCirayhkUauicscbqnpc",
+  "title": "34大模型（LLMs）分布式训练（数据并行、模型并行、流水线并行、张量并行）",
+  "obj_type": 22,
+  "obj_token": "Ip0Ud92GhoD54uxgnKPccU26n4c",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/34大模型（LLMs）分布式训练（数据并行、模型并行、流水线并行、张量并行）.md"
+ },
+ {
+  "token": "RdlMwr6zHiurCIkdVS6c9aFDnUg",
+  "title": "35.大模型（LLMs）ZeRO 优化（Stage 1/2/3）",
+  "obj_type": 22,
+  "obj_token": "K0fFdqqyLohDyxxLhd8cGZTfnwh",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/35.大模型（LLMs）ZeRO 优化（Stage 1_2_3）.md"
+ },
+ {
+  "token": "FC4Hws8cVieV7okFYIXcIkgvn0f",
+  "title": "36.大模型（LLMs）重计算与显存占用分析",
+  "obj_type": 22,
+  "obj_token": "RwT3dJobbo4q5Qx1ZaicegqxnOf",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/36.大模型（LLMs）重计算与显存占用分析.md"
+ },
+ {
+  "token": "A8zzwJf4ui3fLNkVuaVc2a73nuL",
+  "title": "37.大模型（LLMs）重计算与显存占用分析.pdf",
+  "obj_type": 12,
+  "obj_token": "CoOyb7fVPoURJKxjCfhcHNqnnxf",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/37.大模型（LLMs）重计算与显存占用分析.pdf"
+ },
+ {
+  "token": "YI4ZwIE5MiXEpjkRn4Rc3eeunKc",
+  "title": "38.大模型（LLMs）学习率调度（Warmup, Cosine Decay）",
+  "obj_type": 22,
+  "obj_token": "YeEjdJXw5ok5JaxFv3YcuW0enc9",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/38.大模型（LLMs）学习率调度（Warmup, Cosine Decay）.md"
+ },
+ {
+  "token": "H1LqwP3PkibEdykjijgc533Rnue",
+  "title": "39.大模型（LLMs）混合精度训练（FP16/BF16, Loss Scaling）",
+  "obj_type": 22,
+  "obj_token": "O4ordvgfdoGUNgxZpIyc8wFcnde",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/39.大模型（LLMs）混合精度训练（FP16_BF16, Loss Scaling）.md"
+ },
+ {
+  "token": "DTSMwFnXuiiFhTkXDm5cf2KFnRh",
+  "title": "40.大模型（LLMs）梯度检查点（Gradient Checkpointing）",
+  "obj_type": 22,
+  "obj_token": "Uu1ydJzr6opND7xNeIoc7KlPnf3",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/40.大模型（LLMs）梯度检查点（Gradient Checkpointing）.md"
+ },
+ {
+  "token": "TlYvww7Aoi1oXhkFGQwcFQYxnin",
+  "title": "41.大模型（LLMs）梯度裁剪",
+  "obj_type": 22,
+  "obj_token": "L0eMdkOoloE1w7x9QnKcYKzFnMd",
+  "depth": 2,
+  "parent": "AydpwjVZ2iCR9bkmYpXcRblqnYc",
+  "file": "二：预训练技术/41.大模型（LLMs）梯度裁剪.md"
+ },
+ {
+  "token": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "title": "三：微调与对齐",
+  "obj_type": 22,
+  "obj_token": "Wo2Fdy4GXoZCr7xFzGbc5vQQne0",
+  "depth": 1,
+  "parent": "A7J5woWoRiJf2gkiyjVcJQ3AnYd",
+  "file": "三：微调与对齐.md"
+ },
+ {
+  "token": "XzEiwV7KViNGndkXrKwcOgKLnkf",
+  "title": "42.大模型（LLMs）指令微调（SFT）",
+  "obj_type": 22,
+  "obj_token": "KkBQd46iOo6m4xxlsnqcmYNQnXb",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/42.大模型（LLMs）指令微调（SFT）.md"
+ },
+ {
+  "token": "YU0vweNNPiHiRYk6m36c5iSGn2b",
+  "title": "43.大模型（LLMs）数据构建（Self-Instruct、Evol-Instruct）",
+  "obj_type": 22,
+  "obj_token": "MOVhdmKLCoN6J5x5Zg9c5rJbnch",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/43.大模型（LLMs）数据构建（Self-Instruct、Evol-Instruct）.md"
+ },
+ {
+  "token": "VOrVwrhLzi4WRokQOMPcOsPWnwg",
+  "title": "44.大模型（LLMs）SFT 损失掩码（仅计算回复部分损失）",
+  "obj_type": 22,
+  "obj_token": "BXbYdxi3GoPp05x2axkcCvzJn4c",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/44.大模型（LLMs）SFT 损失掩码（仅计算回复部分损失）.md"
+ },
+ {
+  "token": "Gpqpwc0aOiwCsqk3LkTcaPzXnsd",
+  "title": "45.大模型（LLMs）System Prompt 的设计与作用",
+  "obj_type": 22,
+  "obj_token": "Rz2YdpLQaoRMWQx5Ksrc08I1nWg",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/45.大模型（LLMs）System Prompt 的设计与作用.md"
+ },
+ {
+  "token": "MGw3w7lz2iOeYdkCNNScUU7wnDg",
+  "title": "46.大模型（LLMs）人类反馈强化学习（RLHF）",
+  "obj_type": 22,
+  "obj_token": "WC0UdWLPRonbuzxQ6m6cT9JJnfc",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/46.大模型（LLMs）人类反馈强化学习（RLHF）.md"
+ },
+ {
+  "token": "QNW3wg7bCinLPQkL0kGc4IdynHh",
+  "title": "47.大模型（LLMs）近端策略优化（PPO） / PPO 中 Actor、Critic、Reference 模型0",
+  "obj_type": 22,
+  "obj_token": "FPqmddHbYowB5kxrT8jcJAYhnQh",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/47.大模型（LLMs）近端策略优化（PPO） _ PPO 中 Actor、Critic、Reference 模型0.md"
+ },
+ {
+  "token": "WVwowCMnFiuxmKkTemzc0jiFnnb",
+  "title": "48.大模型（LLMs）直接偏好优化（DPO）",
+  "obj_type": 22,
+  "obj_token": "DfImdVeFBoPvUVxfdFZcAFo4n9b",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/48.大模型（LLMs）直接偏好优化（DPO）.md"
+ },
+ {
+  "token": "LDEaws7M2ib3h0k3LxMcQiy0nKe",
+  "title": "49.大模型（LLMs）ORPO",
+  "obj_type": 22,
+  "obj_token": "INg5d77N2oo1jKxL0Kxc97tmnkp",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/49.大模型（LLMs）ORPO.md"
+ },
+ {
+  "token": "NYUaw2x0Wi7SsckMF9Vc4Qjcnze",
+  "title": "50.大模型（LLMs）SimPO",
+  "obj_type": 22,
+  "obj_token": "I0bmdX9QAo5V5fxH89Qc49ilnVd",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/50.大模型（LLMs）SimPO.md"
+ },
+ {
+  "token": "Oa9Sw3zd0iM5wzk0nEscATBnnog",
+  "title": "51.大模型（LLMs）KTO",
+  "obj_type": 22,
+  "obj_token": "Uuq6dtzzQo0ZpDx8DTVcBDFynwe",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/51.大模型（LLMs）KTO.md"
+ },
+ {
+  "token": "PrzrwLxaGiovMIkPzIRcTs9KnBv",
+  "title": "52.大模型（LLMs）RLHF 与 DPO 对比",
+  "obj_type": 22,
+  "obj_token": "Ow5Gd1KwvobBSixi6g3cgmN2nYb",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/52.大模型（LLMs）RLHF 与 DPO 对比.md"
+ },
+ {
+  "token": "RJ0Zwq5JDi5vZjktgV2cXAfynSh",
+  "title": "53.大模型（LLMs）参数高效微调（PEFT）",
+  "obj_type": 22,
+  "obj_token": "Jz93dTfI7oRSsHx5tKCcOk8vn7e",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/53.大模型（LLMs）参数高效微调（PEFT）.md"
+ },
+ {
+  "token": "KERuwM7l4iMJpckLtDacUoP4n5d",
+  "title": "54.大模型（LLMs）LoRA（低秩适应）",
+  "obj_type": 22,
+  "obj_token": "Q7ppdSSriomxSfxneybcgo6cnHg",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/54.大模型（LLMs）LoRA（低秩适应）.md"
+ },
+ {
+  "token": "PVSpw5IG8ixcvqk60sQca91zn3U",
+  "title": "55.大模型（LLMs）QLoRA（量化 LoRA）",
+  "obj_type": 22,
+  "obj_token": "Zg6ndV5PsoBBSUxdWPGcowKBnMf",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/55.大模型（LLMs）QLoRA（量化 LoRA）.md"
+ },
+ {
+  "token": "UyJZwnpN5itHwUkwT5UcQfv2ntf",
+  "title": "56.大模型（LLMs）Adapter",
+  "obj_type": 22,
+  "obj_token": "LhNfdL1w6obeXFxdZPacfkpYnkd",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/56.大模型（LLMs）Adapter.md"
+ },
+ {
+  "token": "BeFOwhNKoiejIgkKjfpcfQZWnlc",
+  "title": "57.大模型（LLMs）Prefix Tuning",
+  "obj_type": 22,
+  "obj_token": "JLyedL3H5ohXxnxesAmc2txxnaf",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/57.大模型（LLMs）Prefix Tuning.md"
+ },
+ {
+  "token": "WSmJwZWR1iZzbJkOEvCcC8aYnYY",
+  "title": "58.大模型（LLMs）Prompt Tuning",
+  "obj_type": 22,
+  "obj_token": "SLP4dKl7FoHVdXxS8LRcfVOon2g",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/58.大模型（LLMs）Prompt Tuning.md"
+ },
+ {
+  "token": "DYxSwOkvji1t95kZN2vcdR26nae",
+  "title": "59.大模型（LLMs）灾难性遗忘",
+  "obj_type": 22,
+  "obj_token": "T0bqdPSfeojfabx0IdGcmxcrnze",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/59.大模型（LLMs）灾难性遗忘.md"
+ },
+ {
+  "token": "JkSEwloDWifNa6kaAd1cPVirnZe",
+  "title": "60.大模型（LLMs）数据混合与多任务微调",
+  "obj_type": 22,
+  "obj_token": "CRvXdG2Poo1TEZxl6SOcTA8Hnqb",
+  "depth": 2,
+  "parent": "HzFawhW3ri6LOMkdFXWc5Bu9n9c",
+  "file": "三：微调与对齐/60.大模型（LLMs）数据混合与多任务微调.md"
+ },
+ {
+  "token": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "title": "四：推理优化与部署",
+  "obj_type": 22,
+  "obj_token": "XyQ6dmsbOoAsHixoCL0c3AAEnKf",
+  "depth": 1,
+  "parent": "A7J5woWoRiJf2gkiyjVcJQ3AnYd",
+  "file": "四：推理优化与部署.md"
+ },
+ {
+  "token": "B2WpwnpvmiqW35k9hzvcJ4wTncd",
+  "title": "61.大模型（LLMs）解码策略（贪心搜索、束搜索、Top-k、Top-p、温度采样）",
+  "obj_type": 22,
+  "obj_token": "Ewg8dEHTGojxUaxRkxocTmb8nBe",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/61.大模型（LLMs）解码策略（贪心搜索、束搜索、Top-k、Top-p、温度采样）.md"
+ },
+ {
+  "token": "S2cBwJgVmiRDbukXddacJX2qn6d",
+  "title": "60.大模型（LLMs）重复惩罚（频率惩罚、存在惩罚）",
+  "obj_type": 22,
+  "obj_token": "PXVlduA6voul46xCsAhcBATZnrb",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/60.大模型（LLMs）重复惩罚（频率惩罚、存在惩罚）.md"
+ },
+ {
+  "token": "N1YqwJbvDi0Kw2kjiUvcnSA9n0e",
+  "title": "61.大模型（LLMs）KV Cache",
+  "obj_type": 22,
+  "obj_token": "BbUTd9L3yoZdNzxrCllcgSbznHf",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/61.大模型（LLMs）KV Cache.md"
+ },
+ {
+  "token": "YD2SwSsy9iTGMmkEs4jcylEZnnd",
+  "title": "62.大模型（LLMs）MQA/GQA 与 KV Cache 压缩",
+  "obj_type": 22,
+  "obj_token": "LT6UdI55ko6ZpCxRewhcLQJ7noJ",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/62.大模型（LLMs）MQA_GQA 与 KV Cache 压缩.md"
+ },
+ {
+  "token": "OuSIwe7IQi1cflkQ601cDNfQn3c",
+  "title": "63.大模型（LLMs）FlashAttention（推理加速）",
+  "obj_type": 22,
+  "obj_token": "PVwTdC3BFo9CC2x1uwRc4BhDnIq",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/63.大模型（LLMs）FlashAttention（推理加速）.md"
+ },
+ {
+  "token": "Mkz0wXtPeiHfvJksSVSc0TWTnxd",
+  "title": "64.大模型（LLMs）量化（PTQ、GPTQ、AWQ、GGUF）",
+  "obj_type": 22,
+  "obj_token": "CUredW2cXo1Z4LxsChecCd1Enef",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/64.大模型（LLMs）量化（PTQ、GPTQ、AWQ、GGUF）.md"
+ },
+ {
+  "token": "J01swL7KPiURbSkqde0cJq63nHc",
+  "title": "65.大模型（LLMs）GGUF 与 GPTQ 对比",
+  "obj_type": 22,
+  "obj_token": "Vt7wdV2BboR2hIxayqYcRvz0ngc",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/65.大模型（LLMs）GGUF 与 GPTQ 对比.md"
+ },
+ {
+  "token": "CNm5w5hEKiUhQ5kMnPrcFoSGnVd",
+  "title": "66.大模型（LLMs）AWQ 的缩放系数查找",
+  "obj_type": 22,
+  "obj_token": "XpOqdskxEogMOtxjq9kcwnGKnXe",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/66.大模型（LLMs）AWQ 的缩放系数查找.md"
+ },
+ {
+  "token": "EqBawimrwioo11kNL45cwrfznle",
+  "title": "67.大模型（LLMs）连续批处理（Continuous Batching）",
+  "obj_type": 22,
+  "obj_token": "MRWJdXDYGof8FDxjtqzcZ9OznfF",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/67.大模型（LLMs）连续批处理（Continuous Batching）.md"
+ },
+ {
+  "token": "Ym7nwpfPmigEfPkKIXWcrAa0nHf",
+  "title": "68.大模型（LLMs）PagedAttention",
+  "obj_type": 22,
+  "obj_token": "TH16deiq6oGIwcxIa6ocYiyXnve",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/68.大模型（LLMs）PagedAttention.md"
+ },
+ {
+  "token": "Us9awBi8iiwtfZkqtRzcSfVcnJe",
+  "title": "69.大模型（LLMs）推测解码（Speculative Decoding）",
+  "obj_type": 22,
+  "obj_token": "S6lidtkWCo82KvxgLCOcJtFwnA4",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/69.大模型（LLMs）推测解码（Speculative Decoding）.md"
+ },
+ {
+  "token": "NR2xwXzjpi4F01khCQ7c89EgnWg",
+  "title": "70.大模型（LLMs）Medusa",
+  "obj_type": 22,
+  "obj_token": "KtVndaq39od6HVx6ORhcsKDanVf",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/70.大模型（LLMs）Medusa.md"
+ },
+ {
+  "token": "Uhg6wKBvGiSyqckdgPTciRAMn9f",
+  "title": "71.大模型（LLMs）算子融合",
+  "obj_type": 22,
+  "obj_token": "CSFYd38MHo6AZNxNAeycFmuYnyb",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/71.大模型（LLMs）算子融合.md"
+ },
+ {
+  "token": "ZXcXweoHiilNSmkYRs9cZyF8n1f",
+  "title": "72.大模型（LLMs）推理引擎（vLLM、TensorRT-LLM、llama.cpp）",
+  "obj_type": 22,
+  "obj_token": "IFJdd1DGComrcnx1iGKc1eBhn1f",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/72.大模型（LLMs）推理引擎（vLLM、TensorRT-LLM、llama.cpp）.md"
+ },
+ {
+  "token": "P30KwGxJIiaDg5kjcX0c8HC6ntd",
+  "title": "73.大模型（LLMs）流式输出",
+  "obj_type": 22,
+  "obj_token": "Vu10dUxkzoOqJQxbay4c1mU7nff",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/73.大模型（LLMs）流式输出.md"
+ },
+ {
+  "token": "Suarwd0MSiF56MkUyBScW6UmnhB",
+  "title": "74.大模型（LLMs）Prompt Cache / 语义缓存 / 语义缓存相似度阈值",
+  "obj_type": 22,
+  "obj_token": "G54YdCukToeFRsxZZz6cl0wxnvd",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/74.大模型（LLMs）Prompt Cache _ 语义缓存 _ 语义缓存相似度阈值.md"
+ },
+ {
+  "token": "Mbffw3PsFi2cuKkz2gIcaX8Onaf",
+  "title": "75.大模型（LLMs）服务并发与调度策略",
+  "obj_type": 22,
+  "obj_token": "UTVtdoVYlo6OwtxEPnfciOY8noe",
+  "depth": 2,
+  "parent": "TSDCwrVJ1ij5MNkyDVgcuxRfnRe",
+  "file": "四：推理优化与部署/75.大模型（LLMs）服务并发与调度策略.md"
+ },
+ {
+  "token": "BqQMwBARui2qTIkTZ5ucQCYInGe",
+  "title": "五：提示工程与上下文学习",
+  "obj_type": 22,
+  "obj_token": "OVBNdlRcvox9POx7LDDcA450nNb",
+  "depth": 1,
+  "parent": "A7J5woWoRiJf2gkiyjVcJQ3AnYd",
+  "file": "五：提示工程与上下文学习.md"
+ },
+ {
+  "token": "G6MJwrnZMirUkZk4OKTc64ZRnZf",
+  "title": "76.大模型（LLMs）零样本/少样本学习（Zero-shot / Few-shot）",
+  "obj_type": 22,
+  "obj_token": "OGfNdnSuwoCK1vxXoaqcK29xnkc",
+  "depth": 2,
+  "parent": "BqQMwBARui2qTIkTZ5ucQCYInGe",
+  "file": "五：提示工程与上下文学习/76.大模型（LLMs）零样本_少样本学习（Zero-shot _ Few-shot）.md"
+ },
+ {
+  "token": "VdLWwuaL4i5NKdknLa7cxIOrnig",
+  "title": "77.大模型（LLMs）Few-shot 示例的选择与排序",
+  "obj_type": 22,
+  "obj_token": "RxY1d6P5gogYRvxUVKacZNDlnJf",
+  "depth": 2,
+  "parent": "BqQMwBARui2qTIkTZ5ucQCYInGe",
+  "file": "五：提示工程与上下文学习/77.大模型（LLMs）Few-shot 示例的选择与排序.md"
+ },
+ {
+  "token": "LXJlwBNini6BizkrUhhcyWpunsf",
+  "title": "78.大模型（LLMs）思维链（Chain-of-Thought）",
+  "obj_type": 22,
+  "obj_token": "F4B7d2IJJoo7tsxGi2FcKXMpn1g",
+  "depth": 2,
+  "parent": "BqQMwBARui2qTIkTZ5ucQCYInGe",
+  "file": "五：提示工程与上下文学习/78.大模型（LLMs）思维链（Chain-of-Thought）.md"
+ },
+ {
+  "token": "MGuPw0n6Ji2qNJkRj17cdAcWnue",
+  "title": "79.大模型（LLMs）自洽性（Self-Consistency）",
+  "obj_type": 22,
+  "obj_token": "DpbxdnH2coT9NIxT46lcmjNJnJg",
+  "depth": 2,
+  "parent": "BqQMwBARui2qTIkTZ5ucQCYInGe",
+  "file": "五：提示工程与上下文学习/79.大模型（LLMs）自洽性（Self-Consistency）.md"
+ },
+ {
+  "token": "YLhCwBILIiMYuXkdn6IcggP8nEh",
+  "title": "80.大模型（LLMs）思维树（Tree-of-Thought）",
+  "obj_type": 22,
+  "obj_token": "AebudzfwNoZz78xqAdRcSkrBnTh",
+  "depth": 2,
+  "parent": "BqQMwBARui2qTIkTZ5ucQCYInGe",
+  "file": "五：提示工程与上下文学习/80.大模型（LLMs）思维树（Tree-of-Thought）.md"
+ },
+ {
+  "token": "VfpYwyMjYi7BJtkipvYcRbe0ndc",
+  "title": "81.大模型（LLMs）思维图（Graph-of-Thought）",
+  "obj_type": 22,
+  "obj_token": "LbXDdOHQhorlzAxZ8d5c5G2gnLf",
+  "depth": 2,
+  "parent": "BqQMwBARui2qTIkTZ5ucQCYInGe",
+  "file": "五：提示工程与上下文学习/81.大模型（LLMs）思维图（Graph-of-Thought）.md"
+ },
+ {
+  "token": "UNcyw9ACIiJYN3krDjDcNJ1Rndc",
+  "title": "82.大模型（LLMs）ReAct",
+  "obj_type": 22,
+  "obj_token": "PjZtdSppzow61NxqK0ocVPvunsc",
+  "depth": 2,
+  "parent": "BqQMwBARui2qTIkTZ5ucQCYInGe",
+  "file": "五：提示工程与上下文学习/82.大模型（LLMs）ReAct.md"
+ },
+ {
+  "token": "VbnfwFB7sisNr4kOSH3cNarMnsd",
+  "title": "83.大模型（LLMs）提示注入（Prompt Injection）与防御（输入分隔、转义）",
+  "obj_type": 22,
+  "obj_token": "VbSGdeHaJoT2WnxxADucrFJunTe",
+  "depth": 2,
+  "parent": "BqQMwBARui2qTIkTZ5ucQCYInGe",
+  "file": "五：提示工程与上下文学习/83.大模型（LLMs）提示注入（Prompt Injection）与防御（输入分隔、转义）.md"
+ },
+ {
+  "token": "D5W3wxpKTiSQ6zkAWz7chEzJned",
+  "title": "84.大模型（LLMs）系统提示与用户提示的角色划分",
+  "obj_type": 22,
+  "obj_token": "HiwxdGSRnoTmqkx3p8LcTCbvnbd",
+  "depth": 2,
+  "parent": "BqQMwBARui2qTIkTZ5ucQCYInGe",
+  "file": "五：提示工程与上下文学习/84.大模型（LLMs）系统提示与用户提示的角色划分.md"
+ },
+ {
+  "token": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "title": "六：检索增强生成（RAG）",
+  "obj_type": 22,
+  "obj_token": "RYYSd2rQnoBVMsxDi8lcYTnsnYc",
+  "depth": 1,
+  "parent": "A7J5woWoRiJf2gkiyjVcJQ3AnYd",
+  "file": "六：检索增强生成（RAG）.md"
+ },
+ {
+  "token": "SkhxwrnkSi7qcRkf8LOcNILdnr0",
+  "title": "85.大模型（LLMs）索引构建",
+  "obj_type": 22,
+  "obj_token": "AooMdfEEToMz0sxa1Itc4O1UnTg",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/85.大模型（LLMs）索引构建.md"
+ },
+ {
+  "token": "HQmwwCPl6ixKGwkuwgTcKbbpnBd",
+  "title": "86.大模型（LLMs）分块策略（大小、重叠、语义分块）",
+  "obj_type": 22,
+  "obj_token": "NTkpdZpFAoFwakxYM2BcNaXrnPc",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/86.大模型（LLMs）分块策略（大小、重叠、语义分块）.md"
+ },
+ {
+  "token": "Ag8Qw4DUZiuEEGkvxB4ctXp7nQy",
+  "title": "87.大模型（LLMs）文档解析（PDF, OCR）",
+  "obj_type": 22,
+  "obj_token": "HK8Cd9lO0oAsjMx2usEc0S3PnDe",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/87.大模型（LLMs）文档解析（PDF, OCR）.md"
+ },
+ {
+  "token": "FXgmws02nis5pvkd25rcgWzCnbb",
+  "title": "88.大模型（LLMs）表格与多模态文档处理",
+  "obj_type": 22,
+  "obj_token": "Z6t5dxHdGoLNmwxyTAHcYCo1n2c",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/88.大模型（LLMs）表格与多模态文档处理.md"
+ },
+ {
+  "token": "LAk6woP24iTIs8kKvMhcr6QZn0g",
+  "title": "89.大模型（LLMs）稠密检索（Embedding）",
+  "obj_type": 22,
+  "obj_token": "HzGpdkMFnov4xDxQvh4crFZxnLe",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/89.大模型（LLMs）稠密检索（Embedding）.md"
+ },
+ {
+  "token": "Vb7IwCWIWiJRpIkluiicTYcOnnd",
+  "title": "90.大模型（LLMs）稀疏检索（BM25）",
+  "obj_type": 22,
+  "obj_token": "RquTd23vVoBKaKxrZpOcZ0CSncg",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/90.大模型（LLMs）稀疏检索（BM25）.md"
+ },
+ {
+  "token": "I3Q6wybdkimYExkHeC4cPJOwnQh",
+  "title": "91.大模型（LLMs）混合检索",
+  "obj_type": 22,
+  "obj_token": "GxS5ddHAboigJixig15ceT8jnKf",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/91.大模型（LLMs）混合检索.md"
+ },
+ {
+  "token": "MdouwCwh3iP6HNkt4PZcw9CSnYb",
+  "title": "92.大模型（LLMs）重排序（Reranker）",
+  "obj_type": 22,
+  "obj_token": "CeM8dyBILoEgM8xUbkacLyMNnsc",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/92.大模型（LLMs）重排序（Reranker）.md"
+ },
+ {
+  "token": "QgHgwoUL9irPPQkXhXEcSfEXnDe",
+  "title": "93.大模型（LLMs）查询重写与扩展",
+  "obj_type": 22,
+  "obj_token": "HQVRdF5hCosBJwxfNTGcDHT8ncf",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/93.大模型（LLMs）查询重写与扩展.md"
+ },
+ {
+  "token": "EyyswXtsriVa9Tkpr17czXpHnjd",
+  "title": "94.大模型（LLMs）HyDE（假设性文档嵌入）",
+  "obj_type": 22,
+  "obj_token": "Vmbid9JBCooWnxxPxDqc8JdanXc",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/94.大模型（LLMs）HyDE（假设性文档嵌入）.md"
+ },
+ {
+  "token": "ZalwwBaIBiyRcGk5NTBcHrX6nKd",
+  "title": "95.大模型（LLMs）上下文压缩",
+  "obj_type": 22,
+  "obj_token": "SuBhd4zkloVCAAxSQVScjqvHnMh",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/95.大模型（LLMs）上下文压缩.md"
+ },
+ {
+  "token": "Y1dXw3l0KiZYg7kLXpQcX5gpn3f",
+  "title": "96.大模型（LLMs）高级 RAG（Self-RAG、CRAG、GraphRAG）",
+  "obj_type": 22,
+  "obj_token": "CFcLd4Kc8oJTbPxWw1TcNzjUnde",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/96.大模型（LLMs）高级 RAG（Self-RAG、CRAG、GraphRAG）.md"
+ },
+ {
+  "token": "AZ8BwcRC4irBITk2iaMc0ZqDnLc",
+  "title": "97.大模型（LLMs）RAG 评估指标（忠实度、命中率、MRR）",
+  "obj_type": 22,
+  "obj_token": "OVK6dX89Yo7OHTx4ATXcLdJoneb",
+  "depth": 2,
+  "parent": "MvcYwiA27izAB8ktH6Ncqb0Fnid",
+  "file": "六：检索增强生成（RAG）/97.大模型（LLMs）RAG 评估指标（忠实度、命中率、MRR）.md"
+ },
+ {
+  "token": "Fv1nwt5mTid9V7kWNKjcVl3UnEg",
+  "title": "七：AI Agent",
+  "obj_type": 22,
+  "obj_token": "E0E5dvJNso0AKmxnaiucl2RXnsd",
+  "depth": 1,
+  "parent": "A7J5woWoRiJf2gkiyjVcJQ3AnYd",
+  "file": "七：AI Agent.md"
+ },
+ {
+  "token": "TcFcwAAj0i5ktvkAOGDcronQnKO",
+  "title": "98.大模型（LLMs）Agent 规划（Planning）",
+  "obj_type": 22,
+  "obj_token": "SUA0d03Cjocjx6x5P2YcRVwHnW5",
+  "depth": 2,
+  "parent": "Fv1nwt5mTid9V7kWNKjcVl3UnEg",
+  "file": "七：AI Agent/98.大模型（LLMs）Agent 规划（Planning）.md"
+ },
+ {
+  "token": "IA43wgi1niRa19kxIa6c0Qo5nCh",
+  "title": "99.大模型（LLMs）工具使用（Function Calling）及 Schema 定义与参数提取",
+  "obj_type": 22,
+  "obj_token": "EPbRd4BTpo4x6cxdggoccGKanXd",
+  "depth": 2,
+  "parent": "Fv1nwt5mTid9V7kWNKjcVl3UnEg",
+  "file": "七：AI Agent/99.大模型（LLMs）工具使用（Function Calling）及 Schema 定义与参数提取.md"
+ },
+ {
+  "token": "P3TZwdaXDitcpEkM9Ggc3yqJn1e",
+  "title": "100.大模型（LLMs）记忆（短期与长期）",
+  "obj_type": 22,
+  "obj_token": "NjVhdn3uFoxZBixdWsicmWLUnye",
+  "depth": 2,
+  "parent": "Fv1nwt5mTid9V7kWNKjcVl3UnEg",
+  "file": "七：AI Agent/100.大模型（LLMs）记忆（短期与长期）.md"
+ },
+ {
+  "token": "T6N3wE7x0iKDNzkl3qjchqJtntb",
+  "title": "101.大模型（LLMs）ReAct 范式",
+  "obj_type": 22,
+  "obj_token": "Pc3tdJRkRoucJNxeE1FcyN3kntf",
+  "depth": 2,
+  "parent": "Fv1nwt5mTid9V7kWNKjcVl3UnEg",
+  "file": "七：AI Agent/101.大模型（LLMs）ReAct 范式.md"
+ },
+ {
+  "token": "WDvlwZLdCiVKBBkGGE5cn93onvc",
+  "title": "102.大模型（LLMs）Plan-and-Execute",
+  "obj_type": 22,
+  "obj_token": "PmHRdJKzwoJAj4xcTDHc7Mwpn3f",
+  "depth": 2,
+  "parent": "Fv1nwt5mTid9V7kWNKjcVl3UnEg",
+  "file": "七：AI Agent/102.大模型（LLMs）Plan-and-Execute.md"
+ },
+ {
+  "token": "VwlEwAWPaidbTvkuiG2cCthCnUf",
+  "title": "104.大模型（LLMs）多 Agent 协作",
+  "obj_type": 22,
+  "obj_token": "G7qgdjVvao5m7IxhnfTcf8ionbf",
+  "depth": 2,
+  "parent": "Fv1nwt5mTid9V7kWNKjcVl3UnEg",
+  "file": "七：AI Agent/104.大模型（LLMs）多 Agent 协作.md"
+ },
+ {
+  "token": "F9htw07hOih4oik4Vi3cSBIjnVd",
+  "title": "105.大模型（LLMs）Agent 框架（LangChain Agent、AutoGen）",
+  "obj_type": 22,
+  "obj_token": "YBkpdIWHloXGzfxWTkjcdOfBnIh",
+  "depth": 2,
+  "parent": "Fv1nwt5mTid9V7kWNKjcVl3UnEg",
+  "file": "七：AI Agent/105.大模型（LLMs）Agent 框架（LangChain Agent、AutoGen）.md"
+ },
+ {
+  "token": "N9kPwKx7siGuUMkJ3jRc5htKnAb",
+  "title": "106.大模型（LLMs）Agent 状态管理与错误处理",
+  "obj_type": 22,
+  "obj_token": "OtuqdHQipoi6hTxfaK6cV4ijnbb",
+  "depth": 2,
+  "parent": "Fv1nwt5mTid9V7kWNKjcVl3UnEg",
+  "file": "七：AI Agent/106.大模型（LLMs）Agent 状态管理与错误处理.md"
+ },
+ {
+  "token": "OfpUwQ8cjiIsnJkQllbcwPwLnAw",
+  "title": "八：评估与可靠性",
+  "obj_type": 22,
+  "obj_token": "GBwIdJOGRoRY23xf8jdcHgRunMc",
+  "depth": 1,
+  "parent": "A7J5woWoRiJf2gkiyjVcJQ3AnYd",
+  "file": "八：评估与可靠性.md"
+ },
+ {
+  "token": "KJfiw0IndiyQjCkfUbmc7tGDnqf",
+  "title": "107.大模型（LLMs）评测基准（MMLU、GSM8K、MATH、HumanEval、MT-Bench、AlpacaEval）",
+  "obj_type": 22,
+  "obj_token": "Veh2dvh7rovpN9xnMhjcIfzcn4g",
+  "depth": 2,
+  "parent": "OfpUwQ8cjiIsnJkQllbcwPwLnAw",
+  "file": "八：评估与可靠性/107.大模型（LLMs）评测基准（MMLU、GSM8K、MATH、HumanEval、MT-Bench、AlpacaEval）.md"
+ },
+ {
+  "token": "Ze2qwNmkvivezrkOvudcXB0KnOd",
+  "title": "108.大模型（LLMs）自动评估指标（困惑度、BLEU、ROUGE、BERTScore）",
+  "obj_type": 22,
+  "obj_token": "DawZdVtz3oqMO4x0OrocDgminSc",
+  "depth": 2,
+  "parent": "OfpUwQ8cjiIsnJkQllbcwPwLnAw",
+  "file": "八：评估与可靠性/108.大模型（LLMs）自动评估指标（困惑度、BLEU、ROUGE、BERTScore）.md"
+ },
+ {
+  "token": "JXWvwHV7Wixj9EkSwRmcjSVynrg",
+  "title": "109.大模型（LLMs）LLM-as-a-Judge 及其偏见（位置偏见、冗长偏差）",
+  "obj_type": 22,
+  "obj_token": "QEqEdWk1boaTcyxDyktcfV6dnMh",
+  "depth": 2,
+  "parent": "OfpUwQ8cjiIsnJkQllbcwPwLnAw",
+  "file": "八：评估与可靠性/109.大模型（LLMs）LLM-as-a-Judge 及其偏见（位置偏见、冗长偏差）.md"
+ },
+ {
+  "token": "FRYew0qSJikC44k6uZQcPXkUneb",
+  "title": "110.大模型（LLMs）幻觉（分类与缓解）/ 幻觉类别定义（事实冲突、虚构捏造、忠诚度偏离）",
+  "obj_type": 22,
+  "obj_token": "JdBed7IJeopArFxCyETcfVrznib",
+  "depth": 2,
+  "parent": "OfpUwQ8cjiIsnJkQllbcwPwLnAw",
+  "file": "八：评估与可靠性/110.大模型（LLMs）幻觉（分类与缓解）_ 幻觉类别定义（事实冲突、虚构捏造、忠诚度偏离）.md"
+ },
+ {
+  "token": "KnwjwVxIViBqwlkhcvwczHR8nTf",
+  "title": "111.大模型（LLMs）DoLa 解码",
+  "obj_type": 22,
+  "obj_token": "FCfPdap4EoU1ktxb9vLcLdYdnQf",
+  "depth": 2,
+  "parent": "OfpUwQ8cjiIsnJkQllbcwPwLnAw",
+  "file": "八：评估与可靠性/111.大模型（LLMs）DoLa 解码.md"
+ },
+ {
+  "token": "XxdEwEPbkiHrv8kFc0lcEaKhnFf",
+  "title": "112.大模型（LLMs）偏见与毒性",
+  "obj_type": 22,
+  "obj_token": "Fg0Zdm96HoCLFAx1lrAcZBavnng",
+  "depth": 2,
+  "parent": "OfpUwQ8cjiIsnJkQllbcwPwLnAw",
+  "file": "八：评估与可靠性/112.大模型（LLMs）偏见与毒性.md"
+ },
+ {
+  "token": "ZAoIwfcebin7e8kXIGNc7DMZn5c",
+  "title": "113.大模型（LLMs）越狱攻击与防御",
+  "obj_type": 22,
+  "obj_token": "LSWHdTP8poB0ZzxHUh0ciLVGn4b",
+  "depth": 2,
+  "parent": "OfpUwQ8cjiIsnJkQllbcwPwLnAw",
+  "file": "八：评估与可靠性/113.大模型（LLMs）越狱攻击与防御.md"
+ },
+ {
+  "token": "N0xhwri2BiooLVkgGdHcfpGxn6a",
+  "title": "114.大模型（LLMs）红队测试与自动化红队测试",
+  "obj_type": 22,
+  "obj_token": "Ta2DdOoA9oi9fIxDbr5cu6YUnxc",
+  "depth": 2,
+  "parent": "OfpUwQ8cjiIsnJkQllbcwPwLnAw",
+  "file": "八：评估与可靠性/114.大模型（LLMs）红队测试与自动化红队测试.md"
+ },
+ {
+  "token": "UHdtwOZaVicJmDkuv0IcenClnVh",
+  "title": "115.大模型（LLMs）宪法 AI",
+  "obj_type": 22,
+  "obj_token": "CCIJdSKzooCrF0xEhircvKHznxe",
+  "depth": 2,
+  "parent": "OfpUwQ8cjiIsnJkQllbcwPwLnAw",
+  "file": "八：评估与可靠性/115.大模型（LLMs）宪法 AI.md"
+ },
+ {
+  "token": "Xrm5wnXFcihdGEknRXScMe7zn5c",
+  "title": "116.大模型（LLMs）数据污染与基准时效性",
+  "obj_type": 22,
+  "obj_token": "T1ubd2V7ToZ6frx5paGcgIaJnAa",
+  "depth": 2,
+  "parent": "OfpUwQ8cjiIsnJkQllbcwPwLnAw",
+  "file": "八：评估与可靠性/116.大模型（LLMs）数据污染与基准时效性.md"
+ },
+ {
+  "token": "OtLcwqhLNiid5FkICEJc3alcntd",
+  "title": "九：前沿与工程实践",
+  "obj_type": 22,
+  "obj_token": "YG6tdyZnLo8D7pxUotKcBd7OnNf",
+  "depth": 1,
+  "parent": "A7J5woWoRiJf2gkiyjVcJQ3AnYd",
+  "file": "九：前沿与工程实践.md"
+ },
+ {
+  "token": "XEzWwWFJ5icEfykM3oOcTYF3n7g",
+  "title": "117.大模型（LLMs）多模态大模型（LLaVA 等）",
+  "obj_type": 22,
+  "obj_token": "OtJxdu0F3oFVd0xvYeYct67TnJh",
+  "depth": 2,
+  "parent": "OtLcwqhLNiid5FkICEJc3alcntd",
+  "file": "九：前沿与工程实践/117.大模型（LLMs）多模态大模型（LLaVA 等）.md"
+ },
+ {
+  "token": "BiHcwv27oiH2Gakly1ecMsGVn8c",
+  "title": "118.大模型（LLMs）新架构（Mamba、RWKV、Mamba-2）",
+  "obj_type": 22,
+  "obj_token": "BDWkd6MtwodxTYxxep6ckEXSnsc",
+  "depth": 2,
+  "parent": "OtLcwqhLNiid5FkICEJc3alcntd",
+  "file": "九：前沿与工程实践/118.大模型（LLMs）新架构（Mamba、RWKV、Mamba-2）.md"
+ },
+ {
+  "token": "JFBxwIHLViSPn8kBDjcceDc9ngd",
+  "title": "119.大模型（LLMs）合成数据",
+  "obj_type": 22,
+  "obj_token": "KqfPdIKVEobYwYxnG0ec0Vvynjf",
+  "depth": 2,
+  "parent": "OtLcwqhLNiid5FkICEJc3alcntd",
+  "file": "九：前沿与工程实践/119.大模型（LLMs）合成数据.md"
+ },
+ {
+  "token": "N6H8w2WOviPHd2kLL2vc4VeWnbW",
+  "title": "120.大模型（LLMs）知识蒸馏面",
+  "obj_type": 22,
+  "obj_token": "F5iyd3cO1oaEp2xq3L1cEpo7nJf",
+  "depth": 2,
+  "parent": "OtLcwqhLNiid5FkICEJc3alcntd",
+  "file": "九：前沿与工程实践/120.大模型（LLMs）知识蒸馏面.md"
+ },
+ {
+  "token": "Fl9DwXasVilyZgklkPycaeNTnVh",
+  "title": "121.大模型（LLMs）模型压缩",
+  "obj_type": 22,
+  "obj_token": "ZdSgdzgXFowa9exdmR3cG5yFnCf",
+  "depth": 2,
+  "parent": "OtLcwqhLNiid5FkICEJc3alcntd",
+  "file": "九：前沿与工程实践/121.大模型（LLMs）模型压缩.md"
+ },
+ {
+  "token": "WjIewQgCniX1OTkmXrychn0kn15",
+  "title": "122.大模型（LLMs）LangChain / LlamaIndex 核心抽象",
+  "obj_type": 22,
+  "obj_token": "I7aydyDRsoIIdzxd21lcHnxyn8e",
+  "depth": 2,
+  "parent": "OtLcwqhLNiid5FkICEJc3alcntd",
+  "file": "九：前沿与工程实践/122.大模型（LLMs）LangChain _ LlamaIndex 核心抽象.md"
+ },
+ {
+  "token": "Tgj4wtvdMi7qPpkDUrMcpDjjnSh",
+  "title": "123.大模型（LLMs）服务化部署（API 设计、负载均衡）",
+  "obj_type": 22,
+  "obj_token": "LTMpdqyw2oOIWhx9tiYc0gBonXe",
+  "depth": 2,
+  "parent": "OtLcwqhLNiid5FkICEJc3alcntd",
+  "file": "九：前沿与工程实践/123.大模型（LLMs）服务化部署（API 设计、负载均衡）.md"
+ },
+ {
+  "token": "I9WswrMpUi7NyfkLtwCcxVuQnGd",
+  "title": "124.大模型（LLMs）成本与延迟优化",
+  "obj_type": 22,
+  "obj_token": "ALdHdLBNLoEzXtxR5vCc9nARnEf",
+  "depth": 2,
+  "parent": "OtLcwqhLNiid5FkICEJc3alcntd",
+  "file": "九：前沿与工程实践/124.大模型（LLMs）成本与延迟优化.md"
+ }
+]

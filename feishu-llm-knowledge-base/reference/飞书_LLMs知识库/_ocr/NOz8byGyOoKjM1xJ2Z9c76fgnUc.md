@@ -1,0 +1,3 @@
+- 在模型推理时，我们实时检测当前输入序列的总长度 $L_{\text{current}}$。
+- 如果 $L_{\text{current}}$ **小于或等于**模型的训练长度 $L_{\text{train}}$，保持原始的RoPE基频不变（base=10000）。这保证模型在短序列上发挥原生最佳性能。
+- 如果 $L_{\text{current}}$ **大于** $L_{\text{train}}$，则实时计算一个缩放因子 $s=L_{\text{current}}/L_{\text{train}}$，并用NTK-aware方法动态放大RoPE的基频。

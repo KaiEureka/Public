@@ -1,0 +1,3 @@
+- **损失比例法（Loss Proportional）**：设定领域 $i$ 的采样概率 $p_i \propto \mathcal{L}_i^\alpha$，其中 $\mathcal{L}_i$ 是该领域最近的损失，$\alpha$ 是一个超参数（通常 >0）。领域损失越大（模型越不擅长），其采样概率就越高，模型会更多地学习该领域。这是最直接的方法，能有效缓解“偏科”。
+- **增益最大化法（Gain Maximization）**：更精细的做法是，采样概率正比于模型在当前领域损失的**下降斜率**。如果模型在某个领域损失下降最快，说明该领域仍有很大学习潜力，应分配更多资源；如果损失已趋于平坦（learned enough），则降低其权重。这可以形式化为 $p_i \propto -\frac{d\mathcal{L}_i}{dt}$。
+- **帕累托优化法（Pareto Optimization）**：将每个领域视为一个独立目标，使用多目标优化的思路（如 Multiple Gradient Descent Algorithm, MGDA）寻找一个权重向量，使得在所有领域上都能获得正向的梯度收益，避免提升一个领域时损害另一个。

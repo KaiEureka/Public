@@ -1,0 +1,3 @@
+- LLaMA-7B：$d_{model} = 4096$，$d_{intermediate} = 11008$（$\frac{8}{3} \times 4096 \approx 10922.67$，取整为 11008）。
+- LLaMA-13B：$d_{model} = 5120$，$d_{intermediate} = 13824$。
+- LLaMA-70B：$d_{model} = 8192$，$d_{intermediate} = 28672$。

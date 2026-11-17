@@ -1,0 +1,44 @@
+# 飞书知识库里从网页复制坏的公式：逐条手写的改正（原始导出的写法<TAB>改正后的 Markdown）。
+# 由 tools/feishu_polish.py 在其他规则之前应用，所以左边按 feishu_export.js 原始导出的样子写。
+# 简单、成批的形态（*W*0、Δ*W*、n=8*n*=8、πref*π*ref 等）由 feishu_polish.py 的规则处理，不在这里。
+W1,W2*W*1,*W*2	$W_1, W_2$
+O(n)*O*(*n*)	$O(n)$
+O(nlog⁡n)*O*(*n*log*n*)	$O(n\log n)$
+83dmodel38*dmodel*	$\frac{8}{3}d_{model}$
+s=32K/4K=8*s*	$s=32K/4K=8$
+O（n2）*O*（*n*2）	$O(n^2)$
+O(n2)*O*(*n*2)	$O(n^2)$
+*O*(*n*2)	$O(n^2)$
+n×n*n*×*n*	$n\times n$
+dff=4d	$d_{ff}=4d$
+83d38d	$\frac{8}{3}d$
+y^*y*^ 和真实分布 y*y*	$\hat{y}$ 和真实分布 $y$
+L=−∑iyilog⁡(y^i)*L*=−∑*iyi*log(*y*^*i*)	$L=-\sum_i y_i\log(\hat{y}_i)$
+R<t*R*<*t*	$R_{<t}$
+LORL*OR*	$L_{OR}$
+（*sB*,*sC*,*s*Δ）	（$s_B$, $s_C$, $s_\Delta$）
+P(label∣prompt)=∏iP(tokeni∣prompt,token<i)*P*(label∣prompt)=∏*iP*(token*i*∣prompt,token<*i*)	$P(\text{label}\mid\text{prompt})=\prod_i P(\text{token}_i\mid\text{prompt},\text{token}_{<i})$
+L=−log⁡exp⁡(sim(hi,hi+)/τ)∑j=1Nexp⁡(sim(hi,hj)/τ),L=−log∑*j*=1*N*exp(sim(**h***i*,**h***j*)/*τ*)exp(sim(**h***i*,**h***i*+)/*τ*),	$\mathcal{L}=-\log\dfrac{\exp(\mathrm{sim}(h_i,h_i^+)/\tau)}{\sum_{j=1}^{N}\exp(\mathrm{sim}(h_i,h_j)/\tau)}$
+其中 simsim 是余弦相似度	其中 $\mathrm{sim}$ 是余弦相似度
+rank*r*(*d*)	$\mathrm{rank}_r(d)$
+q1,q2,...,qn*q*1,*q*2,...,*qn*	$q_1,q_2,\dots,q_n$
+*S*=128*K*	$S$=128K
+*k*=*k *heavy+*k *recent	$k=k_{heavy}+k_{recent}$
+*k *heavy	$k_{heavy}$
+*k *recent	$k_{recent}$
+*g *mod*N*=0	$g \bmod N=0$
+超参数 αα	超参数 $\alpha$
+对应大 ss。	对应大 $s$。
+B1/B0*B*1/*B*0	$B_1/B_0$
+lrB≫lrA*l*	$lr_B\gg lr_A$
+λ1 和 *λ*2	$\lambda_1$ 和 $\lambda_2$
+Nopt∝C0.5,Dopt∝C0.5*Nopt*∝*C*0.5,*Dopt*∝*C*0.5	$N_{opt}\propto C^{0.5},\ D_{opt}\propto C^{0.5}$
+10211021 FLOPs	$10^{21}$ FLOPs
+4d4*d*	$4d$
+*g*0,*g*1,...,*gN*−1	$g_0,g_1,\dots,g_{N-1}$
+L *KTO*=*λD*⋅L*D*	$L_{KTO}=\lambda_D\cdot L_D$
+L *KTO*=*λU*⋅L*U*	$L_{KTO}=\lambda_U\cdot L_U$
+⁡*λ*max	$\lambda_{max}$
+‾**A**	$\bar{A}$
+除以 dkdk）	除以 √dₖ）
+*M*\*i*	$M_i$
